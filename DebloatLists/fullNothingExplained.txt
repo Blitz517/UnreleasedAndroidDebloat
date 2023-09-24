@@ -1,0 +1,493 @@
+**Your phone model:**
+Nothing Phone 2
+
+**Packages:**
+
+```
+com.qualcomm.qtil.aptxacu
+com.nt.diagswitch
+com.nt.facerecognition
+com.tools.cit
+com.goodix.fingerprint.setting
+com.nothing.glyphnotification
+com.nt.grantpermission
+com.goodix
+com.google.android.apps.healthdata
+com.android.imsserviceentitlement
+com.nt.ledlighttest
+com.nothing.logkit
+com.nothing.agreement
+com.nothing.appservice
+com.nothing.bpf
+com.nothing.hearthstone
+com.nothing.cardservice
+com.nothing.dirac
+com.nothing.dirac.DMP
+com.nothing.enginnerservice
+com.nothing.experience
+com.nothing.experimental
+com.nothing.launcher
+com.nothing.OfflineOTAUpgradeApp
+android.autoinstalls.config.Nothing.Pong
+com.nothing.proxy
+com.android.setupwizard.overlay
+com.nothing.soundrecorder
+com.google.android.apps.customization.pixel
+com.nothing.wallpapersstub
+com.nothing.weather
+com.nothing.applocker
+com.nothing.camera
+com.nothing.thirdparty
+com.nothing.smartcenter
+com.nothing.systemuitool
+com.android.carrierconfig.overlay.product
+android.overlay.common.all_devices
+android.overlay.common.pong
+android.overlay.common.spacewar
+com.google.android.overlay.gmsconfig.healthconnect
+com.google.android.overlay.gmsconfig.tetheringentitlement
+com.nothing.launcher.overlay.config
+com.android.connectivity.resources.nt.overlay
+com.nt.android.overlay.gmsconfig.safetycenter
+com.nt.android.overlay.gmsconfig.settings
+com.nt.android.overlay.gmsconfig.settingsprovider
+com.android.systemui.overlay.gms
+android.overlay.gms.region.all
+android.overlay.gms.region.eea
+android.overlay.gms.region.ind
+android.overlay.gms.region.row
+com.google.android.permissioncontroller.overlay.nothing
+com.android.settings.overlay.personalsafety
+com.android.settings.overlay.product
+com.android.settings.overlay.turbo
+com.android.providers.settings.overlay.common
+com.android.systemui.overlay.pong
+com.android.systemui.overlay.spacewar
+com.android.wifi.resources.overlay.taro
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.qualcomm.qtil.aptxacu
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden aptxals Audio Bluetooth sample improvement. Useless 96kHz sample.
+
+### com.nt.diagswitch
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden USB Diag Switch, adb diagnostics.
+
+### com.nt.facerecognition
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Needed for face recognition.
+
+### com.tools.cit
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden testing hardware things.
+
+### com.goodix.fingerprint.setting
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> In-Display Fingerprint test
+
+### com.nothing.glyphnotification
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for glyph notifications?
+
+### com.nt.grantpermission
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden grant permissions. You can get it by typing in dialer: *#*#3424*#*#
+
+### com.goodix
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden tests sensors, fingerprint.
+
+### com.google.android.apps.healthdata
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless frameworks and its not needed for Health Connect.
+
+### com.android.imsserviceentitlement
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Its needed for WiFi calling.
+
+### com.nt.ledlighttest
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Led Light Test. You can get it by typing in dialer: *#*#533*#*#
+
+### com.nothing.logkit
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> hidden tool for logs.
+
+### com.nothing.agreement
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> nothing agreement privacy policy. I'm not sure when it will be needed.
+
+### com.nothing.appservice
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Not sure if you need this. Nothing System Service
+
+### com.nothing.bpf
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for connection?
+
+### com.nothing.hearthstone
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Nothing Widgets
+
+### com.nothing.cardservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> NothingCardService. Its problably for test.
+
+### com.nothing.dirac
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Audio EQ(equalizer). Some 3rd-party music apps can use it to provide you EQ features.
+
+### com.nothing.dirac.DMP
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Audio EQ(equalizer). Some 3rd-party music apps can use it to provide you EQ features.
+
+### com.nothing.enginnerservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden diagnostics without activity frameworks with Qualcomm.
+
+### com.nothing.experience
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless frameworks and collection data.
+
+### com.nothing.experimental
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Experimental features like CONNECT TO TESLA
+
+### com.nothing.launcher
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Stock launcher
+
+### com.nothing.OfflineOTAUpgradeApp
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden offline OTA update. You can get it by typing in dialer: *#*#682*#*#
+
+### android.autoinstalls.config.Nothing.Pong
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+
+### com.nothing.proxy
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its for battery optimization
+
+### com.android.setupwizard.overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its needed only on first-boot setup.
+
+### com.nothing.soundrecorder
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Sound recorder app.
+
+### com.google.android.apps.customization.pixel
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Basic 4 colors
+
+### com.nothing.wallpapersstub
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for basic wallpapers
+
+### com.nothing.weather
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Nothing Weather
+
+### com.nothing.applocker
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> App locker
+
+### com.nothing.camera
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Nothing stock camera
+
+### com.nothing.thirdparty
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Third party things. Useless frameworks.
+
+### com.nothing.smartcenter
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Nothing X. Its something for earphones and testing.
+> its for smart things.
+
+### com.nothing.systemuitool
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> I think its important app
+
+### com.android.carrierconfig.overlay.product
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Better keep this for LTE network.
+
+### android.overlay.common.all_devices
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> This overlay have got useless configs
+
+### android.overlay.common.pong
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Brightness, screen configs. Better dont risk
+
+### android.overlay.common.spacewar
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Brightness, screen configs. Better dont risk
+
+### com.google.android.overlay.gmsconfig.healthconnect
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay gmsconfig to Health Connect
+
+### com.google.android.overlay.gmsconfig.tetheringentitlement
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay gmsconfig to tetheringentitlement. No effects after remove
+
+### com.nothing.launcher.overlay.config
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to recents activity
+
+### com.android.connectivity.resources.nt.overlay
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> WiFi configs. Better dont risk
+
+### com.nt.android.overlay.gmsconfig.safetycenter
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to nothing gmsconfig safetycenter
+
+### com.nt.android.overlay.gmsconfig.settings
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to nothing gmsconfig settings
+
+### com.nt.android.overlay.gmsconfig.settingsprovider
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to nothing gmsconfig settingsprovider
+
+### com.android.systemui.overlay.gms
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to systemui gms
+
+### android.overlay.gms.region.all
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to setupwizard things.
+
+### android.overlay.gms.region.eea
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to setupwizard things.
+
+### android.overlay.gms.region.ind
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to setupwizard things.
+
+### android.overlay.gms.region.row
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to setupwizard things.
+
+### com.google.android.permissioncontroller.overlay.nothing
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Better keep this for permissioncontroller. Better dont risk.
+
+### com.android.settings.overlay.personalsafety
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless overlay to personalsafety, safetyhub
+
+### com.android.settings.overlay.product
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless overlay to images phone white and black, its for camera MP info.
+
+### com.android.settings.overlay.turbo
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless overlay to smart battery images, videos.
+> And its problably unused.
+
+### com.android.providers.settings.overlay.common
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Better keep this for acceleration? Better dont risk.
+
+### com.android.systemui.overlay.pong
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Better keep this for config temperature? Better dont risk.
+
+### com.android.systemui.overlay.spacewar
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Better keep this for config temperature? Better dont risk.
+
+### com.android.wifi.resources.overlay.taro
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Better keep this for config wifi? Better dont risk.

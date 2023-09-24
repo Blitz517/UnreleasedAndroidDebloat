@@ -1,0 +1,1291 @@
+**Your phone model:**
+OPPO Reno 5 Pro Plus (Android 12+) (realme also have almost these apps)
+
+**Packages:**
+
+```
+com.opos.ads
+com.heytap.appplatform
+com.coloros.assistantscreen
+com.coloros.athena
+com.coloros.blacklistapp
+com.heytap.yoli
+com.oppo.bttestmode
+com.oplus.location
+com.coloros.childrenspace
+com.heytap.cloud
+com.coloros.codebook
+com.coloros.accessibilityassistant
+com.coloros.colordirectservice
+com.coloros.directui
+com.coloros.eyeprotect
+com.heytap.colorfulengine
+com.coloros.screenrecorder
+com.coloros.screenshot
+com.color.uiengine
+com.oplus.oca
+com.oplus.crashbox
+com.oppo.ctautoregist
+com.oplus.customize.coreapp
+com.heytap.datamigration
+com.coloros.digitalwellbeing
+com.oplus.eid
+com.coloros.filemanager
+com.coloros.findmyphone
+com.coloros.findphone.client2
+com.finshell.wallet
+com.coloros.floatassistant
+com.coloros.focusmode
+com.coloros.gamespace
+com.heytap.quicksearchbox
+com.coloros.healthcheck
+com.coloros.healthservice
+com.heytap.cast
+com.android.dlna.service
+com.heytap.synergy
+com.heytap.speechassist
+com.nearme.instant.platform
+com.oppo.instant.local.service
+com.coloros.karaoke
+com.oplus.appdetail
+com.heytap.market
+com.nearme.atlas
+com.heytap.themestore
+com.coloros.launcher.layout
+com.coloros.mapcom.frame
+com.heytap.mcs
+com.coloros.apprecover
+com.qualcomm.qti.modemtestmode
+com.heytap.htms
+com.heytap.music
+com.heytap.mydevices
+com.amap.android.location
+com.coloros.notificationmanager
+com.ted.number
+com.coloros.ocrservice
+com.coloros.ocs.opencapabilityservice
+com.oppo.atlas
+com.coloros.bootreg
+com.oppo.camera
+com.coloros.dirrecord
+com.oppo.multimedia.dolby
+com.oppo.engineermode.camera
+com.oppo.engineermode
+com.oppo.engineermode.network
+com.coloros.exserviceui
+com.coloros.exsystemservice
+com.coloros.gallery3d
+com.coloros.gesture
+com.coloros.oppoguardelf
+com.oppo.launcher
+com.oppo.lfeh
+com.coloros.oppomultiapp
+com.coloros.operationManual
+com.coloros.activation
+com.oppo.oppopowermonitor
+com.oppo.qualityprotect
+com.coloros.securitykeyboard
+com.coloros.simsettings
+com.coloros.translate.engine
+com.oppo.tzupdate
+com.coloros.weather.service
+com.coloros.wifisecuredetect
+com.coloros.wirelesssettings
+com.heytap.linker
+com.oppo.ota
+com.oplus.onetrace
+com.oppo.ovoicemanager
+com.oplus.ovoicemanager
+com.oplus.postmanservice
+com.coloros.regservice
+com.coloros.remoteguardservice
+com.coloros.scenemode
+com.coloros.sceneservice
+com.coloros.securityguard
+com.coloros.sharescreen
+com.daemon.shelper
+com.coloros.smartdrive
+com.coloros.smartlock
+com.coloros.smartsidebar
+com.sohu.inputmethod.sogouoem
+com.google.android.accessibility.soundamplifier
+com.coloros.uxdesign
+com.coloros.video
+com.coloros.wallpapers
+com.coloros.wifibackuprestore
+com.oppo.wifitest
+com.android.systemui.overlay.charging.anim.alita_supervooc2
+com.android.systemui.overlay.fingerprint.anim.ccyh
+com.android.systemui.overlay.fingerprint.anim.jhsy
+com.android.systemui.overlay.fingerprint.anim.jslz
+com.android.systemui.overlay.fingerprint.anim.lgsy
+com.android.systemui.overlay.fingerprint.anim.nlgs
+com.android.systemui.overlay.fingerprint.anim.tyjw
+com.android.systemui.overlay.fingerprint.anim.xklc
+com.android.systemui.overlay.fingerprint.anim.ccyh
+com.android.wifi.resources.overlay.oplus
+oplus.frameworkres.overlay.display.product
+com.coloros.logkit.plugin.upload
+com.android.mms.service.plugin.UaProfUrl
+com.android.mms.service.plugin.UserAgent
+com.android.mms.service.plugin.UserAgent
+com.coloros.athena.config_plugin
+com.coloros.oppoguardelf.secretplugin
+com.coloros.oppoguardelf.restrict_plugin
+com.coloros.safecenter.config_plugin
+com.coloros.trafficlimit"
+com.oplus.android.overlay.modules.documentsui
+com.qualcomm.qti.accesscache
+com.qualcomm.qti.loadcarrier
+org.codeaurora.btmultisim
+com.coloros.backuprestore.remoteservice
+com.coloros.colorfilestand
+com.dropboxchmod
+com.oppo.criticallog
+com.oppo.freefallingmonitor
+com.coloros.prome.smsservice
+com.coloros.recents
+com.oppo.resmonitor
+com.oppo.wifirf
+com.oppo.smartvolume
+com.qualcomm.qti.smcinvokepkgmgr
+com.wifi.rxsenstest
+com.oppo.logkitsdservice
+com.coloros.safesdkproxy
+com.qualcomm.qti.seemp.service
+com.qualcomm.svi
+com.oppo.localservice
+com.oppo.mimosiso
+com.coloros.providers.downloads.ui
+com.svox.pico
+com.coloros.prome.service
+com.qualcomm.qti.qms.service.credentials
+com.oplus.audio.effectcenter
+com.oplus.onet
+com.oplus.padconnect
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.opos.ads
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> chinese ads click tracking
+
+### com.heytap.appplatform
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> needed for OTA Updates also can brick phone but not confirmed
+
+### com.coloros.assistantscreen
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> smart assistant
+
+### com.coloros.athena
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Memory managment, maybe useful, maybe not
+
+### com.coloros.blacklistapp
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> block kist contacts, blocking calling.
+
+### com.heytap.yoli
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Video player with chinese tracking
+> better alternative: https://f-droid.org/en/packages/org.videolan.vlc/
+
+### com.oppo.bttestmode
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Test Ble Tx and Rx channel
+
+### com.oplus.location
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Chinese location. Have china_mcc. Useless
+
+### com.coloros.childrenspace
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Kid space
+
+### com.heytap.cloud
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Cloud services
+
+### com.coloros.codebook
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Password manager
+
+### com.coloros.accessibilityassistant
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Another thing to smart assistant
+
+### com.coloros.colordirectservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Boo awareness screen, also have something to Brenoo touch
+
+### com.coloros.directui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Brenoo touch
+
+### com.coloros.eyeprotect
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> It's the only eye protection option
+
+### com.heytap.colorfulengine
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks for theming. Maybe needed for premium
+
+### com.coloros.screenrecorder
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Screen recorder
+
+### com.coloros.screenshot
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Screenshot
+
+### com.color.uiengine
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Needed for themes
+
+### com.oplus.oca
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Has something related to wallet smart card
+
+### com.oplus.crashbox
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Crash monitor, logs
+
+### com.oppo.ctautoregist
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Has something related to IMS SMS
+
+### com.oplus.customize.coreapp
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.heytap.datamigration
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Some tools for stock browser (not Chrome), but it's Chinese and probably unused
+
+### com.coloros.digitalwellbeing
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> App usage time
+
+### com.oplus.eid
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Eid device for China
+
+### com.coloros.filemanager
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> File manager with trackers. Better use https://www.zarchiver.pro/zarchiver-download/
+
+### com.coloros.findmyphone
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Find device (log out from account before removing)
+
+### com.coloros.findphone.client2
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Find device (log out from account before removing)
+
+### com.finshell.wallet
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Finshell wallet
+
+### com.coloros.floatassistant
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> GA ball
+
+### com.coloros.focusmode
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Focus mode
+
+### com.coloros.gamespace
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Gamespace. Is it useful for gaming?
+
+### com.heytap.quicksearchbox
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless global search with a lot of Chinese content
+
+### com.coloros.healthcheck
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Health check? No one needs it
+
+### com.coloros.healthservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Another thing related to health check
+
+### com.heytap.cast
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Needed for broadcast
+
+### com.android.dlna.service
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Another thing related to broadcast
+
+### com.heytap.synergy
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Another thing related to broadcast
+
+### com.heytap.speechassist
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Another thing for smart assistant
+
+### com.nearme.instant.platform
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> A lot of tracking for demo game ads
+
+### com.oppo.instant.local.service
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> A lot of tracking for demo game ads
+
+### com.coloros.karaoke
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Karaoke for earphones. Is anyone using them?
+
+### com.oplus.appdetail
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Secure app installation
+
+### com.heytap.market
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> HeyTap app market
+
+### com.nearme.atlas
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Chinese secure payment
+
+### com.heytap.themestore
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Needed for themes, probably
+
+### com.coloros.launcher.layout
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless code that means nothing for the launcher
+
+### com.coloros.mapcom.frame
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.heytap.mcs
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> System messages with trackers
+
+### com.coloros.apprecover
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Used for app recovery?
+
+### com.qualcomm.qti.modemtestmode
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Modem test
+
+### com.heytap.htms
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Chinese pay components
+
+### com.heytap.music
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Music with Chinese trackers.
+> Better alternatives: https://f-droid.org/en/packages/com.simplemobiletools.musicplayer/
+> or VLC
+
+### com.heytap.mydevices
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> My devices (showing headphones and such)
+
+### com.amap.android.location
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Chinese location. Useless
+
+### com.coloros.notificationmanager
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for notification manager and scheduled do not disturb.
+
+### com.ted.number
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Identifying unknown calls. Useless
+
+### com.coloros.ocrservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Extract text from images.
+
+### com.coloros.ocs.opencapabilityservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Security things and something related to Chinese payment
+
+### com.oppo.atlas
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.coloros.bootreg
+
+**List**: `OEM`
+**Removal**: `Recommand`
+
+> Used only on first-boot setup
+
+### com.oppo.camera
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Oppo stock camera app
+
+### com.coloros.dirrecord
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Security features, anti-trojan?
+
+### com.oppo.multimedia.dolby
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Oppo Dolby service equalizer, but only for Chinese apps
+
+### com.oppo.engineermode.camera
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Camera tests
+
+### com.oppo.engineermode
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Testing things
+
+### com.oppo.engineermode.network
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Network tests
+
+### com.coloros.exserviceui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Gesture-related things? Edge touch
+
+### com.coloros.exsystemservice
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Color settings, app manager things without activities. Someone can test if it's useless
+
+### com.coloros.gallery3d
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Stock gallery app.
+> Optionally, you can use an alternative like https://f-droid.org/en/packages/com.simplemobiletools.gallery.pro/
+
+### com.coloros.gesture
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Gestures
+
+### com.coloros.oppoguardelf
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for power-saving and security
+
+### com.oppo.launcher
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Oppo stock launcher
+
+### com.oppo.lfeh
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> DCS service, another thing related to scanning. Bloated
+
+### com.coloros.oppomultiapp
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> App cloner
+
+### com.coloros.operationManual
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> User guide
+
+### com.coloros.activation
+
+**Removal**: `Recommanded`
+
+### com.oppo.oppopowermonitor
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Battery monitoring
+
+### com.oppo.qualityprotect
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless logs
+
+### com.coloros.securitykeyboard
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Secure keyboard. Useless
+
+### com.coloros.simsettings
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Data usage and OTA updates
+
+### com.coloros.translate.engine
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Used for translation?
+
+### com.oppo.tzupdate
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless time zone calibration
+
+### com.coloros.weather.service
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Weather service. Probably needed for weather.
+
+### com.coloros.wifisecuredetect
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless for Wi-Fi. Has captcha and mobile number verification.
+
+### com.coloros.wirelesssettings
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Wireless settings. Probably needed.
+
+### com.heytap.linker
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Needed for broadcast
+
+### com.oppo.ota
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Software update OTA
+
+### com.oplus.onetrace
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> It's tracking you.
+
+### com.oppo.ovoicemanager
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Voice wake-up manager?
+
+### com.oplus.ovoicemanager
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Voice wake-up manager? Has update activity.
+
+### com.oplus.postmanservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Calibration, scan QR code test
+
+### com.coloros.regservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Mobile DM authentication related (recommended to be uninstalled)
+
+### com.coloros.remoteguardservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Family guard and security features
+
+### com.coloros.scenemode
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Scene mode and simple mode
+
+### com.coloros.sceneservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Data Services Platform (the entire Breeno option in the settings menu disappears after deletion)
+
+### com.coloros.securityguard
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Security events
+
+### com.coloros.sharescreen
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Screen sharing & Remote access. Not sure if needed for broadcast.
+
+### com.daemon.shelper
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Tracking, monitoring, logs
+
+### com.coloros.smartdrive
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Breeno smart drive
+
+### com.coloros.smartlock
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Smart Unlock (specified Bluetooth device connection keeps the phone unlocked, such as a bracelet)
+
+### com.coloros.smartsidebar
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Edge panel settings
+
+### com.sohu.inputmethod.sogouoem
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Chinese keyboard. Better alternative: https://f-droid.org/en/packages/dev.patrickgold.florisboard/
+
+### com.google.android.accessibility.soundamplifier
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Accessibility sound amplifier
+
+### com.coloros.uxdesign
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Needed for themes
+
+### com.coloros.video
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Video Player. Default Oppo video player with too many permissions (21) for a video player! 
+> Note: Using the inbuilt screen recorder, you won't be able to open the recorded video from the notification view. 
+> Better alternative: https://f-droid.org/en/packages/org.videolan.vlc/
+
+### com.coloros.wallpapers
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for wallpapers
+
+### com.coloros.wifibackuprestore
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Backup Wi-Fi to the cloud
+
+### com.oppo.wifitest
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Wi-Fi RF, RX test
+
+### com.android.systemui.overlay.charging.anim.alita_supervooc2
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Charging phone animation from a lot of PNG files
+
+### com.android.systemui.overlay.fingerprint.anim.ccyh
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Fingerprint animation from a lot of PNG files
+
+### com.android.systemui.overlay.fingerprint.anim.jhsy
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Fingerprint animation from a lot of PNG files
+
+### com.android.systemui.overlay.fingerprint.anim.jslz
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Fingerprint animation from a lot of PNG files
+
+### com.android.systemui.overlay.fingerprint.anim.lgsy
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Fingerprint animation from a lot of PNG files
+
+### com.android.systemui.overlay.fingerprint.anim.nlgs
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Fingerprint animation from a lot of PNG files
+
+### com.android.systemui.overlay.fingerprint.anim.tyjw
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Fingerprint animation from a lot of PNG files
+
+### com.android.systemui.overlay.fingerprint.anim.xklc
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Fingerprint animation from a lot of PNG files
+
+### com.android.systemui.overlay.fingerprint.anim.ccyh
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Fingerprint animation from a lot of PNG files
+
+### com.android.wifi.resources.overlay.oplus
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Wi-Fi configs
+
+### oplus.frameworkres.overlay.display.product
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Keep this for display cutout. Has only 4 PNG files
+
+### com.coloros.logkit.plugin.upload
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless plugin for logs
+
+### com.android.mms.service.plugin.UaProfUrl
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless plugin for logs
+
+### com.android.mms.service.plugin.UserAgent
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless plugin for logs. Collects data.
+
+### com.android.mms.service.plugin.UserAgent
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless plugin for a lot of logs, collects data.
+
+### com.coloros.athena.config_plugin
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed to configure com.coloros.athena. Memory management, maybe useful, maybe not.
+
+### com.coloros.oppoguardelf.secretplugin
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed components for com.coloros.oppoguardelf. Needed for power-saving and security. 
+> Also, the plugin is bloated with logs and statistics.
+
+### com.coloros.oppoguardelf.restrict_plugin
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed components for com.coloros.oppoguardelf. Needed for power-saving and security. 
+> Also, the plugin is bloated with logs and statistics.
+
+### com.coloros.safecenter.config_plugin
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> This plugin doesn't have any important things. It's safe to remove, useless logs code.
+
+### com.coloros.trafficlimit
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.oplus.android.overlay.modules.documentsui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless overlay to documentsui bools.xml: is_launcher_enabled true
+
+### com.qualcomm.qti.accesscache
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> CarrierAccessCacheService. Well its only name app and no code.
+
+### com.qualcomm.qti.loadcarrier
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> CarrierLoadService. Have only things like a: Find carrier, carrier switch.
+> Its useless.
+
+### org.codeaurora.btmultisim
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its app without code.
+
+### com.coloros.backuprestore.remoteservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> It have something to scanning always wifi but its problably unused.
+
+### com.coloros.colorfilestand
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> It have only Request permission activity. Problably useless framework also it have something to cloud.
+
+### com.dropboxchmod
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> I found logs in code. This app means nothing.
+
+### com.oppo.criticallog
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> I found logs in code. This app means nothing.
+
+### com.oppo.freefallingmonitor
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> I found only: Hello World!. This app means nothing.
+
+### com.coloros.prome.smsservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless sms frameworks.
+
+### com.coloros.recents
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless recents.
+
+### com.oppo.resmonitor
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> App have only icon and means nothing.
+
+### com.oppo.wifirf
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Wifi Rf Test
+
+### com.oppo.smartvolume
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> This app means nothing. Theres only logs.
+
+### com.qualcomm.qti.smcinvokepkgmgr
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> This app have nothing.
+
+### com.wifi.rxsenstest
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Wifi Rx Sens Test.
+
+### com.oppo.logkitsdservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden logs hardware without activities.
+
+### com.coloros.safesdkproxy
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> It have cleaner and security things.
+
+### com.qualcomm.qti.seemp.service
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Useless code and its for verify packages problably.
+
+### com.qualcomm.svi
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> SVI Settings. Hidden display enhancement colors not available to users.
+
+### com.oppo.localservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its app without activities and in code I found its for Set Mode Daemon Point but how we can use that?
+> I guess its for testing so remove it.
+
+### com.oppo.mimosiso
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Empty app. I only found: hello world!
+
+### com.coloros.providers.downloads.ui
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Downloads
+> User interface for downloads.
+
+### com.svox.pico
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Pico TTS. Hidden sample voice data. Useless.
+
+### com.coloros.prome.service
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless frameworks. About feedback and smart touch.
+
+### com.qualcomm.qti.qms.service.credentials
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> QMS = Quality Management Service. In code I found logs and QMS spying things.
+
+### com.oplus.audio.effectcenter
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> AudioEffectCenter. Dolby support to chinese apps and some google. Its so bloated.
+
+### com.oplus.onet
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless frameworks. To secure keyboard, grant permissions. Its not needed.
+
+### com.oplus.padconnect
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> PadConnect. It has pad settings things and multi-screen connect.

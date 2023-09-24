@@ -1,0 +1,401 @@
+**Your phone model:**
+VIVO X70 Pro Plus
+
+**Packages:**
+
+```
+com.vivo.audiofx
+com.vivo.crontab
+com.vivo.notes
+com.vivo.soundrecorder
+com.vivo.weather
+com.vivo.widgetweatcher
+com.vivo.calculator
+com.vivo.widget.cleanspeed
+com.qualcomm.qti.qdcmtpg
+com.vivo.compass
+com.vivo.desktopstickers
+com.vivo.doubletimezoneclock
+com.vivo.feedback
+com.vivo.video.floating
+com.funtouch.uiengine
+com.vivo.widget.gallery
+com.vivo.globalanimation
+com.android.bbk.lockscreen3
+com.vivo.magazine
+com.qti.qualcomm.mstatssystemservice
+com.vivo.networkstate
+com.vivo.nightpearl
+com.novatek.novavis
+com.vivo.omacp
+com.vivo.livewallpaper.plant
+android.autoinstalls.config.vivo.devices
+com.qualcomm.qti.qccnetstat
+vendor.qti.qesdk.sysservice
+com.detection.ts.noise_detection_apk
+com.detection.ts.touch_detection
+com.vivo.sps
+com.vivo.systemblur.server
+com.vivo.timerwidget
+com.iqoo.aftersale.engineermode
+com.vivo.vhome
+com.vivo.videoeditor
+com.vivo.virtuallight
+com.vivo.vivo3rdalgoservice
+com.vivo.demovideo
+com.vivo.musicwidgetmix
+com.vivo.setupwizard
+com.vivo.unionpay
+com.iqoo.user.engineermode
+com.qualcomm.location.XT.setup
+android.overlay.vrro
+android.overlay.vivoresrro
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.vivo.audiofx
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Audio effect. Needed for sound effects.
+
+### com.vivo.crontab
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its for scheduling tasks.
+
+### com.vivo.notes
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Vivo notes
+
+### com.vivo.phoneinstructions
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Phone Instructions
+
+### com.vivo.soundrecorder
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> vivo sound recorder
+
+### com.vivo.weather
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> vivo weather app, have chinese trackers.
+> better alternative: (https://f-droid.org/en/packages/cz.martykan.forecastie/)
+
+### com.vivo.widgetweatcher
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Weather widget
+
+### com.vivo.calculator
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Vivo calculator app
+
+### com.vivo.widget.cleanspeed
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Clean speed widget
+
+### com.qualcomm.qti.qdcmtpg
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> layout but not sure for what. a lot useless code, and internet permission
+
+### com.vivo.compass
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Vivo compass app
+
+### com.vivo.desktopstickers
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> customize widgets with favorite images.
+
+### com.vivo.doubletimezoneclock
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Double Timezone Clock Widget
+
+### com.vivo.feedback
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> vivo feedback
+
+### com.vivo.video.floating
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Face beauty for video call
+
+### com.funtouch.uiengine
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> needed for themes problably
+
+### com.vivo.widget.gallery
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> gallery widget
+
+### com.vivo.globalanimation
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Global dynamic effects
+
+### com.android.bbk.lockscreen3
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for lockscreen?
+
+### com.vivo.magazine
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless things to lockscreen also it have trackers
+
+### com.qti.qualcomm.mstatssystemservice
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Useless network statistics, package usage.
+
+### com.vivo.networkstate
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> virtual sim things. only for china.
+
+### com.vivo.nightpearl
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> AOD = Always On Display
+
+### com.novatek.novavis
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> debugs, broadcast id?
+
+### com.vivo.omacp
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> configuration SMS
+
+### com.vivo.livewallpaper.plant
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Plant live wallpaper
+
+### android.autoinstalls.config.vivo.devices
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+
+### com.qualcomm.qti.qccnetstat
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> useless network statistics also QCC in name qualcomm app is for analytics.
+
+### vendor.qti.qesdk.sysservice
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Its for debug and logs
+> but in the code I see VDebug
+> Vivo problably uses qualcomm for some features.
+
+### com.detection.ts.noise_detection_apk
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> its used by bsptest (com.vivo.bsptest)
+> noise detection test.
+> why its named Samsung? SamsungDeltaDiff_72.apk
+
+### com.detection.ts.touch_detection
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> its used by bsptest (com.vivo.bsptest)
+> touch detection test.
+> why its named Samsung? SamsungSensorTest_72.apk
+
+### com.vivo.sps
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless app statistics, logs, crash handler, security, error memory managment.
+> Also have something to com.vivo.abe but some phones dont have com.vivo.sps installed
+> And where is the optimization code?
+
+### com.vivo.systemblur.server
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> System blur render engine, logs
+
+### com.vivo.timerwidget
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Widget clock
+
+### com.iqoo.aftersale.engineermode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Testing things
+> I mean this app is for testing phone components
+
+### com.vivo.vhome
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Smart Remote
+
+### com.vivo.videoeditor
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Video Trim
+
+### com.vivo.virtuallight
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Ambient light effect. Its music light effect (Settings: Dynamic Effects: Ambient Light Effect)
+
+### com.vivo.vivo3rdalgoservice
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> ImageAlgoService
+> HDR and High contrast in the camera will probably not work based on XDA users
+
+### com.vivo.demovideo
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Demo Video, Demo Switch
+> and have verify activity
+
+### com.vivo.musicwidgetmix
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Music Widget Mix
+
+### com.vivo.setupwizard
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its only for first-boot setup.
+
+### com.vivo.unionpay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Payment v-Coin
+
+### com.iqoo.user.engineermode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Factory test. Its for test things.
+
+### com.qualcomm.location.XT.setup
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Qualcomm IZat. Its hidden Setup XT location for Qualcomm. It's a bad idea to keep it.
+> Periodically sends a unique software ID, location (lat, long, alt, and their uncertainty), nearby cellular towers and Wi-Fi hotspots and their signal strength to Qualcomm servers.
+> https://www.qualcomm.com/site/privacy/services
+
+### android.overlay.vrro
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> this overlay have display configs
+
+### android.overlay.vivoresrro
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> This overlay have only name in strings.xml: select_cancel its not a joke.
+> I can't find any more code in this app

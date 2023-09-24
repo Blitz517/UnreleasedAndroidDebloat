@@ -1,0 +1,913 @@
+**Your phone model:**
+Asus ZenFone 10
+
+**Packages:**
+
+```
+com.asus.alwayson
+com.asus.alwayson.res.overlay
+com.asus.appupdater
+com.asus.asusbacktap
+com.asus.system.api
+com.asus.camera
+com.asus.configupdater
+com.asus.contacts
+com.futuredial.asusdatatransfer
+com.asus.livedemoservice
+com.asus.livedemoservice
+com.asus.deskclock
+com.asus.dialer
+com.asus.faceunlockservice
+com.asus.gallery
+com.asus.ephotoburst
+com.asus.hbm
+com.asus.launcher
+com.futuredial.asuslocalbackup
+com.asus.asusoptiflex
+android.autoinstalls.config.asus.pai
+com.asus.asussettingsbackuphelper
+com.asus.setupwizard
+com.asus.smartcover
+com.asus.smartkey
+com.asus.soundrecorder
+com.asus.splendid
+com.asus.systemcolor
+com.asus.themeservice
+com.asus.tips
+com.asus.visualmaster
+com.asus.audiowizard
+com.asus.ims.benchmarkblocker
+blibli.mobile.commerce
+com.dirac.acs
+com.asus.dm
+com.asus.filemanager
+com.monotype.android.font.felbridge
+com.monotype.android.font.manroperegular
+com.monotype.android.font.mfinancehkbold
+com.monotype.android.font.myinghei18030m
+com.monotype.android.font.myuppymediumtc
+com.monotype.android.font.oxaniumregular
+com.monotype.android.font.rajdhanimedium
+com.monotype.android.font.syndor
+com.asus.focusapplistener
+com.asus.gamewidget
+com.asus.gamewidget.service
+com.asus.hardwarestub
+jp.co.daj.consumer.ifilter.aflauncher
+com.asus.imagesearch
+com.asus.ims.brightnessservice
+com.asus.ims.configmanager
+com.asus.ims.devicepolicymanager
+com.asus.ims.evtlog
+com.asus.ims.forcedark
+com.asus.ims.observer
+com.asus.ims.packageinstallerproxy
+com.asus.ims.pointerproxy
+com.asus.ims.powerctrl
+com.asus.ims.extdispctrl
+com.asus.ims.freeform
+com.asus.ims.brightnessservice
+com.asus.ims.phykeyctrl
+com.asus.ims.rogproxy
+com.asus.ims.smartread
+com.asus.ims.twinapps
+com.asus.ims.watermark
+com.asus.inadvertentTouch
+com.asus.key_status
+com.asus.lockscreen2
+com.asus.loguploader
+com.asus.loguploaderproxy
+jp.co.yahoo.android.ebookjapan.preinstall
+com.asus.mlmodel
+com.felicanetworks.mfc
+com.felicanetworks.mfm.main
+com.felicanetworks.mfs
+com.felicanetworks.mfw.a.boot
+com.asus.mobilemanager
+com.asus.mobilemanagerservice
+jp.co.radius.neplayer_asus
+com.asus.nextapp
+com.asus.nextappcore
+com.asus.openbeta2
+com.asus.powersaver
+com.asus.sarprotection
+com.asus.screenrecorder
+com.asus.smartreading
+com.asus.atd.smmitest
+com.asus.stitchimage.service
+com.asus.sysmonitor
+com.asus.taskwidget
+com.asus.twinapps
+com.asus.twinappsservice
+com.asus.launcher.twinviewmode
+com.asus.UpdateLauncher
+com.asus.weathertime
+com.asus.zenmotion
+com.asu
+com.asus.theme.color.asusui
+com.asus.theme.color.rog
+com.asus.cellbroadcastreceiver.overlay
+com.asus.cellbroadcastservice.overlay
+asusims.overlay.common
+asusims.overlay.aosp.documentsui
+asusims.overlay.documentsui
+com.google.android.overlay.gmsconfig.ww
+com.asus.teleserv.overlay.odm
+com.asus.wifi.resources.overlay
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.asus.alwayson
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Always-on Display
+
+### com.asus.alwayson.res.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> useless gif to Always-on Display
+
+### com.asus.appupdater
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> ASUS Config Updater
+> it have something to app updater but no activities.
+
+### com.asus.asusbacktap
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> back tap
+
+### com.asus.system.api
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Its problably important app.
+> Have booster services and memory cleaner service.
+
+### com.asus.camera
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> stock asus camera app
+> it have google analytics so better disable internet for this app?
+
+### com.asus.configupdater
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> ASUS Config Updater. Some people removed that.
+
+### com.asus.contacts
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Asus Contacts. Have google trackers.
+> Better alternative: https://f-droid.org/en/packages/com.simplemobiletools.contacts.pro/
+
+### com.futuredial.asusdatatransfer
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Asus Phone Clone
+
+### com.asus.livedemoservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Demo Mode
+> Enable retail demonstration mode.
+
+### com.asus.livedemoservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Asus Demo
+> Demo Mode things like audio, video.
+
+### com.asus.deskclock
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Stock Clock app. Its bad when there is google analytics.
+
+### com.asus.dialer
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Asus Dialer. Have google trackers.
+> Better alternative: https://f-droid.org/en/packages/com.simplemobiletools.dialer/
+
+### com.asus.faceunlockservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> face unlock service.
+> needed for face unlock.
+
+### com.asus.gallery
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Gallery. Have google analytics.
+> Better alternative: https://f-droid.org/en/packages/com.simplemobiletools.gallery.pro/
+
+### com.asus.ephotoburst
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Asus Photo viewer, Trim Service, have google analytics.
+
+### com.asus.hbm
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> High Brightness Mode
+
+### com.asus.launcher
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Stock launcher asus
+> have google firebase analytics
+
+### com.futuredial.asuslocalbackup
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Asus Device backup. Have google analytics and a lot permissions.
+
+### com.asus.asusoptiflex
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Asus Opti Flex. Its something for settings?
+
+### android.autoinstalls.config.asus.pai
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+
+### com.asus.asussettingsbackuphelper
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Settings Asus Backup
+
+### com.asus.setupwizard
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its needed only for first-boot setup
+
+### com.asus.smartcover
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> SmartCover. Used for smart things.
+
+### com.asus.smartkey
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Smart key. Used for smart things.
+
+### com.asus.soundrecorder
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> sound recorder with google firebase analytics.
+> better alternative: https://f-droid.org/en/packages/com.simplemobiletools.voicerecorder/
+
+### com.asus.splendid
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Asus Splendid (https://play.google.com/store/apps/details?id=com.asus.splendid)
+
+### com.asus.systemcolor
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for change wallpapers?
+
+### com.asus.themeservice
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for change theme apps?
+
+### com.asus.tips
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Tips for smart things and more.
+
+### com.asus.visualmaster
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Its for color modes.
+
+### com.asus.audiowizard
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its for sound effects.
+
+### com.asus.ims.benchmarkblocker
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless debugs and benchmark blocker.
+
+### blibli.mobile.commerce
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Chinese payment blipay
+
+### com.dirac.acs
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Dirac Control Service
+> its for audio control, not sure if its useful.
+
+### com.asus.dm
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> System update
+
+### com.asus.filemanager
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its not the best file manager
+> better alternative: https://www.zarchiver.pro/zarchiver-download/
+
+### com.monotype.android.font.felbridge
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> flipfont
+
+### com.monotype.android.font.manroperegular
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> flipfont
+
+### com.monotype.android.font.mfinancehkbold
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> flipfont
+
+### com.monotype.android.font.myinghei18030m
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> flipfont
+
+### com.monotype.android.font.myuppymediumtc
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> flipfont
+
+### com.monotype.android.font.oxaniumregular
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> flipfont
+
+### com.monotype.android.font.rajdhanimedium
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> flipfont
+
+### com.monotype.android.font.syndor
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> flipfont
+
+### com.asus.focusapplistener
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Focus app. Needed for optimization problably.
+
+### com.asus.gamewidget
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Game genie (https://play.google.com/store/apps/details?id=com.asus.gamewidget)
+> its problably useful for gaming.
+
+### com.asus.gamewidget.service
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Game genie service needed for (com.asus.gamewidget)
+> its problably useful for gaming.
+
+### com.asus.hardwarestub
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> HardwareStub Services
+> Have components to optimization game.
+
+### jp.co.daj.consumer.ifilter.aflauncher
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Something japanese with useless code
+
+### com.asus.imagesearch
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Image search. Its so bloated.
+
+### com.asus.ims.brightnessservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.configmanager
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.devicepolicymanager
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.evtlog
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.forcedark
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.observer
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.packageinstallerproxy
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.pointerproxy
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.powerctrl
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.extdispctrl
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.freeform
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.brightnessservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.phykeyctrl
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.rogproxy
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.smartread
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.twinapps
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.ims.watermark
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.asus.inadvertentTouch
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless 'Do not cover the top of the screen'
+
+### com.asus.key_status
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> KeyStatusTool? all of these code means nothing.
+
+### com.asus.lockscreen2
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Lockscreen. I think its something important.
+
+### com.asus.loguploader
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Captured logs, Generate Log, Report Log.
+
+### com.asus.loguploaderproxy
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Bug Reporter Proxy. Logs without activity.
+> I dont need one more from loguploader
+
+### jp.co.yahoo.android.ebookjapan.preinstall
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> useless ebookjapan
+
+### com.asus.mlmodel
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Useless frameworks? AI optimization?
+> Resources have vision_model and something encrypted.
+> this app sizes 338MB!
+
+### com.felicanetworks.mfc
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Chinese felicanetworks
+
+### com.felicanetworks.mfm.main
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Chinese felicanetworks
+
+### com.felicanetworks.mfs
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Chinese felicanetworks
+
+### com.felicanetworks.mfw.a.boot
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Chinese felicanetworks
+
+### com.asus.mobilemanager
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Mobile Manager (https://play.google.com/store/apps/details?id=com.asus.mobilemanager)
+> Not sure if you should keep this or not.
+
+### com.asus.mobilemanagerservice
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Mobile Manager Service. Looks like useless framework but not sure.
+
+### jp.co.radius.neplayer_asus
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Japanese NePLAYER Lite for ASUS
+
+### com.asus.nextapp
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Useless frameworks? It have something to training maybe AI? everything is encrypted.
+
+### com.asus.nextappcore
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Useless frameworks? It have something to training maybe AI? everything is encrypted.
+
+### com.asus.openbeta2
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> OpenBeta2. Beta program server that collects a lot of data.
+
+### com.asus.powersaver
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Its for powersaving and problably its important.
+
+### com.asus.sarprotection
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> SAR Protection. Security thing
+
+### com.asus.screenrecorder
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Screen recorder
+
+### com.asus.smartreading
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its for smart reading
+
+### com.asus.atd.smmitest
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> testing hardware things.
+
+### com.asus.stitchimage.service
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Stitch image its for stock gallery app.
+
+### com.asus.sysmonitor
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Device Health? Its collects your data.
+
+### com.asus.taskwidget
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Task manager widget to System optimization
+
+### com.asus.twinapps
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Twin Apps for duplicate apps.
+
+### com.asus.twinappsservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Twin Apps Service.
+
+### com.asus.launcher.twinviewmode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Twin View Mode launcher
+
+### com.asus.UpdateLauncher
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Updater Launcher?
+> Remove if you dont need it
+
+### com.asus.weathertime
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its for weather. Have Firebase Analytics.
+> better alternative: https://f-droid.org/en/packages/cz.martykan.forecastie/
+
+### com.asus.zenmotion
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its for Gestures.
+
+### com.asu
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> ZF10 Live Wallpaper
+
+### com.asus.theme.color.asusui
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Theme AsusUI
+
+### com.asus.theme.color.rog
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Rog Theme
+
+### com.asus.cellbroadcastreceiver.overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless overlay for cellbroadcast
+
+### com.asus.cellbroadcastservice.overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless overlay for cellbroadcast
+
+### asusims.overlay.common
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> It have important configs better dont risk.
+
+### asusims.overlay.aosp.documentsui
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless overlay for hide documentsui icon. No effects after remove.
+
+### asusims.overlay.documentsui
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless overlay for hide documentsui icon. No effects after remove.
+
+### com.google.android.overlay.gmsconfig.ww
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> useless unused overlay gmsconfig to family link.
+
+### com.asus.teleserv.overlay.odm
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> overlay to default config ims.
+
+### com.asus.wifi.resources.overlay
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> overlay to wifi configs better dont risk.

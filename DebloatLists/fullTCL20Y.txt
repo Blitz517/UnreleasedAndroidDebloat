@@ -1,0 +1,670 @@
+**Your phone model:**
+TCL 20Y Android 11
+
+**Packages:**
+
+```
+com.tct.smart.aota
+com.tct.applock
+com.tct.aio
+com.tct.android.SaleCalib
+com.tct.camera.verifytool
+com.tct.smart.tlink
+com.jrdcom.Elabel
+com.alcatel.mcrm
+com.fpsensor.fpSensorExtensionSvc2
+com.tcl.fota.system
+com.focaltech.fingerprint
+com.tct.secretCode
+com.tct.gamemode
+com.tct.entitlement
+com.tcl.keyguardcharginganimation
+com.tcl.keyguardshortcut
+com.tcl.kidsmode
+com.tcl.android.launcher
+com.tcl.android.launchertheme.res
+com.android.launcher3.tv
+com.tct.smart.lostmode
+com.tct.smart.lostmode
+ma.android.com.mafactory
+com.android.mmifm
+com.android.mmisubtest
+com.android.mmitest
+com.tct.multipleuser
+com.tct.multipleuser
+com.tct.iris
+com.tct.privacyprotect
+com.android.providers.privacyprotection
+com.tct.retaildemo
+com.tct.reducesar
+com.tct.android.secureinput
+com.chsc.semitouchtester
+com.tct.simplelauncher
+com.tct.onetouchbooster
+com.kidsedu
+com.tct.smart.notes
+com.tct.batterywarning
+com.tct.calculator
+com.tct.camera
+com.tct.compass
+com.tct.dialer
+com.tct.faceunlock
+com.tcl.tct.filemanager
+com.tcl.fmradio
+com.tclhz.gallery
+com.tct.gpdr
+com.tct.smart.ircontrol
+com.tct.music
+com.tct.phone
+com.tct.privatespace
+com.tct.smart.push
+com.tct.screenrecorder
+com.tct.screenshotex
+com.tct.setupwizard
+com.tct.sidebar
+com.tct.tctsmartapprecommend
+com.tct.soundrecorder
+com.tct.usercare
+com.tct.smart.switchphone
+com.tct.systemservice
+com.tct.android.browser
+com.tcl.tct.weather
+com.tcl.token
+com.goodix.rawdata
+com.tct.contacts.transfer
+com.tct.logger
+com.tct.android.video
+com.tct.wfcwebview
+com.tct.camera.a_overlay
+com.google.android.documentsui.icon_overlay
+com.tcl.android.launcher.a_overlay
+com.tcl.logger.a_overlay
+com.google.android.cellbroadcastreceiver.rro_common
+com.google.android.cellbroadcastservice.rro_common
+com.jrdcom.Elabel.a_overlay
+com.google.android.dialer.rro_common
+android.rro_product
+com.tcl.fmradio.a_overlay
+com.tcl.usercare.a_overlay
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.tct.smart.aota
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> OTA Updates or OTA Updates test?
+
+### com.tct.applock
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> App lock. Its just app lock with password or pin.
+
+### com.tct.aio
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> TCT All in One Configuration. It have something to partner bookmarks problably collects some data
+> and CheckForUpdateTask OTA.
+
+### com.tct.android.SaleCalib
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden camera after sale calibration.
+
+### com.tct.camera.verifytool
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Another hidden camera calibration and DualCamVerifyTool.
+
+### com.tct.smart.tlink
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Easy Link. It have something to screen cast. Dlna Cast Activity
+
+### com.jrdcom.Elabel
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Regulatory & safety. Useless data collection and security. Also chinese things, PDF View.
+
+### com.alcatel.mcrm
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> enjoy.now. Its app for debugging and require google play services.
+
+### com.fpsensor.fpSensorExtensionSvc2
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> fingerprint sensor test tool
+
+### com.tcl.fota.system
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> System Update
+
+### com.focaltech.fingerprint
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Another fingerprint sensor test tool but chinese
+
+### com.tct.secretCode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> This app have only logs.
+
+### com.tct.gamemode
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Game box. Game Turbo. not sure if its worth keep that or not.
+
+### com.tct.entitlement
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Require google play services and its wifi calling for O2 Carrier problably.
+
+### com.tcl.keyguardcharginganimation
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless frameworks.
+
+### com.tcl.keyguardshortcut
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless frameworks.
+
+### com.tcl.kidsmode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Kids Mode
+
+### com.tcl.android.launcher
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Stock Launcher app
+
+### com.tcl.android.launchertheme.res
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Launcher theme resources. Its needed for themes problably and not sure if its important app.
+
+### com.android.launcher3.tv
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> TV. Not sure if its useless frameworks or its for launcher or tv launcher?
+
+### com.tct.smart.lostmode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Remote Lock. Its for lost mode.
+
+### com.tct.smart.lostmode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Remote Lock. Its for lost mode.
+
+### ma.android.com.mafactory
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Factory test. Its for hardware components testing.
+
+### com.android.mmifm
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> FM Radio_wrh. It looks like unused FM Radio stuff without activity, adding favorite channels.
+
+### com.android.mmisubtest
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> P-Sensor Calibration. Its useless and hidden.
+
+### com.android.mmitest
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden testing hardware things.
+
+### com.tct.multipleuser
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Multiple User. I guess its for multi accounts.
+
+### com.tct.multipleuser
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Multiple User. I guess its for multi accounts.
+
+### com.tct.iris
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> NXTVISION. Its for reading mode and Display Enhancement
+
+### com.tct.privacyprotect
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Privacy protection. Another Security things.
+
+### com.android.providers.privacyprotection
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> It have permission protect and logs.
+
+### com.tct.retaildemo
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Demo Mode is intended for use on shop demo devices only
+> and it should never be activated in a normal user's device.
+> Thanks for explain TCL.
+
+### com.tct.reducesar
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden Modify the SAR mode.
+
+### com.tct.android.secureinput
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless secure input for keycode.
+
+### com.chsc.semitouchtester
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> semitouchtest, debug.
+
+### com.tct.simplelauncher
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Simple Launcher. Its not needed for Stock launcher and have sos and other not needed stuff.
+
+### com.tct.onetouchbooster
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Power saving
+
+### com.kidsedu
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Another Kids Mode
+
+### com.tct.smart.notes
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Notes app
+
+### com.tct.batterywarning
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Battery warning. Displays only messages about low battery or too high temperature.
+
+### com.tct.calculator
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Calculator app
+
+### com.tct.camera
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Camera app
+
+### com.tct.compass
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Compass app
+
+### com.tct.dialer
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Phone app
+
+### com.tct.faceunlock
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Face unlock lock screen.
+
+### com.tcl.tct.filemanager
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock File Manager app
+
+### com.tcl.fmradio
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Radio app
+
+### com.tclhz.gallery
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Gallery app
+
+### com.tct.gpdr
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> GPDR. User Experience Improvement Program.
+
+### com.tct.smart.ircontrol
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> IR Remote. I think its useless.
+
+### com.tct.music
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Music app
+
+### com.tct.phone
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> TCT Phone Services. Sim card settings.
+
+### com.tct.privatespace
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Private Space. Only password things.
+
+### com.tct.smart.push
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Smart Push. Useless frameworks.
+
+### com.tct.screenrecorder
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Screen Recorder
+
+### com.tct.screenshotex
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Screenshot. Its used for screenshots and editing them.
+
+### com.tct.setupwizard
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its needed only for first-boot setup.
+
+### com.tct.sidebar
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Edge Bar. Sidebar
+
+### com.tct.tctsmartapprecommend
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Smart App Recommend. Useless.
+
+### com.tct.soundrecorder
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Sound Recorder
+
+### com.tct.usercare
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Support Center
+
+### com.tct.smart.switchphone
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Switch Phone
+
+### com.tct.systemservice
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> It should be safe to remove. Only secret code to info about system but not sure.
+
+### com.tct.android.browser
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Better use other browser like brave or iceraven.
+
+### com.tcl.tct.weather
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Weather
+
+### com.tcl.token
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Token. Its for ECID number but its safe to remove. Secret code 7383243.
+
+### com.goodix.rawdata
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> DrawLineTest, Raw Data Test.
+
+### com.tct.contacts.transfer
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Transfer To Phone Contacts.
+
+### com.tct.logger
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> User Support. Its for logs.
+
+### com.tct.android.video
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Video Player
+
+### com.tct.wfcwebview
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> I found something like entitlementMode but app looks very empty and useless.
+
+### com.tct.camera.a_overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay. It have only icon and no code.
+
+### com.google.android.documentsui.icon_overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Another useless icon overlay.
+
+### com.tcl.android.launcher.a_overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Another useless chinese bookmarks icon overlay.
+
+### com.tcl.logger.a_overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Another useless icon overlay.
+
+### com.google.android.cellbroadcastreceiver.rro_common
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay code to cellbroadcastreceiver
+
+### com.google.android.cellbroadcastservice.rro_common
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay code to cellbroadcastservice
+
+### com.jrdcom.Elabel.a_overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay code to this bloatware app
+
+### com.google.android.dialer.rro_common
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay code to google dialer
+
+### android.rro_product
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Better dont touch it.
+
+### com.tcl.fmradio.a_overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Another useless icon overlay.
+
+### com.tcl.usercare.a_overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Another useless icon overlay.

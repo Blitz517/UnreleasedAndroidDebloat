@@ -1,0 +1,305 @@
+**Your phone model:**
+HUAWEI Mate 10 lite RNE-L21 EMUI 8.0.0
+
+**Packages:**
+
+```
+com.android.frameworkhwext.dark
+com.android.frameworkhwext.honor
+com.android.partnerbrowsercustomizations.tmobile
+com.android.supl
+com.google.android.overlay.gmsconfig
+com.google.android.overlay.managedprovisioning
+com.google.android.overlay.settingsProvider
+com.huawei.android.FMRadio
+com.huawei.android.dsdscardmanager
+com.huawei.android.hwaps
+com.huawei.android.hwupgradeguide
+com.huawei.android.projectmenu
+com.huawei.behaviorauth
+com.huawei.camera
+com.huawei.hiview
+com.huawei.iconnect
+com.huawei.imedia.sws
+com.huawei.ims
+com.huawei.indexsearch
+com.huawei.indexsearch.observer
+com.huawei.lbs
+com.huawei.mmitest
+com.huawei.motionservice
+com.huawei.nearby
+com.huawei.omacp
+com.huawei.rcsserviceapplication
+com.huawei.recsys
+com.huawei.screenrecorder
+com.huawei.systemmanager
+com.huawei.systemserver
+com.huawei.trustcircle
+com.huawei.wifieapsimplmn
+com.huawei.wifiprobqeservice
+com.qeexo.smartshot
+huawei.android.widget
+```
+
+- [x] **I removed all those packages on my phone**
+**and I didnt remove com.android.frameworkhwext.dark, com.android.frameworkhwext.honor**
+**because I dont wanna risk get bootloop on this not rooted phone**
+
+## Document each package the best you can
+
+### com.android.frameworkhwext.dark
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Required components of the androidhwext.
+
+### com.android.frameworkhwext.honor
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Required components of the androidhwext.
+
+### com.android.partnerbrowsercustomizations.tmobile
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Partner Homepage Provider T-Mobile? Maybe its for google chrome? Useless.
+
+### com.android.supl
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> SUPL20Service. GPS still works without it. Chinese location problably. Consumes a lot battery for some peoples.
+
+### com.google.android.overlay.gmsconfig
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Useless configurations about webview, wifi and bluethooth to scan for better location.
+> everything works without it.
+
+### com.google.android.overlay.managedprovisioning
+
+**List**: `AOSP`
+**Removal**: `Expert`
+
+> In code I have seen lists of some system apps and stuff of managedprovisioning user.
+> Safe to remove if you removed (com.android.managedprovisioning).
+> But problably it doesnt affect on anything.
+
+### com.google.android.overlay.settingsProvider
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Have some stuff about google gms: backup.BackupTransportService.
+> Useless backup things, without it backup and cloud work.
+> Maybe its used for backup settings, but probably not, and if its, I don't think you need it.
+
+### com.huawei.android.FMRadio
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Radio FM. Listen to FM radio stations.
+
+### com.huawei.android.dsdscardmanager
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Its sim card management in huawei settings.
+
+### com.huawei.android.hwaps
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Intelligent Resolution will be not available and changing screen resolution in settings.
+
+### com.huawei.android.hwupgradeguide
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> hwupgradeguide. Its useless menu at first start AppGallery.
+
+### com.huawei.android.projectmenu
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> ProjectMenu. Hidden settings not available for users. ProjectMenu interface: phone *#*#2846579#*#*
+> https://www.99mediasector.com/open-project-menu-huawei-device-huawei-code/
+
+### com.huawei.behaviorauth
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> It seems to be related to verifying the authenticity of user behavior and enhancing password security. User can disable it so its safe to remove.
+> https://www.android-hilfe.de/forum/huawei-p30-p30-pro-p30-lite.3510/was-ist-die-behaviorauth-app-fuer-das-p30.1008750.html
+
+### com.huawei.camera
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Huawei Camera App. Safe to remove (but not recommended)
+
+### com.huawei.hiview
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> hiview. Removing this, doesnt remove access the picture attributes so what actually it do?
+> its the same like (com.huawei.hiviewtunnel) useless.
+> it have 19 permissions, Crash App Dialog, logs. So do not trust these apps.
+
+### com.huawei.iconnect
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> iConnect. Hidden menu "install PCAssistant" when connect to pc? I have never seen it. Useless.
+
+### com.huawei.imedia.sws
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Huawei Histen. Audio 3d effects found in the settings. Safe to remove if you dont use these settings.
+
+### com.huawei.ims
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> HwImsService. VoLTE(Voice over LTE) calls. IP multimedia subsystem. https://en.wikipedia.org/wiki/Voice_over_LTE
+
+### com.huawei.indexsearch
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> index search works without it.
+
+### com.huawei.indexsearch.observer
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> index search works without it.
+
+### com.huawei.lbs
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> HwLBService. Location Service? After remove it location still works so no one knows what it app does.
+
+### com.huawei.mmitest
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> MMITest. Hidden hardware tests. Safe to remove.
+
+### com.huawei.motionservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Gesture Service. Useless gestures available in settings.
+
+### com.huawei.nearby
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> HwNearby. Needed for Huawei Share(com.huawei.android.instantshare)
+
+### com.huawei.omacp
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Used for provisioning APN settings to devices via SMS. I think you shouldnt touch it if you want sms messages.
+
+### com.huawei.rcsserviceapplication
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Huawei RCS. Hidden RCS Chats with 49 permissions.
+
+### com.huawei.recsys
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> HwIntelligentRecSystem is a smart app that provides personalized services on HiBoard? My phone dont have Hiboard. Safe to remove.
+> https://consumer.huawei.com/en/support/content/en-us00434788/
+
+### com.huawei.screenrecorder
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> screen recorder. Not sure if it's an app, but I can't find it on my phone. Safe to remove.
+
+### com.huawei.systemmanager
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> System manager app. DO NOT REMOVE THIS. You lose phone functionality.
+
+### com.huawei.systemserver
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> It depends on (com.huawei.systemmanager). DO NOT REMOVE THIS. You lose phone functionality.
+
+### com.huawei.trustcircle
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its very unknown app but remove it if you have removed (com.huawei.hwid), (com.huawei.appmarket). 
+> This is what I found on this app files: Huawei Mobile Services?, installing,updating apps AppGallery.
+> So it looks like you will not have access to huawei hwid account if you remove it.
+
+### com.huawei.wifieapsimplmn
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> WiFi will not work if you remove it!!!
+
+### com.huawei.wifiprobqeservice
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> WiFi will not work if you remove it!!!
+
+### com.qeexo.smartshot
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Smart Screenshots? Disable it doesnt affecting normal screenshots.
+
+### huawei.android.widget
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> App that actually doesnt do anything? Remove it doesnt affect on your widgets.

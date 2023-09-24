@@ -1,0 +1,309 @@
+**Your phone model:**
+my better ideas
+
+**Packages:**
+
+```
+com.miui.powerkeeper
+com.xiaomi.powerchecker
+com.android.providers.calendar
+com.android.camera
+com.xiaomi.finddevice
+com.miui.cleanmaster
+com.google.android.apps.googleassistant
+com.google.android.gms
+com.google.android.googlequicksearchbox
+com.google.android.apps.nbu.files
+com.android.fileexplorer
+com.mi.android.globalFileexplorer
+com.google.android.apps.photos
+com.google.android.youtube
+com.google.android.apps.docs
+com.huawei.android.totemweather
+com.android.chrome
+com.android.mediacenter
+com.google.android.dialer
+com.google.android.contacts
+com.google.android.apps.messaging
+com.android.incallui
+com.android.contacts
+com.android.mms
+com.miui.weather2
+com.miui.video
+com.miui.player
+```
+
+- [x] **I removed all those packages on my phone**
+
+## Document each package the best you can
+
+### com.miui.powerkeeper
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Battery and Performance
+> (aggressive) MIUI power management (https://dontkillmyapp.com/xiaomi)
+> Hidden power tools, Extreme Battery Saver, sleep mode and more.
+> Its not unneccesary app. Keep it for powersaving.
+> On miui 14 it can bootloop but not sure if its true.
+
+### com.xiaomi.powerchecker
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Power Detector. Security> Battery> Activity Control.
+> Detects abnormal power usage by apps (not all. Some Xiaomi apps are whitelisted)
+> Needed for 'com.miui.powerkeeper' to work.
+> Its not unneccesary app. Keep it for powersaving.
+> On miui 14 it can bootloop but not sure if its true.
+
+### com.android.providers.calendar
+
+**List**: `AOSP`
+**Removal**: `Advanced`
+
+> Calendar Storage. Runs in the background.
+> You should be fine if you dont use anything that require Calendar.
+> Necessary for the stock Calendar app to work correctly.
+> Content providers encapsulate data, providing centralized management of data shared between apps.
+> https://developer.android.com/guide/topics/providers/content-providers.html
+
+### com.android.camera
+
+**List**: `AOSP`
+**Removal**: `Advanced`
+
+> Stock camera app.
+> On xiaomi you should keep it, because google camera is not better.
+
+### com.xiaomi.finddevice
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Find My Device feature (in the Settings)
+> Enables you to locate your lost phone and erase your data remotely.
+> Your phone needs to be connected to internet (Wifi/mobile data) for this feature to work.
+> REMOVING THIS PACKAGE WILL BOOTLOOP YOUR DEVICE!
+> NOTE : You cannot disable it via adb
+> According some sources, disabling MIUI optimizations in the Developer
+> settings and removing the apk file in a custom recovery does not cause a
+> bootloop, but I didn't test this.
+> So you can only remove permissions using settings.
+
+### com.miui.cleanmaster
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> Mi Cleaner. If you wont remove it then Restrict data usage and restrict in the background, but I am not sure if it helps.
+> Shady Xiaomi cleaner app developed by Cheetah mobile which has previously been caught in ad fraud and user data theft in 2018. 
+> The app has been banned from the PlayStore and then reintroduced under the package name 'com.miui.cleaner'.
+> https://www.gadgets360.com/apps/news/banned-security-app-clean-master-by-cheetah-mobile-collected-user-private-data-report-2189633
+
+### com.google.android.apps.googleassistant
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Google Assistant (https://play.google.com/store/apps/details?id=com.google.android.apps.googleassistant)
+> Microphone always is on when you enabled OK GOOGLE.
+
+### com.google.android.gms
+
+**List**: `Google`
+**Removal**: `Expert`
+
+> Google Play Services, gms = Google Mobile Services
+> It is a layer that sits on top of the OS and provides a bunch of Google APIs, giving apps access to various Google Services.
+> If you remove it all the apps relying on Google Play Services whill either:
+> detect the lack of play services and refuse to run or allow you to run (improperly) by dismissing an annoying popup
+> Disabling this package can improve battery life.
+> IMPORTANT: You need to uncheck Find My Device from the \"Device admin apps\" settings panel to be able to disable this package.
+> Search \"admin\" in the settings search bar.
+> If you wanna keep some privacy you will need to use nextDNS to blocking trackers, ads and disable some permissions.
+> some people like to use microG but it doesnt keep your privacy that much and require custom os, root and Spoofing Signature support.
+
+### com.google.android.googlequicksearchbox
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Google Search box (https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox)
+> Runs in the background. Have 117 permissions!!! Have google analytics, ads.
+> Better do the same thing like with chrome. I mean move to brave or iceraven and search engine use startpage,
+> these browsers also have widget to search.
+> Does also remove the Google Sound Search widget, but you can get that functionality from an app like Shazam,
+> that additionally doesn't run in the background constantly like this package does.
+
+### com.google.android.apps.nbu.files
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Files by Google (https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files)
+> Runs in the background, have Google Firebase Analytics.
+> You can use ZArchiver instead: https://www.zarchiver.pro/zarchiver-download/
+
+### com.android.fileexplorer
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Xiaomi/Mi File Explorer (Again it's a really poor choice for a package name considering it is not the AOSP File explorer)
+> It's a Closed-source app based on the AOSP version. But on china rom it looks clear.
+> You can use ZArchiver instead: https://www.zarchiver.pro/zarchiver-download/
+
+### com.mi.android.globalFileexplorer
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Xiaomi Files Manager (https://play.google.com/store/apps/details?id=com.mi.android.globalFileexplorer)
+> with a lot trackers and ads
+> You can use ZArchiver instead: https://www.zarchiver.pro/zarchiver-download/
+
+### com.google.android.apps.photos
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Google Photos (https://play.google.com/store/apps/details?id=com.google.android.apps.photos)
+> Alternative privacy when you dont have other: (it will not sync photos to google)
+> https://f-droid.org/en/packages/com.simplemobiletools.gallery.pro/
+
+### com.google.android.youtube
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> YouTube (https://play.google.com/store/apps/details?id=com.google.android.youtube)
+> Better use youtube vanced(discontinued?)
+> or more private: libretube(because supports invidious).
+
+### com.google.android.apps.docs
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Google Drive (https://play.google.com/store/apps/details?id=com.google.android.apps.docs)
+> You can use better alternative like MEGA.
+
+### com.huawei.android.totemweather
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Huawei Weather app (and its widget)
+> Alternative for privacy: https://f-droid.org/en/packages/cz.martykan.forecastie/
+
+### com.android.chrome
+
+**List**: `Google`
+**Removal**: `Advanced`
+
+> Google Chrome (https://play.google.com/store/apps/details?id=com.android.chrome)
+> Data mining is high. Better use search engine: (startpage) and browser:
+> (Brave)(easy, high compatibility): https://brave.com/download
+> Or (Iceraven)(Firefox with extensions for advanced user):
+> https://github.com/fork-maintainers/iceraven-browser/releases
+> NOTE: disabling or uninstalling Chrome breaks functionality for creating and storing passkeys 
+> (https://fidoalliance.org/passkeys/) on your phone, so keep this enabled if you want to use that form of authentication.
+
+### com.android.mediacenter
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Huawei music app. (Yeah they messed up with the package name)
+> Have a lot of trackers.
+> Alternative for privacy: https://f-droid.org/en/packages/com.simplemobiletools.musicplayer/
+> Or use VLC. https://f-droid.org/en/packages/org.videolan.vlc/
+
+### com.google.android.dialer
+
+**List**: `Google`
+**Removal**: `Advanced`
+
+> Google Dialer (https://play.google.com/store/apps/details?id=com.google.android.dialer)
+> Default dialer on some phones. Google Analytics are embedded in the app, assume everything is datamined.
+> https://www.virustotal.com/gui/file/a978d90f27d5947dca33ed59b73bd8efbac67253f9ef7a343beb9197c8913d1a/details
+> Alternative for privacy: https://f-droid.org/en/packages/com.simplemobiletools.dialer/
+
+### com.google.android.contacts
+
+**List**: `Google`
+**Removal**: `Advanced`
+
+> Google Contacts (https://play.google.com/store/apps/details?id=com.google.android.contacts)
+> Alternative for privacy: https://f-droid.org/en/packages/com.simplemobiletools.contacts.pro/
+> (you will lose spam protect, to mute unknown calls use OpenContacts from f-droid)
+> Saving contacts on OpenContacts can prevent from leaking.
+
+### com.google.android.apps.messaging
+
+**List**: `Google`
+**Removal**: `Advanced`
+
+> Google Messages (SMS+RCS) (https://play.google.com/store/apps/details?id=com.google.android.apps.messaging)
+> Alternative for privacy: https://f-droid.org/en/packages/com.simplemobiletools.smsmessenger/
+
+### com.android.incallui
+
+**List**: `AOSP`
+**Removal**: `Advanced`
+
+> Xiaomi (and OnePlus) Phone dialer (here we go again! Another confusing package name)
+> Closed-source app built on top of the AOSP package.
+> The name is doubly misleading because this package is the whole dialer. It does not only provide the 'in call' screen.
+> Alternative (not for AOSP) for privacy:
+> https://f-droid.org/en/packages/com.simplemobiletools.dialer/
+
+### com.android.contacts
+
+**List**: `AOSP`
+**Removal**: `Advanced`
+
+> AOSP Contacts app. Occasionally runs in the background.
+> Some OEMs (like Huawei & Xiaomi & more) use the same package name for their app.
+> Alternative (not for aosp) for privacy:
+> https://f-droid.org/en/packages/com.simplemobiletools.contacts.pro/
+> Also you can download OpenContacts for:
+> blocking unknown calls, prevent leak contacts saved on it.
+
+### com.android.mms
+
+**List**: `AOSP`
+**Removal**: `Advanced`
+
+> AOSP SMS app. Occasionally runs in the background.
+> Some OEMs (like Huawei & Xiaomi & more) use the same package name for their app.
+> Alternative (not for aosp) for privacy:
+> https://f-droid.org/en/packages/com.simplemobiletools.smsmessenger/
+
+### com.miui.weather2
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Mi Weather app.
+> Alternative for privacy: https://f-droid.org/en/packages/cz.martykan.forecastie/
+
+### com.miui.video
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Mi Video. With a lot trackers and youtube integrated.
+> Alternative for privacy: https://f-droid.org/en/packages/org.videolan.vlc/
+
+### com.miui.player
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Mi Music (https://play.google.com/store/apps/details?id=com.miui.player) have a lot trackers.
+> Alternative for privacy: https://f-droid.org/en/packages/com.simplemobiletools.musicplayer/
+> Or use VLC. https://f-droid.org/en/packages/org.videolan.vlc/

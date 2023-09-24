@@ -1,0 +1,413 @@
+**Your phone model:**
+Meizu 18S Pro
+
+**Packages:**
+
+```
+com.activate.activatephone
+com.meizu.activeviewlivewallpaper
+com.meizu.alphame
+com.flyme.aod
+com.meizu.mstore
+com.meizu.pps
+com.meizu.assistant
+com.android.flyme.bridge.softsim
+com.meizu.media.camera
+com.meizu.customizecenter
+com.meizu.dataservice
+com.meizu.flyme.easylauncher
+com.meizu.ems
+com.meizu.facerecognition
+com.meizu.media.gallery
+com.meizu.flymelab
+com.meizu.flyme.launcher
+com.meizu.media.music
+com.meizu.mznfcpay
+com.meizu.account
+com.meizu.mzbasestationsafe
+com.meizu.battery
+com.meizu.callsetting
+com.meizu.cloud
+com.meizu.account.pay
+com.meizu.flyme.service.find
+com.meizu.safe
+com.meizu.setup
+com.meizu.share
+com.meizu.mzsyncservice
+com.meizu.flyme.update
+com.meizu.net.nativelockscreen
+com.flyme.netadmin
+org.codeaurora.qti.nrNetworkSettingApp
+com.meizu.media.imageservice
+com.meizu.picker
+com.meizu.powersave
+com.meizu.flyme.sdkstage
+com.meizu.net.search
+com.qualcomm.qti.sva
+com.sohu.inputmethod.sogou.meizu
+com.meizu.suggestion
+com.flyme.systemuiex
+com.flyme.systemuitools
+com.flyme.telecom.usagedata.service
+com.meizu.telephonyengineermode
+com.meizu.media.video
+com.meizu.voiceassist
+com.meizu.wifiadmin
+cn.wps.moffice.lite.meizu
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.activate.activatephone
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless frameworks.
+
+### com.meizu.activeviewlivewallpaper
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for live wallpapers
+
+### com.meizu.alphame
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> for digital health work
+
+### com.flyme.aod
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> AlwaysOnDisplay
+
+### com.meizu.mstore
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> App Store. A lot of ads components.
+
+### com.meizu.pps
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> One Mind. Discharge schedule in the security annex.
+
+### com.meizu.assistant
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Aicy Glance meizu assistant
+
+### com.android.flyme.bridge.softsim
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its for softsim? No activities, looks like a useless frameworks.
+
+### com.meizu.media.camera
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Camera app meizu.
+
+### com.meizu.customizecenter
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for themes but its so bloated.
+
+### com.meizu.dataservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> A lot permissions and collects user data.
+
+### com.meizu.flyme.easylauncher
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Easy Mode. Its launcher?
+
+### com.meizu.ems
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless frameworks.
+
+### com.meizu.facerecognition
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Needed for face recognition, face unlock lock screen.
+
+### com.meizu.media.gallery
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Meizu gallery app.
+> better alternative: https://f-droid.org/en/packages/com.simplemobiletools.gallery.pro/
+
+### com.meizu.flymelab
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Flyme Lab. Its something for video window or full screen.
+
+### com.meizu.flyme.launcher
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> System launcher. Needed for launcher.
+
+### com.meizu.media.music
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Stock Music app.
+
+### com.meizu.mznfcpay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Meizu chinese payment.
+
+### com.meizu.account
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Flyme. (Log out before remove)
+
+### com.meizu.mzbasestationsafe
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Base Station Guard. Useless location things.
+
+### com.meizu.battery
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for Battery Manager.
+
+### com.meizu.callsetting
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Addional call settings.
+
+### com.meizu.cloud
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless push service
+
+### com.meizu.account.pay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Pay Center chinese payment.
+
+### com.meizu.flyme.service.find
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Phone locating service(log out before remove)
+
+### com.meizu.safe
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Looks like a important app. It have more things than security.
+
+### com.meizu.setup
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its needed only on first-boot setup.
+
+### com.meizu.share
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Its maybe useful for bluethooth
+
+### com.meizu.mzsyncservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Flyme cloud service
+
+### com.meizu.flyme.update
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> System updates.
+
+### com.meizu.net.nativelockscreen
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> NativeLockScreen. I guess its needed for lockscreen.
+
+### com.flyme.netadmin
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Speedtest and security things.
+
+### org.codeaurora.qti.nrNetworkSettingApp
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for 5G?
+
+### com.meizu.media.imageservice
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> PhotoService. Not sure for what it is.
+
+### com.meizu.picker
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Aicy Touch. Another chinese payment.
+
+### com.meizu.powersave
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Power Saving Mode.
+
+### com.meizu.flyme.sdkstage
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Its for Night Mode settings. Not sure if its important.
+
+### com.meizu.net.search
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Chinese Search
+
+### com.qualcomm.qti.sva
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Qualcomm Voice Activation. It have a lot things like a training voice, tutorial, debug mode.
+
+### com.sohu.inputmethod.sogou.meizu
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Chinese keyboard closed-source
+> better alternative: https://f-droid.org/en/packages/dev.patrickgold.florisboard/
+
+### com.meizu.suggestion
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Aicy Suggestion. Only suggestions.
+
+### com.flyme.systemuiex
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> System UI Ext. Looks like a important app, have webview activity only.
+
+### com.flyme.systemuitools
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> System UI Tools. Looks like a important app. It have gameassist, drivemode, windowmode things.
+
+### com.flyme.telecom.usagedata.service
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Phone services. Its just Usage data and it will be send to cloud problably.
+
+### com.meizu.telephonyengineermode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> SIM things testing also logs.
+
+### com.meizu.media.video
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Stock Video Player app
+
+### com.meizu.voiceassist
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Aicy Voice. Another smart things
+
+### com.meizu.wifiadmin
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> WLAN Assistant. Addional wlan things.
+
+### cn.wps.moffice.lite.meizu
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Chinese WPS Office

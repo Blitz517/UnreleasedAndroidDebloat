@@ -1,0 +1,1433 @@
+**Your phone model:**
+OPPO R15 PRO, Realme 9, Umidigi F2, Oneplus 8, SONY XZ1, Vivo Y20, Galaxy S20+ 5G, motorola g13
+
+**Packages:**
+
+```
+com.coloros.operationtips
+com.nearme.themespace
+com.android.dlna.service
+com.coloros.simsettings
+com.coloros.wirelesssettings
+com.oppo.locationpicker
+com.ted.number
+com.oppo.operationManual
+com.oppoex.afterservice
+com.coloros.safesdkproxy
+com.coloros.avastofferwall
+com.coloros.safecenter
+com.oplus.romupdate
+com.oplus.ota
+com.oppo.healthservice
+com.coloros.exserviceui
+com.coloros.activation.overlay.common
+com.heytap.colorfulengine
+com.coloros.sceneservice
+com.coloros.securitykeyboard
+com.coloros.smartdrive
+com.coloros.smartsidebar
+com.coloros.gesture
+com.heytap.quicksearchbox
+com.heytap.speechassist
+com.coloros.floatassistant
+com.heytap.openid
+com.oplus.encryption
+com.oplus.healthservice
+com.oplus.melody
+com.oplus.eid
+com.oplus.hamlet
+com.oplus.interconnectcollectkit
+com.oplus.linker
+com.oplus.locationproxy
+com.oplus.nhs
+com.oplus.obrain
+com.oplus.ocs
+com.oplus.olc
+com.oplus.onetrace
+com.oplus.portrait
+com.oplus.powermonitor
+com.oplus.qualityprotect
+com.oplus.sauhelper
+com.oplus.securitypermission
+com.oplus.smartengine
+com.oplus.sos
+com.oplus.stdsp
+com.oplus.trafficmonitor
+com.oplus.uiengine
+com.oplus.wifibackuprestore
+com.oplus.wifitest
+com.oneplus.membership
+com.oppo.engineermode
+com.vivo.dream.clock
+com.vivo.dream.music
+com.vivo.dream.weather
+com.vivo.easyshare
+com.vivo.hiboard
+com.vivo.email
+com.vivo.livewallpaper.coralsea
+com.vivo.livewallpaper.coffeetime
+com.vivo.livewallpaper.floatingcloud
+com.vivo.livewallpaper.silk
+com.vivo.appstore
+com.sec.mhs.smarttethering
+com.sonymobile.devicesecurity.service
+com.mediatek.dataprotection
+com.mediatek.ygps
+com.mediatek.batterywarning
+com.mediatek.gnssdebugreport
+com.mediatek.calendarimporter
+com.mediatek.lbs.em2.ui
+com.mediatek.thermalmanager
+com.mediatek
+com.mediatek.cellbroadcastuiresoverlay
+com.mediatek.systemuiresoverlay
+com.mediatek.frameworkresoverlay
+com.mediatek.FrameworkResOverlayExt
+com.mediatek.MtkSettingsResOverlay
+com.mediatek.SettingsProviderResOverlay
+com.mediatek.bluethooth.dtt
+com.mediatek.sensorhub.ui
+com.mediatek.mtklogger.proxy
+com.mediatek.duraspeed
+com.mediatek.smartratswitch.service
+com.mediatek.capctrl.service
+com.mediatek.atci.service
+com.mediatek.voicecommand
+com.mediatek.voiceunlock
+com.fingerprints.imagecollection
+com.huaqin.sarcontroller
+com.fingerprints.serviceext
+com.goodix.fingerprint.setting
+com.mtk.telephony
+com.example
+com.example.myapplication
+com.mediatek.emcamera
+com.huaqin.pocketbanreceiver
+com.goodix.fingerprint
+com.mediatek.gba
+com.android.bbklog
+com.mediatek.telephony
+com.mediatek.gnss.nonframeworklbs
+com.vivo.healthwidget
+com.vivo.globalsearch
+com.android.bbkmusic
+com.vivo.setupwizard
+com.vivo.smartLife
+com.vivo.vhomeguide
+com.coloros.logkit
+com.mediatek.mdmlsample
+com.android.launcher3
+com.oppo.engineermode.camera
+com.coloros.operationManual
+com.heytap.cast
+com.heytap.htms
+com.oplus.deepthinker
+com.coloros.encryption
+com.coloros.lockassistant
+com.realme.logtool
+com.oppo.criticallog
+com.oppo.bttestmode
+com.oppo.usageDump
+com.coloros.wifisecuredetect
+com.coloros.findmyphone
+com.coloros.findphone.client2
+com.coloros.remoteguardservice
+com.coloros.smartlock
+com.coloros.sauhelper
+com.coloros.securityguard
+com.oplus.ovoicemanager
+com.oplus.dmp
+com.coloros.karaoke
+com.oplus.metis
+com.oplus.thirdkit
+com.oplus.cosa
+com.coloros.sharescreen
+com.oplus.eyeprotect
+com.qualcomm.qti.modemtestmode
+com.oplus.aod
+com.oplus.uiengine
+com.oplus.trafficmonitor
+com.coloros.feedback
+com.oplus.atlas
+com.coloros.regservice
+com.google.android.overlay.gmsconfig.photos
+com.motorola.android.launcher.overlay.animation.scale
+com.fingerprints.fpctest
+com.google.android.gmsintegration
+com.aura.oobe.motorola
+com.motorola.livewallpaper3
+com.dti.motorola
+com.mediatek.aovtestapp
+com.motorola.paks.notification
+com.dti.amx
+com.payjoy.access
+com.payjoy.permission
+com.android.powertouch
+com.huaqin.shutdownservice
+com.motorola.odm.camera3
+com.teksun.factorytest
+com.sprd.cameracalibration
+com.sprd.engineermode
+com.android.pedometer
+com.sprd.camta
+com.sprd.validationtools
+com.sprd.srmi
+com.google.android.overlay.gmsconfig.searchlauncherqs
+```
+
+- [ ] **I removed all those packages on my phone(I dont have these phones, its from internet bloatware lists)
+and I checked almost all packages using mixplorer, app manager**
+
+## Document each package the best you can
+
+### com.coloros.operationtips
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> tips
+
+### com.nearme.themespace
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> theme store
+
+### com.android.dlna.service
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Screen cast OPPO.
+
+### com.coloros.simsettings
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Data usage, looks bloated.
+
+### com.coloros.wirelesssettings
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Wireless settings.
+
+### com.oppo.locationpicker
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Location works without.
+
+### com.ted.number
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Identification of Unknown Numbers
+
+### com.oppo.operationManual
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> User Guide
+
+### com.oppoex.afterservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Course Hero Badge.
+> Like serious idk, have a lot logs and its useless.
+
+### com.coloros.safesdkproxy
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Phone Cleaner & Antivirus (spyware)
+
+### com.coloros.avastofferwall
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Avast Offerwall
+
+### com.coloros.safecenter
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> It breaks "display over other apps" permission!
+
+### com.oplus.romupdate
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> If you wanna remove it to keep ram
+> its bad idea better remove com.oplus.ota too
+> if you dont plan to update system.
+
+### com.oplus.ota
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> System Updates.
+
+### com.oppo.healthservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Some health function, needed for correct work of fitness trackers and pedometer from realme.
+> When deleted, it does not seem to affect the operation of the phone.
+
+### com.coloros.exserviceui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Needed for gestures.
+
+### com.coloros.activation.overlay.common
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> E-warranty card
+> Lets you check if your registered phone is still under warranty (will send your IMEI to esa-reg-eup.myoppo.com. Has a lot of permissions and run at boot
+> Pithus analysis: https://beta.pithus.org/report/2a1dc5caedd2347fa009563e9b4d1c11b1cb42726f9046151934c456fdd77d88
+
+### com.heytap.colorfulengine
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Unnecessary shell framework.
+
+### com.coloros.sceneservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Smart Devices
+
+### com.coloros.securitykeyboard
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Smart and security stuff.
+
+### com.coloros.smartdrive
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Smart and security stuff.
+
+### com.coloros.smartsidebar
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Smart and security stuff.
+
+### com.coloros.gesture
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Gestures & Motions. Somatic gestures (double tap to light up the screen)
+
+### com.heytap.quicksearchbox
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Realme. This will remove the single swip from top to bottom search that has lots of Chinese in it.
+
+### com.heytap.speechassist
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> breeno assistant.
+
+### com.coloros.floatassistant
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Assistive ball feature.
+
+### com.heytap.openid
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Device logos and advertisements; 
+> uninstallation causes anomalies in cloud drive functionality
+> (safe to remove if you not use heytap cloud)
+
+### com.oplus.encryption
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Private Safe. After uninstalling, the option to use the file safe in the privacy settings disappears.
+> There is also a section left in the settings that does nothing when clicked.
+
+### com.oplus.healthservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Some health function, needed for correct work of fitness trackers and pedometer from realme.
+> When deleted, it does not seem to affect the operation of the phone.
+
+### com.oplus.melody
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Wireless headset advanced configuration related (after uninstallation some Bluetooth headset setting options will be missing items,
+> if you do not have headset setting problems, it is recommended to uninstall)
+> (https://play.google.com/store/apps/details?id=com.oplus.melody)
+
+### com.oplus.eid
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its something about card chips or online identity? useless. china.
+
+### com.oplus.hamlet
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Vision Enhance. Useless things about color maybe to wallpaper?
+
+### com.oplus.interconnectcollectkit
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> It may have something to do with the device's fast connection by name.
+> BUT I see only it collects system logs and it have something to com.heytap.accessory.
+> so it should be to Quick device connect?
+
+### com.oplus.linker
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Used for the Synergy app to link your phone to your PC (It doesn't work well beyond controlling your phone from your PC).
+
+### com.oplus.locationproxy
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Extra location telemetry, not related to any GPS functions.
+
+### com.oplus.nhs
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> (Uninstallation may cause the power saving mode optimization option of turning off 5G to be disabled,
+> only briefly, after which it will automatically return to 5G)
+> needs more testing.
+
+### com.oplus.obrain
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> log component, domestic special, the key to a MIDAS service, looking at the dex content is also to catch log.
+
+### com.oplus.ocs
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Chinese unique identifier privacy hazard.
+
+### com.oplus.olc
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Logger, a new appearance in F.05, the domestic special, and all say that they are log core
+
+### com.oplus.onetrace
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Logging component, may be used for feedback toolkit log capture, domestic specials
+
+### com.oplus.portrait
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> An additional feature for AOD that allows you to further personalize the disabled screen. If not used, you can delete it.
+
+### com.oplus.postmanservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Logging component, domestic special, with networking function and cloud control function
+
+### com.oplus.powermonitor
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Logging component to upload temperature control logs.
+
+### com.oplus.qualityprotect
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Logging component, domestic special, from the dex content
+> to determine the sdk to collect the main memory overflow and other performance issues
+
+### com.oplus.sauhelper
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> It's very much a placeholder app with no real functionality, but it can't be uninstalled or deactivated, and it can be SUSPENDED.
+
+### com.oplus.securitypermission
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> If removed, in some players (and not only), it will not be possible to enable picture-in-picture capability due to lack of customization:
+> Settings -> Manage apps -> Top of other apps
+
+### com.oplus.smartengine
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> It appears to be an app used for testing, no internet access, very few intents, shouldn't have self-started, should run on demand.
+> Some people have reported it as a support component for speedcards, some speedcards won't load after uninstalling.
+
+### com.oplus.stdsp
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Device Security Service is a basic service module that helps users discover security risks in their devices and generate appropriate security policies.
+> Detect xposed, and log suite related, needless to say, deactivate.
+
+### com.oplus.trafficmonitor
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> oneplus traffic monitor (monthly data usage, etc).
+
+### com.oplus.uiengine
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Dynamic lock screen function of the theme. Provide interface for custom lock screen to modify some system settings. 
+> After deactivation will still be called by other programs, can not stop running, can not play the role of saving system resources, 
+> there may be program dependencies? Uninstalled does not seem to affect functions other than dynamic lock screen.
+
+### com.oplus.wifibackuprestore
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Cloud service components cannot be used after the account system is removed?
+> if you dont use cloud service, its safe to remove.
+
+### com.oplus.wifitest
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Just a testing mode accessed through phone dialling code.
+
+### com.oneplus.membership
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Red Cable Club(https://play.google.com/store/apps/details?id=com.oneplus.membership)
+> Useless. Battery drain if account added.
+
+### com.oppo.engineermode
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Dial *#899# for running it
+
+### com.vivo.dream.clock
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Screensaver clock
+
+### com.vivo.dream.music
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Screensaver music
+
+### com.vivo.dream.weather
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Screensaver weather
+
+### com.vivo.easyshare
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Easy Share
+
+### com.vivo.hiboard
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> keyboard app with 62 permissions.
+> Better alternative: https://f-droid.org/en/packages/dev.patrickgold.florisboard/
+
+### com.vivo.email
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Email app
+
+### com.vivo.livewallpaper.coralsea
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> live wallpaper
+
+### com.vivo.livewallpaper.coffeetime
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> live wallpaper
+
+### com.vivo.livewallpaper.floatingcloud
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> live wallpaper
+
+### com.vivo.livewallpaper.silk
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> live wallpaper
+
+### com.vivo.appstore
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> V-Appstore
+
+### com.sec.mhs.smarttethering
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Samsung Auto Hotspot.
+
+### com.sonymobile.devicesecurity.service
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> DeviceSecurityService.
+> Useless, collects sim and network data.
+
+### com.mediatek.dataprotection
+
+**List**: `Misc`
+**Removal**: `Advanced`
+
+> It have stuff about encrypt, decrypt user partition.
+> My device works flawlesly without it.
+
+### com.mediatek.ygps
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> GPS test and bug report utilities, accessed via Engineer Mode. Not needed.
+
+### com.mediatek.batterywarning
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Low battery or hot battery warning. Its useless.
+
+### com.mediatek.gnssdebugreport
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden debug stuff.
+
+### com.mediatek.calendarimporter
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Useful in China where Google isn’t available, but not needed for Google users.
+
+### com.mediatek.lbs.em2.ui
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> LocationEM2. Another GPS status/testing app. Doesn’t stop GPS from working.
+
+### com.mediatek.thermalmanager
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden testing or logging app.
+
+### com.mediatek
+
+**List**: `Misc`
+**Removal**: `Unsafe`
+
+> Have a lot useless stuff but it can cause bootloop on some devices.
+
+### com.mediatek.cellbroadcastuiresoverlay
+
+**List**: `Misc`
+**Removal**: `Advanced`
+
+> This app have something to emergency.
+
+### com.mediatek.systemuiresoverlay
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> It have nothing.
+
+### com.mediatek.frameworkresoverlay
+
+**List**: `Misc`
+**Removal**: `Unsafe`
+
+> It have something to config AOD.
+> And power saving.
+
+### com.mediatek.FrameworkResOverlayExt
+
+**List**: `Misc`
+**Removal**: `Unsafe`
+
+> DisplayCutout founded in code.
+
+### com.mediatek.MtkSettingsResOverlay
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Nothing found in this app.
+
+### com.mediatek.SettingsProviderResOverlay
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Nothing found in this app.
+
+### com.mediatek.systemuiwmshellresoverlay
+
+**List**: `Misc`
+**Removal**: `Unsafe`
+
+> config pip_corner_radius only found.
+
+### com.mediatek.bluethooth.dtt
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Bluethooth logging.
+
+### com.mediatek.sensorhub.ui
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Testing sensors.
+
+### com.mediatek.mtklogger.proxy
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Logs debug data.
+
+### com.mediatek.duraspeed
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Its hidden app where you can boost your games? Anyway its not available for normal users.
+
+### com.mediatek.smartratswitch.service
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> it handles switching connection between network types. (4G/5G)
+
+### com.mediatek.capctrl.service
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> It have mtkradioex. These are used for corporate deployment/controlling of devices.
+
+### com.mediatek.atci.service
+
+**List**: `Misc`
+**Removal**: `Advanced`
+
+> Well this code is hard to understand, it have only notification stuff and needed for ims wifi calling.
+
+### com.mediatek.voicecommand
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Its for voice commands like control music playing or voice control for alarm, camera.
+> But how to get access to it?
+> Problably you need that for voice recognition but not sure.
+
+### com.mediatek.voiceunlock
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Its for voice commands like control music playing or voice control for alarm, camera, voice unlock.
+> But how to get access to it?
+> Problably you need that for voice recognition but not sure.
+
+### com.fingerprints.imagecollection
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its hidden image collection of fingerprint and sensor test.
+
+### com.huaqin.sarcontroller
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> It have something like sar sensor, idk if its for testing
+> but mainactivity have chinese words and sar is for radio regulations?
+
+### com.fingerprints.serviceext
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Fingerprint test, fingerprint authentication.
+
+### com.goodix.fingerprint.setting
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Fingerprint test
+
+### com.mtk.telephony
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> SimRecoveryTestTool
+
+### com.example
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Auto Dialer test
+
+### com.example.myapplication
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden app for testing:
+> Battery, WiFi, Bluethooth
+
+### com.mediatek.emcamera
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Useless camera calibration hidden app.
+
+### com.huaqin.pocketbanreceiver
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> I found in code useless permissions BAN_BROADCAST and hello world!
+> This app means nothing.
+
+### com.goodix.fingerprint
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Fingerprint test? This app dont have any code.
+
+### com.mediatek.gba
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Generic Bootstrapping Architecture. A ‘common ground’ of code used for many MediaTek apps,
+> but since we’ve removed everything that GBA depends on, this can be removed too.
+
+### com.android.bbklog
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Hidden Log Collection.
+
+### com.mediatek.telephony
+
+**List**: `Misc`
+**Removal**: `Advanced`
+
+> allows you to get information about the available 
+> SIMs/subscriptions and listen for changes or activity on the SIM cards, such as call or data activity or 
+> connected cell details. In addition, the API enables apps to create SMS messages and send them using 
+> a specific SIM card. Its not useful.
+
+### com.mediatek.gnss.nonframeworklbs
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Have hidden activity and its maybe for debug location requests, modem, VoWiFi and more.
+> Not useful.
+
+### com.vivo.healthwidget
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Health kit. Its only widgets.
+
+### com.vivo.globalsearch
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Global Search.
+
+### com.android.bbkmusic
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Music app with chinese trackers.
+> Alternative for privacy: https://f-droid.org/en/packages/com.simplemobiletools.musicplayer/
+> Or use VLC. https://f-droid.org/en/packages/org.videolan.vlc/
+
+### com.vivo.setupwizard
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Its only needed on First-boot setup.
+
+### com.vivo.smartLife
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Jovi InLife service
+> home devices and smart interconnectivity.
+> useless.
+
+### com.vivo.vhomeguide
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> useless vhome guide suggestions.
+
+### com.coloros.logkit
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> LogKit. Dial *#800# for running it
+
+### com.mediatek.mdmlsample
+
+**List**: `Misc`
+**Removal**: `Advanced`
+
+> It looks like debugging app.
+> But I found some words SUBSCRIBE_TRAP - a lot, OTA - 1 word, VoLTE - 1 word.
+> Other data is a lot of debugging code so its not needed.
+
+### com.android.launcher3
+
+**List**: `AOSP`
+**Removal**: `Expert`
+
+> Default launcher from old versions android.
+> Some phones like vivo use this app name.
+
+### com.oppo.engineermode.camera
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Camera calibration, not available for normal users.
+> Dial *#805# for running it
+
+### com.coloros.operationManual
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Help (in Settings - Other Settings)
+
+### com.heytap.cast
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Phone casting (casting phone screen to other devices).
+
+### com.heytap.htms
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Mobile services (removal may not be able to log in to OPPO account).
+
+### com.oplus.deepthinker
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Smart Capability Services (seems to open some common apps in the background, which may increase power consumption)
+> (Remove it on ColorOS 12.0 or above will cause the battery menu to not show the power consumption curve)
+> This can cause a bootloop.
+
+### com.coloros.encryption
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Removing breaks the stock launcher?
+> Private Safe (located in Privacy Settings)
+
+### com.coloros.lockassistant
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> You cant remove this app using adb.
+
+### com.realme.logtool
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> logs
+
+### com.oppo.criticallog
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> logs
+
+### com.oppo.bttestmode
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> bluethooth test
+
+### com.oppo.usageDump
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> After-sales service assistance tools
+
+### com.coloros.wifisecuredetect
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> wifi safety test
+
+### com.coloros.findmyphone
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> find phone, logout from oppo account before
+
+### com.coloros.findphone.client2
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> find phone, logout from oppo account before
+
+### com.coloros.remoteguardservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Remote Guard Service. Have only useless statistics and depends on:
+> com.coloros.mcs, com.heytap.mcs
+> ONLY FOR CHINA.
+
+### com.coloros.smartlock
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> "Phone stays unlocked when using a wearable device" feature support component.
+
+### com.coloros.sauhelper
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> SAUHelper. It have only statistics and logs.
+
+### com.coloros.securityguard
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Security Events (located in Phone Manager - Security Tools, it is recommended to uninstall it).
+
+### com.oplus.ovoicemanager
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Voice assistant related
+
+### com.oplus.dmp
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Fusion search service.
+
+### com.coloros.karaoke
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Karaoke (Do not delete if you need Karaoke)
+
+### com.oplus.metis
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> User Behavior Records. Useless.
+
+### com.oplus.thirdkit
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Compatibility problem solving. Useless.
+
+### com.oplus.cosa
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Application Enhancement Service/Game Center (recommended to keep if you play a lot of games)
+
+### com.coloros.sharescreen
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Shared screen assistance (nobody need it)
+
+### com.oplus.eyeprotect
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> eye protection mode
+
+### com.qualcomm.qti.modemtestmode
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Modem test
+
+### com.oplus.aod
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> If you dont use Always On-Display, its safe to remove.
+
+### com.oplus.uiengine
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Needed for themes? I found a lot of gameloading things, Proguard?, lists of apps idk for what.
+> Remove it not bricks anything problably.
+
+### com.oplus.trafficmonitor
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> oneplus traffic monitor (monthly data usage, etc).
+> This app is so bloated.
+
+### com.coloros.feedback
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Feedback service
+
+### com.oplus.atlas
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> logs
+
+### com.coloros.regservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Mobile DM authentication related (recommended to be uninstalled).
+> Its spying on you.
+
+### com.google.android.overlay.gmsconfig.photos
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> overlay to
+> config_systemGallery to com.google.android.apps.photos in motorola. Useless.
+
+### com.motorola.android.launcher.overlay.animation.scale
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> overlay to transition_anim_scale?
+> maybe unused, not sure.
+
+### com.fingerprints.fpctest
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> fingerprint test
+
+### com.google.android.gmsintegration
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its Google Sample Home Screen. Useless.
+
+### com.aura.oobe.motorola
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> app only runs on first-boot to recommand some apps.
+> safe to remove.
+
+### com.motorola.livewallpaper3
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Moto interactive wallpapers (https://play.google.com/store/apps/details?id=com.motorola.livewallpaper3)
+
+### com.dti.motorola
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Its used to choose app install? A lot trackers, permissions.
+> Useless.
+
+### com.mediatek.aovtestapp
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> It tests in camera something.
+
+### com.motorola.paks.notification
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> notifications from (com.motorola.paks)
+
+### com.dti.amx
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Its used to choose app install? A lot trackers, permissions.
+> Useless.
+
+### com.payjoy.access
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its for lock device and problably safe mode.
+
+### com.payjoy.permission
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its for lock device and problably safe mode.
+
+### com.android.powertouch
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Moto Power Touch lets you customize the double tap power button gesture to launch an app or shortcut of your choice.
+
+### com.huaqin.shutdownservice
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> ShutdownAfterScreenOff10MinutesService
+> Useless
+
+### com.motorola.odm.camera3
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> moto camera app?
+
+### com.teksun.factorytest
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Camera tests
+
+### com.sprd.cameracalibration
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Camera calibration, tests.
+
+### com.sprd.engineermode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Testing hardware things.
+
+### com.android.pedometer
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Pedometer its for display steps problably.
+
+### com.sprd.camta
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden camera dump logs.
+
+### com.sprd.validationtools
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden testing hardware and it have a lot secret codes.
+
+### com.sprd.srmi
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden logs in code only.
+
+### com.google.android.overlay.gmsconfig.searchlauncherqs
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Useless gmsconfig. Its config default launcher but not needed.

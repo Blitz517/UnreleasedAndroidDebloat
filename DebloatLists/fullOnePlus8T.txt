@@ -1,0 +1,299 @@
+**Your phone model:**
+OnePlus 8T
+
+**Packages:**
+
+```
+com.qualcomm.qtil.aptxals
+com.qualcomm.qtil.aptxui
+com.oneplus.store
+com.oneplus.dm
+com.oneplus.camera.pictureprocessing
+com.oneplus.applocker
+com.oneplus.iconpack.oneplush2
+com.oneplus.iconpack.onepluso2
+com.oneplus.nroptimization
+com.oneplus.collectiondata
+com.oem.rftoolkit
+com.oneplus.aodnotification.overlay.gold
+com.oneplus.aodnotification.overlay.purple
+com.oneplus.aodnotification.overlay.red
+com.qualcomm.qtil.aptxalsOverlay
+com.oneplus.commonoverlay.android
+com.oneplus.commonoverlay.com.oneplus
+com.oneplus.commonoverlay.com.google.android.networkstack
+com.oneplus.commonoverlay.com.google.android.networkstack.cn
+com.oneplus.commonoverlay.com.android.networkstack.inprocess
+com.oneplus.commonoverlay.com.android.networkstack.inprocess.cn
+com.oneplus.commonoverlay.com.android.systemui
+com.oneplus.commonoverlay.com.android.wifi.resources
+com.oneplus.odmoverlay.android
+com.oneplus.odmoverlay.com.oneplus
+com.oneplus.odmoverlay.com.android.settings
+com.oneplus.odmoverlay.com.android.systemui
+com.oneplus.android.cellbroadcast.overlay
+com.oneplus.productoverlay.android
+com.oneplus.productoverlay.com.oneplus
+com.oneplus.productoverlay.com.android.providers.settings
+com.oneplus.vendoroverlay.android
+com.oneplus.vendoroverlay.com.oneplus
+com.oneplus.vendoroverlay.com.android.providers.settings
+com.oneplus.vendoroverlay.com.android.systemui
+com.oneplus.vendoroverlay.com.oneplus.wifiapsettings
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.qualcomm.qtil.aptxals
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden aptxals Audio Bluetooth sample improvement test
+
+### com.qualcomm.qtil.aptxui
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden aptxals Audio Bluetooth sample improvement. Useless 96kHz sample.
+
+### com.oneplus.store
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> OnePlus Store
+
+### com.oneplus.dm
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Subscriber Device Management. Has only privacy online agreement activity.
+
+### com.oneplus.camera.pictureprocessing
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Is it for image processing?
+
+### com.oneplus.applocker
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Applocker
+
+### com.oneplus.iconpack.oneplush2
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> OnePlus Hydrogen Icon Pack
+
+### com.oneplus.iconpack.onepluso2
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> OnePlus Oxygen Icon Pack
+
+### com.oneplus.nroptimization
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Optimization telephony?
+
+### com.oneplus.collectiondata
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Collection data to telephony?
+
+### com.oem.rftoolkit
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Testing things like Wi-Fi, lots of Chinese words
+
+### com.oneplus.aodnotification.overlay.gold
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> AOD notification gold
+
+### com.oneplus.aodnotification.overlay.purple
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> AOD notification purple
+
+### com.oneplus.aodnotification.overlay.red
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> AOD notification red
+
+### com.qualcomm.qtil.aptxalsOverlay
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Overlay hidden aptxals Audio Bluetooth sample improvement. Useless 96kHz sample.
+
+### com.oneplus.commonoverlay.android
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for notifications? Status_bar?
+
+### com.oneplus.commonoverlay.com.oneplus
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Testing things, debugging
+
+### com.oneplus.commonoverlay.com.google.android.networkstack
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for DHCP hostname?, captive portal HTTP URLs?
+
+### com.oneplus.commonoverlay.com.google.android.networkstack.cn
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for DHCP hostname?, captive portal HTTP URLs? Generate_204 Chinese Google?
+
+### com.oneplus.commonoverlay.com.android.networkstack.inprocess
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for DHCP hostname?, captive portal HTTP URLs?
+
+### com.oneplus.commonoverlay.com.android.networkstack.inprocess.cn
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for DHCP hostname?, captive portal HTTP URLs? Generate_204 Chinese Google?
+
+### com.oneplus.commonoverlay.com.android.systemui
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for wellbeing or notifications?
+
+### com.oneplus.commonoverlay.com.android.wifi.resources
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Wi-Fi configs?
+
+### com.oneplus.odmoverlay.android
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Needed for display or brightness?
+
+### com.oneplus.odmoverlay.com.oneplus
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Overlay to gestures things
+
+### com.oneplus.odmoverlay.com.android.settings
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Overlay has fingerprint preview PNG files and cyberpunk theme
+
+### com.oneplus.odmoverlay.com.android.systemui
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Overlay to charge battery animation also fingerprint animation
+
+### com.oneplus.android.cellbroadcast.overlay
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Needed for cell broadcast probably.
+
+### com.oneplus.productoverlay.android
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Configs to Google for default things. Also location provider config. Not sure if it's needed.
+
+### com.oneplus.productoverlay.com.oneplus
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless config to boost? some stock apps like dialer, gallery, settings also Chinese apps
+
+### com.oneplus.productoverlay.com.android.providers.settings
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Default backup transport Google. Not needed for backup
+
+### com.oneplus.vendoroverlay.android
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Overlay to extra kbytes adjust?
+
+### com.oneplus.vendoroverlay.com.oneplus
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Config to overheat?
+
+### com.oneplus.vendoroverlay.com.android.providers.settings
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Default backup transport Google. Not needed for backup
+
+### com.oneplus.vendoroverlay.com.android.systemui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> It has nothing.
+
+### com.oneplus.vendoroverlay.com.oneplus.wifiapsettings
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> OP_white_mode?

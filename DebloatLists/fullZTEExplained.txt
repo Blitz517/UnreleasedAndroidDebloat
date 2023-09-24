@@ -1,0 +1,355 @@
+**Your phone model:**
+ZTE_Blade_A7S_2020
+
+**Packages:**
+
+```
+com.android.aftersaleservice
+zte.com.cn.alarmclock
+com.mifavor.callsetting
+com.sprd.cameracalibration
+com.zte.easymode
+com.zte.emode
+com.zte.emodeservice
+com.sprd.engineermode
+com.zte.faceverify
+zte.com.cn.filer
+com.ztefingerprint.service
+com.zte.fingerprints
+com.sprd.ImsConnectionManager
+com.zte.mifavor.launcher
+com.zte.mifavor.launcher.adapter
+com.zte.beautify
+com.zte.mifavor.launcher.resource
+com.sprd.linkturbo
+com.sprd.logmanager
+com.android.modemnotifier
+com.zte.zdm.omacp
+com.zte.powersavemode
+com.zte.privacyzone
+com.spreadtrum.proxy.nfwlocation
+com.sprd.quickcamera
+com.zte.setupwizard
+com.spreadtrum.sgps
+com.sprd.autoslt
+com.spreadtrum.vowifi
+com.zte.mifavor.theme.resource
+com.sprd.uasetting
+com.sprd.uplmnsettings
+com.spreadtrum.vce
+com.telephony.service
+com.zte.zdmdaemon
+com.zte.zdmdaemon.install
+com.zte.onekeycp
+com.zte.zbackup.platservice
+com.android.ztescreenshot
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.android.aftersaleservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless statistics.
+
+### zte.com.cn.alarmclock
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock ZTE Clock App
+
+### com.mifavor.callsetting
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Addional call features and WiFi Calling.
+
+### com.sprd.cameracalibration
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden camera testing.
+
+### com.zte.easymode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Easy Mode settings
+
+### com.zte.emode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Testing Hardware Components
+
+### com.zte.emodeservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Logs to emode Testing Hardware Components
+
+### com.sprd.engineermode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Testing Hardware Components
+
+### com.zte.faceverify
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Needed for face unlock screen
+
+### zte.com.cn.filer
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Stock File Manager
+
+### com.ztefingerprint.service
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Its problably needed for fingerprint.
+
+### com.zte.fingerprints
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Fingerprint settings.
+
+### com.sprd.ImsConnectionManager
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for IMS, WiFi Calling.
+
+### com.zte.mifavor.launcher
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Stock ZTE Launcher
+
+### com.zte.mifavor.launcher.adapter
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for Stock ZTE Launcher
+
+### com.zte.beautify
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> ZTE Theme. Needed for themes
+
+### com.zte.mifavor.launcher.resource
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for Stock ZTE Launcher
+
+### com.sprd.linkturbo
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Its for wifi speed? Have useless logs.
+
+### com.sprd.logmanager
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden logs
+
+### com.android.modemnotifier
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden Modem Info? Its used for logs.
+
+### com.zte.zdm.omacp
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Its for configure SMS settings.
+
+### com.zte.powersavemode
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Have battery settings.
+
+### com.zte.privacyzone
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> App Lock, Password Manager
+
+### com.spreadtrum.proxy.nfwlocation
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Carrier location? Useless Map Collections.
+
+### com.sprd.quickcamera
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless camera agent.
+
+### com.zte.setupwizard
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Needed for first-boot setup
+
+### com.spreadtrum.sgps
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless GPS Test.
+
+### com.sprd.autoslt
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless camera tests.
+
+### com.spreadtrum.vowifi
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> WiFi Calling Test.
+
+### com.zte.mifavor.theme.resource
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for themes?
+
+### com.sprd.uasetting
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> UserAgent Setting? Useless frameworks.
+
+### com.sprd.uplmnsettings
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Set UPLMN? Useless frameworks.
+
+### com.spreadtrum.vce
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless logs (dialer google, volte)
+
+### com.telephony.service
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for WiFi Calling.
+
+### com.zte.zdmdaemon
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless logs, data collection.
+
+### com.zte.zdmdaemon.install
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless logs, data collection.
+
+### com.zte.onekeycp
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Phone Switch. PC Connect things, its useless.
+
+### com.zte.zbackup.platservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> ZteBackupService with a lot permissions.
+
+### com.android.ztescreenshot
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> ScreenCapture. Needed for screenshots.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

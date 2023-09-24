@@ -1,0 +1,425 @@
+**Your phone model:**
+Samsung Galaxy A52s 5G SM-A528B android 13
+
+**Packages:**
+
+```
+com.samsung.android.app.sharelive
+com.samsung.android.brightnessbackupservice
+com.sec.android.app.bluetoothagent
+com.sec.android.app.ve.vebgm
+com.samsung.android.coldwalletservice
+com.sec.android.CcInfo
+com.samsung.android.container
+com.samsung.android.dsms
+com.snap.camerakit.plugin.v1
+com.samsung.android.gru
+com.samsung.android.kidsinstaller
+com.samsung.android.mapsagent
+com.sec.location.nfwlocationprivacy
+com.samsung.android.sdk.ocr
+com.sec.unifiedwfc
+com.samsung.android.vtcamerasettings
+com.samsung.android.wifi.resources
+com.sec.android.smartfpsadjuster
+com.sec.android.app.uwbtest
+com.samsung.android.keycustomizationinfobackupservice
+com.samsung.ssu
+com.samsung.gpuwatchapp
+com.sec.factory.cameralyzer
+com.samsung.euicc
+com.samsung.android.digitalkey
+com.samsung.slsi.audiologging
+com.sec.android.app.volumemonitorprovider
+com.sec.android.autodoodle.service
+com.samsung.android.rajaampat
+com.samsung.sec.android.teegris.tui_service
+com.sec.android.pagebuddynotisvc
+com.sec.android.provider.logsprovider
+com.samsung.android.uwb
+com.samsung.android.accessibility.talkback
+com.samsung.android.app.earphonetypec
+com.samsung.android.smartsuggestions
+com.samsung.android.cidmanager
+com.samsung.qosindicator
+com.samsung.android.asksmanager
+com.sec.android.app.mt
+com.sec.android.Preconfig
+com.sec.android.omc
+com.samsung.knox.rcp.components
+com.monotype.android.font.samsungsans
+com.samsung.android.uds
+com.samsung.android.app.clockpack
+com.samsung.android.app.cocktailbarservice
+com.samsung.android.providers.factory
+com.samsung.android.wcmurlsnetworkstack
+com.samsung.android.rlc
+```
+
+- [ ] **I removed all those packages on my phone(I dont have this phone, all I got it from samsung super.img's)**
+
+## Document each package the best you can
+
+### com.samsung.android.app.sharelive
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> samsung Quick Share
+
+### com.samsung.android.brightnessbackupservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Backup brightness configuration.
+
+### com.sec.android.app.bluetoothagent
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Bluethooth test service.
+
+### com.sec.android.app.ve.vebgm
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> This app lets you to choose background music from the Video Editor app.
+
+### com.samsung.android.coldwalletservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Samsung Blockchain Keystore.
+
+### com.sec.android.CcInfo
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Samsung logs/analytics.
+
+### com.samsung.android.container
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> ContainerService. Creates container.
+> Maybe not very useful.
+> someone can test?
+
+### com.samsung.android.dsms
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Dual Messenger related.
+
+### com.snap.camerakit.plugin.v1
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Camera Kit (https://play.google.com/store/apps/details?id=com.snap.camerakit.plugin.v1)
+
+### com.samsung.android.gru
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Galaxy Resource Updater
+
+### com.samsung.android.kidsinstaller
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Kids home installer
+
+### com.samsung.android.mapsagent
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Samsung App Recommendations, a lot of spying code.
+> I guess its app from first-boot setup.
+
+### com.sec.location.nfwlocationprivacy
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Not needed for location, I found something like that:
+> (This app enables your carrier to access your location for network improvement or other reasons)
+> This app is hidden so idk how useful it is.
+
+### com.samsung.android.sdk.ocr
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Needed for Handwriting Service problably.
+
+### com.sec.unifiedwfc
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Needed for wifi calling. VoWiFi.
+
+### com.samsung.android.vtcamerasettings
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Video call effects.
+> Keep the focus on you during video calls by blurring the background or covering it with an image or color.
+
+### com.samsung.android.wifi.resources
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Better keep this for wifi.
+
+### com.sec.android.smartfpsadjuster
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Automatically adjust the FPS.
+> not sure to keep this or not. it adjusts fps to camera problably only.
+
+### com.sec.android.app.uwbtest
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> UwbTest - for testing UWB in the factory
+
+### com.samsung.android.keycustomizationinfobackupservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> If you dont use backup service, its safe to remove.
+
+### com.samsung.ssu
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Network unlock? Its needed for sim problably.
+
+### com.samsung.gpuwatchapp
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> In this app I only found gpu dumping mode, dev mode, game debugging. useless
+
+### com.sec.factory.cameralyzer
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Hidden camera testing.
+
+### com.samsung.euicc
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Have samsung analytics, logs, lpa service needed for UIM, eSIM Profiles.
+
+### com.samsung.android.digitalkey
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> I found on this app only:Using your phone as key to open doors. Coming soon!
+> Useless. Not available digital key for users.
+
+### com.samsung.slsi.audiologging
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its hidden Audiologging.
+
+### com.sec.android.app.volumemonitorprovider
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> VolumeMonitorProvider - used in Digital Wellbeing to average the dB heard through earphones and display it.
+
+### com.sec.android.autodoodle.service
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> App used to put doodles on images etc
+
+### com.samsung.android.rajaampat
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Samsung Pay (https://play.google.com/store/apps/details?id=com.samsung.android.rajaampat)
+
+### com.samsung.sec.android.teegris.tui_service
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> security related, but not necessary.
+
+### com.sec.android.pagebuddynotisvc
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> I only found its for notifications to car, earphones, pen.
+> Useless.
+
+### com.sec.android.provider.logsprovider
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its used for logs.
+
+### com.samsung.android.uwb
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its used for SmartThings and new Smart Tags. This app is bloated. Drains battery a lot.
+
+### com.samsung.android.accessibility.talkback
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Samsung talkback in accessibility.
+
+### com.samsung.android.app.earphonetypec
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Samsung USB-C headset - not required unless you have a Samsung DAC or Samsung Type-C earphones (for firmware updates)
+
+### com.samsung.android.smartsuggestions
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Smart suggestions
+
+### com.samsung.android.cidmanager
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Cid Manager is a tool enabling secure, real-time management of the company number service Telia Cid.
+> Cid Manager makes it possible to view and edit information on Cid numbers and their users.
+
+### com.samsung.qosindicator
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> QOS - quality of service, but its only for diagnostics.
+
+### com.samsung.android.asksmanager
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless security.
+> Detects suspicious activity apps.
+
+### com.sec.android.app.mt
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its used for tracking IMEI
+
+### com.sec.android.Preconfig
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Hidden debugging, logs, CSC codes.
+
+### com.sec.android.omc
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> OM Customize. I found only things to vodafone. Its not needed.
+
+### com.samsung.knox.rcp.components
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Security related. Knox Content Mgr
+
+### com.monotype.android.font.samsungsans
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> font
+
+### com.samsung.android.uds
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> ultra data saving. Have boring notifications and I think its useless.
+> (https://play.google.com/store/apps/details?id=com.samsung.android.uds)
+
+### com.samsung.android.app.clockpack
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> affects video playback in full screen mode, breaks it
+
+### com.samsung.android.app.cocktailbarservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> The edge panel, don't forget to remove the Clipboard edge app too if you remove this
+
+### com.samsung.android.providers.factory
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its used to log or testing.
+
+### com.samsung.android.wcmurlsnetworkstack
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> China URL connection. generate_204
+> (its only config, not sure if its needed for check wifi connection)
+
+### com.samsung.android.rlc
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Remote Lock Control? Remote Mobile Manager?
+> It have useless notification components.

@@ -1,0 +1,1611 @@
+**Your phone model:**
+Poco F2 Pro MIUI 14, Xiaomi Mi 8T MIUI 12.5 + some other roms bloat.
+
+**Packages:**
+
+```
+android.aosp.overlay
+android.miui.overlay
+android.overlay.common
+android.overlay.target
+android.qvaoverlay.common
+com.android.overlay.gmstelecomm
+com.android.overlay.gmstelephony
+com.android.phone.overlay.common
+com.android.server.NetworkPermissionConfig
+com.android.server.telecom.overlay.common
+com.android.settings.overlay.common
+com.android.networkstack.tethering.inprocess.overlay
+com.android.systemui.gesture.line.overlay
+com.android.systemui.navigation.bar.overlay
+com.android.systemui.overlay.common
+com.android.systemui.overlay.miui
+com.qualcomm.qti.devicestatisticsservice
+com.google.android.overlay.gmsconfig.gsa
+com.google.android.overlay.gmsconfig.common
+com.google.android.overlay.gmsconfig.comms
+com.google.android.overlay.gmsconfig.geotz
+vendor.qti.imsrcs
+com.android.thememanager.gliobal_config.config.overlay
+com.android.wifi.resources.xiaomi
+com.mi.android.globallauncher
+com.miui.core.internal.editor.services
+com.miui.core.internal.services
+com.android.internal.systemui.onehanded.gestural
+com.google.android.overlay.modules.modulemetadata.forframework
+com.google.android.overlay.modules.permissioncontroller
+com.google.android.overlay.modules.permissioncontroller.forframework
+com.qualcomm.qti.xrcb
+com.qti.slaservice
+com.qti.phone
+com.android.server.telecom.overlay.miui
+com.android.networkstack.overlay
+com.android.theme.font.notoserifsource
+com.google.android.nearby.halfsheet
+com.google.android.as.oss
+com.google.android.overlay.gmsconfig.asi
+com.google.android.overlay.modules.captiveportallogin.forframework
+com.android.wifi.dialog
+com.android.overlay.gmscontactprovider
+com.android.overlay.gmssettingprovider
+com.google.android.cellbroadcastreceiver.overlay.miui
+com.google.android.cellbroadcastservice.overlay.miui
+com.mi.globallayout
+com.google.android.networkstack.tethering.overlay
+com.android.hotspot2.osulogin
+com.google.android.ext.shared
+com.miui.guardprovider
+com.qualcomm.qti.remoteSimlockAuth
+com.qti.diagservices
+com.qualcomm.uimremoteserver
+com.qualcomm.uimremoteclient
+com.qualcomm.qti.uimGbaApp
+com.qualcomm.qti.services.secureui
+com.qualcomm.qti.services.systemhelper
+com.qualcomm.qti.improvetouch.service
+com.miui.global.packageinstaller
+com.google.android.apps.turbo
+com.xiaomi.micloud.sdk
+com.qualcomm.qcrilmsgtunnel
+com.qti.qualcomm.deviceinfo
+com.android.internal.display.cutout.emulation.corner
+com.android.internal.display.cutout.emulation.double
+com.android.internal.display.cutout.emulation.hole
+com.android.internal.display.cutout.emulation.noCutout
+com.android.internal.display.cutout.emulation.tall
+com.android.internal.display.cutout.emulation.waterfall
+com.google.mainline.telemetry
+com.android.dynsystem
+com.qti.ltebc
+com.huaqin.btlogger
+com.android.systemui.miui.optimization.overlay
+com.android.systemui.notch.overlay
+com.android.settings.overlay.miui
+com.android.wifi.resources.overlay.target
+com.qti.pasrservice
+com.qualcomm.qti.callfeaturessetting
+com.qualcomm.qti.qccauthmgr
+com.qti.confuridialer
+com.qualcomm.qti.qdma
+com.qualcomm.location
+com.google.android.overlay.modules.ext.services
+com.qualcomm.qti.seccamservice
+com.qualcomm.qti.performancemode
+com.qualcomm.qti.ims
+com.google.android.permissioncontroller
+com.google.android.modulemetadata
+com.google.android.ext.services
+com.google.android.networkstack.permissionconfig
+com.google.android.packageinstaller
+com.google.android.captiveportallogin
+com.google.android.gms.location.history
+com.google.android.carrierconfig
+com.google.android.printservice.recommendation
+com.google.android.providers.media.module
+com.qualcomm.qti.server.wigig.tethering.rro
+com.qti.service.colorservice
+com.qualcomm.qti.qcolor
+com.qualcomm.qti.biometrics.fingerprint.service
+com.xiaomi.bluetooth.overlay
+com.xiaomi.location.fused
+com.qualcomm.qti.xrvd.service
+com.google.android.overlay.modules.documentsui
+com.android.cellbroadcastservice
+com.android.cellbroadcastreceiver
+com.android.cellbroadcastreceiver.overlay.common
+com.google.android.cellbroadcastreceiver
+com.google.android.cellbroadcastservice
+com.android.carrierconfig.overlay.common
+com.miui.systemui.carriers.overlay
+com.google.android.webview
+com.android.theme.color.black
+com.android.theme.color.cinnamon
+com.android.theme.color.green
+com.android.theme.color.ocean
+com.android.theme.color.orchid
+com.android.theme.color.purple
+com.android.theme.color.space
+com.android.theme.icon.roundedrect
+com.android.theme.icon.squircle
+com.android.theme.icon.teardrop
+com.android.icon_pack.circular.android
+com.android.icon_pack.circular.launcher
+com.android.icon_pack.circular.settings
+com.android.icon_pack.circular.systemui
+com.android.icon_pack.circular.themepicker
+com.android.icon_pack.filled.android
+com.android.icon_pack.filled.launcher
+com.android.icon_pack.filled.settings
+com.android.icon_pack.filled.systemui
+com.android.icon_pack.filled.themepicker
+com.android.icon_pack.rounded.android
+com.android.icon_pack.rounded.launcher
+com.android.icon_pack.rounded.settings
+com.silead.fingerprint
+com.miui.easygo
+com.qualcomm.qti.simcontacts
+com.android.systemui.icon.overlay
+com.miui.accessibility
+com.miui.dmregservice
+com.miui.maintenancemode
+com.xiaomi.otrpbroker
+com.miui.newhome
+com.google.android.apps.work.oobconfig
+com.google.android.gsf
+com.qti.dpmserviceapp
+com.qualcomm.qti.workloadclassifier
+com.qualcomm.qti.qcom_accesslogkit
+com.aura.oobe.vodafone
+com.ironsource.appcloud.oobe.hutchison
+com.android.apppredictionservice
+com.dti.bouyguestelecom
+com.altice.android.myapps
+com.sfr.android.sfrjeux
+com.miui.cotaservice
+com.miui.digitalkey
+com.miui.dmregservice
+com.focaltech.fingerprint
+com.xiaomi.metoknlp
+com.xiaomi.devauth
+com.mint.keyboard
+com.mediatek.miravision.ui
+com.xiaomi.aicr
+com.miui.euicc
+com.miui.privacycomputing
+com.miui.uireporter
+com.trustonic.teeservice
+com.android.thememanager.module
+com.xiaomi.aireco
+com.qualcomm.qti.optinoverlay
+com.miui.voiceassistoverlay
+com.mediatek.zramwritebackoverlay
+com.xiaomi.bluethooth.rro.device.config.overlay
+com.miui.safetycenter.config.overlay
+com.miui.safetycenter.securitycenter_phone_overlay.config.overlay
+com.miui.settings.rro.device.config.overlay
+com.miui.miwallpaper.overlay.qr
+com.miui.miwallpaper.telcel.overlay
+```
+
+- [x] **I removed all those packages on my phone**
+
+## Document each package the best you can
+
+### android.aosp.overlay
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Default wallpaper and some important settings have included to android.
+
+### android.miui.overlay
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> It have some important settings configurations and protect have included to android.
+
+### android.overlay.common
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> It have some important settings configurations to android.
+
+### android.overlay.target
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> It have some important settings configurations to android.
+
+### android.qvaoverlay.common
+
+**List**: `Aosp`
+**Removal**: `Recommanded`
+
+> It have nothing. This app is without code and safe to remove.
+
+### com.android.networkstack.tethering.inprocess.overlay
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Its something about usb tethering but better keep this.
+
+### com.android.overlay.gmstelecomm
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Location and dialer things.
+
+### com.android.overlay.gmstelephony
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Location and dialer things.
+
+### com.android.phone.overlay.common
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Location and dialer things.
+
+### com.android.server.NetworkPermissionConfig
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Network configurations.
+
+### com.android.server.telecom.overlay.common
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Location and dialer things.
+
+### com.android.settings.overlay.common
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Color mode config you can find it in settings
+> its something about: natural, boosted, saturated, adaptive.
+
+### com.android.systemui.gesture.line.overlay
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Configurations to navigation bar.
+
+### com.android.systemui.navigation.bar.overlay
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Configurations to navigation bar.
+
+### com.android.systemui.overlay.common
+
+**List**: `Aosp`
+**Removal**: `Expert`
+
+> Have something about to wellbeing.
+
+### com.android.systemui.overlay.miui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> It have nothing. This app is without code and safe to remove.
+
+### com.qualcomm.qti.devicestatisticsservice
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Device statistics service Statistics of the phone's usage:data, Wifi, battery, the use of various software, number of SMS and emails sent, etc.
+> is not very useful, can be removed.
+
+### com.google.android.overlay.gmsconfig.gsa
+
+**List**: `Google`
+**Removal**: `Recommended`
+
+> configures default assistant? And have config to allow disabling assist disclosure?
+> I think it doesnt affect on anything.
+> Safe to remove if you removed (com.google.android.googlequicksearchbox).
+
+### com.google.android.overlay.gmsconfig.common
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Useless configurations about webview, location, lists google apps.
+> everything works without it.
+
+### com.google.android.overlay.gmsconfig.comms
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Useless configurations dialer, sms, contacts Google(GApps)
+> everything works without it.
+
+### com.google.android.overlay.gmsconfig.geotz
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Provides Geolocation Time Zone detection.
+> and its used by (com.google.android.overlay.gmsconfig.common)?
+> No effects after remove.
+
+### vendor.qti.imsrcs
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> IMS(Ip Multimedia Subsystem) is an open industry standard for voice and multimedia communications over packet-based IP networks (VoLTE/VoIP/Wifi calling).
+
+### com.android.thememanager.gliobal_config.config.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Blacklist of some wallpaper names. Useless.
+> This app is not exist on miui china rom.
+
+### com.android.wifi.resources.xiaomi
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Have some configs to network about: disconnected scan interval schedule
+> wifi11axsupportoverride, config_wifi_tcp_buffers
+> you should keep this because its maybe from settings.
+
+### com.mi.android.globallauncher
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Poco Launcher. Without it, the drawer of recent apps didn't work.
+
+### com.miui.core.internal.editor.services
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> I only found: config_enableHapticTextHandle true
+> What is this mean? Its used to permission MIUIOP 10008 in some apps.
+> MIUIOP = miui optimization? Its useless or important?
+
+### com.miui.core.internal.services
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> I only found: array name= config_deviceSpecificSystemServices
+> item: com.miui.me.server.auto_install.InstallService
+> What is this mean? I have must to check com.miui.core what it does
+> and its for ota updates but I'm not sure. (yes miui core have ota updates components)
+
+### com.android.internal.systemui.onehanded.gestural
+
+**List**: `Aosp`
+**Removal**: `Recommanded`
+
+> one-handed mode will not work. Safe to remove if you dont use these setting.
+
+### com.google.android.overlay.modules.modulemetadata.forframework
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> config_defaultModuleMetadataProvider
+> It looks like useless module metadata from google
+> Not needed, it doesnt affect on (com.google.android.modulemetadata)
+
+### com.google.android.overlay.modules.permissioncontroller
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> I only detect on this app: help_app_permissions https://support.google.com/googleplay/answer/6270602
+> It looks very useless.
+> Not needed, it doesnt affect on (com.google.android.permissioncontroller)
+
+### com.google.android.overlay.modules.permissioncontroller.forframework
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> config_incidentReportApproverPackage
+> It looks very useless.
+> Not needed, it doesnt affect on (com.google.android.permissioncontroller)
+
+### com.qualcomm.qti.xrcb
+
+**List**: `Misc`
+**Removal**: `Advanced`
+
+> Receive xrcb network signals for radio side. 
+> Its about emergency alerts, weather alerts, public announcements, and other information.
+
+### com.qti.slaservice
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Service Level Agreement (SLA) protocol that analyzes network performance, quality of service, 
+> and provides users with various parameters of network quality of service, 
+> such as: jitter delay, file transfer rate, TCP latency. BUT its placebo.
+> uses permission com.miui.analytics.onetrack.TRACK_EVENT also have a lot chinese stuff.
+
+### com.qti.phone
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> dialer, dialing service, for phone calls
+
+### com.android.server.telecom.overlay.miui
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Manage calls. Its used for manage calls ui.
+
+### com.android.networkstack.overlay
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Configures captive portal network, dhcp.
+
+### com.android.theme.font.notoserifsource
+
+**List**: `Aosp`
+**Removal**: `Expert`
+
+> Pre-installed font to android from AOSP.
+> Some apps using it maybe.
+
+### com.google.android.nearby.halfsheet
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Useless frameworks to wifi connection, usb tethering, auto, usage.
+> every version have random code and app not running in the background.
+> looks like a very useless.
+
+### com.google.android.as.oss
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Private Compute Services. Its another component of
+> Android System Intelligence (previously Device Personalization Services)
+
+### com.google.android.overlay.gmsconfig.asi
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Its another component of
+> Android System Intelligence (previously Device Personalization Services)
+
+### com.google.android.overlay.modules.captiveportallogin.forframework
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Configs default captiveportallogin. (aosp have it already)
+> No effects after remove.
+
+### com.android.wifi.dialog
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Needed for wifi dialogs.
+
+### com.android.overlay.gmscontactprovider
+
+**List**: `Aosp`
+**Removal**: `Recommanded`
+
+> Incorrect named thing to sync metadata contacts or gms?
+> metadata_sync_pacakge com.google.android.gms
+> lmao google. No effects after remove.
+
+### com.android.overlay.gmssettingprovider
+
+**List**: `Aosp`
+**Removal**: `Recommanded`
+
+> Have some stuff about google gms: backup.BackupTransportService.
+> Useless backup things, without it backup and cloud work.
+> Maybe its used for backup settings, but probably not, and if its, I don't think you need it.
+
+### com.google.android.cellbroadcastreceiver.overlay.miui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Disable opt out dialog to cellbroadcastreceiver? I never seen that. Useless.
+
+### com.google.android.cellbroadcastservice.overlay.miui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> cross sim duplicate detection disable? I never seen this. Useless.
+
+### com.miui.miwallpaper.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> app that doesnt do anything. Safe to remove.
+> On Poco you will need remove it 2 times.
+
+### com.miui.miwallpaper.overlay.customize
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> app that doesnt do anything. Safe to remove.
+
+### com.miui.wallpaper.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> app that doesnt do anything. Safe to remove.
+> On Poco you will need remove it 2 times.
+
+### com.miui.wallpaper.overlay.customize
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> app that doesnt do anything. Safe to remove.
+
+### com.mi.globallayout
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless config to default com.miui.home launcher.
+> Its unused!
+
+### com.google.android.networkstack.tethering.overlay
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Its needed for tethering?. I found: arrays.xml
+> array name "config_tether_usb_regexs"
+> item "rndis\d"
+> item "usb\d"
+
+### com.android.hotspot2.osulogin
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> OsuLogin. Hotspot login service.
+
+### com.xiaomi.discover
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> System Apps Updater
+> WARNING: Disable System app updates (but not firmware updates)
+
+### com.google.android.ext.shared
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Maybe people thinking its safe to remove or its useless
+> but it cause bootloop on my miui 14.
+
+### com.miui.guardprovider
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Guard Provider security app
+> The app includes 3 different antivirus brands built in that the user can choose (Avast, AVL and Tencent).
+> This app notably perform a virus scan of any apps you want to install.
+> A serious vulnerability was found in 2019
+> Worth reading : https://research.checkpoint.com/2019/vulnerability-in-xiaomi-pre-installed-security-app
+> You may want to remove this app from a privacy stance.
+> https://beta.pithus.org/report/797a7e405bc8e767deebbbcab3e06a19b05156de44292c918b582dff3078d7b8
+> IMPORTANT NOTE: Removing this package will very likely break any app installation/update.
+> Before uninstall, disable all security scan settings in security app MIUI.
+> and better remove miui global installer(dont do this on china rom)
+
+### com.qualcomm.qti.remoteSimlockAuth
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Enable you to lock/unlock your eSIM remotely.
+> Seems more of a security risk to me than anything else.
+> Its used to phishing.
+
+### com.qti.diagservices
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Starts process when plugged into a PC (with debugging on, haven't tried off) and then runs until stopped.
+> Diagnostic services Presumably tests to collect hardware data.
+> size of this package is 12 KB and have Diag_OnBoot, QTIDiagServices
+> have permission: RECEIVE_BOOT_COMPLETED
+
+### com.qualcomm.uimremoteserver
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Related to uim card (R-UIM is a type of SIM card mainly used in Asia)
+
+### com.qualcomm.uimremoteclient
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Related to uim card (R-UIM is a type of SIM card mainly used in Asia)
+
+### com.qualcomm.qti.uimGbaApp
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Contains a \"GbaService\", Related to uim card (R-UIM is a type of SIM card mainly used in Asia)
+
+### com.qualcomm.qti.services.secureui
+
+**List**: `Misc`
+**Removal**: `Advanced`
+
+> Qualcomm Secure UI Service.
+> It collects your data about screen:gravity, orientation, id, layout_width.
+> have Wifi Display Service. QC_WFD
+> not runs in the background
+
+### com.qualcomm.qti.services.systemhelper
+
+**List**: `Misc`
+**Removal**: `Advanced`
+
+> System Helper Service
+> Runs \"SysHelperService\" in the background as part of the system.
+> Permissions: DEVICE_POWER, READ_PHONE_STATE, READ_PRIVILEGED_PHONE_STATE, RECEIVE_BOOT_COMPLETED, WRITE_SETTINGS, WAKE_LOCK and
+> ACCESS_SURFACE_FLINGER.
+> Android simple network firewall utility service, not much to it.
+
+### com.qualcomm.qti.improvetouch.service
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> In code I found only something about touchprocessor and its not looks useless,
+> its just should improve touch but not sure if its only for developers.
+
+### com.miui.global.packageinstaller
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> The security check / virus scan that runs after package installation.
+> Disabling does not cause a bootloop and package installation still works fine.
+> Its useless if you have play protect.
+
+### com.google.android.apps.turbo
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Device Health Services (discontinued?)
+> Calculates remaining battery percentage based on usage, this app needs com.google.android.gms
+> This app looks dead, maybe it has something to do google pixel phone or AOSP,
+> but it never runs in the background.
+
+### com.xiaomi.micloud.sdk
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Mi Cloud sdk. sdk = Software development kit.
+> Seems to be a dependency for \"com.miui.gallery\" (the MIUI may not work if you remove this package)
+> Anyway there's no reason removing it because its not running in the background when other mi cloud apps are removed.
+> (on miui 14 it cause bootloop, not sure what will be happen on others.)
+
+### com.qualcomm.qcrilmsgtunnel
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Message receiving channel (secondary card can't turn on 5g)
+> So if you dont use dual-sim its safe to remove.
+
+### com.qti.qualcomm.deviceinfo
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden device info activity not available for users.
+> Its safe to remove and you will not lose device info in settings.
+
+### com.android.internal.display.cutout.emulation.corner
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Display cutout variant. Cause bootloop after remove.
+
+### com.android.internal.display.cutout.emulation.double
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Display cutout variant. Cause bootloop after remove.
+
+### com.android.internal.display.cutout.emulation.hole
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Display cutout variant. Cause bootloop after remove.
+
+### com.android.internal.display.cutout.emulation.noCutout
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Display cutout variant. Cause bootloop after remove.
+
+### com.android.internal.display.cutout.emulation.tall
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Display cutout variant. Cause bootloop after remove.
+
+### com.android.internal.display.cutout.emulation.waterfall
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Display cutout variant. Cause bootloop after remove.
+
+### com.google.mainline.telemetry
+
+**List**: `Google`
+**Removal**: `Advanced`
+
+> Contains data on which versions of modules are installed. Google Play uses this data to determine if updates are available for the modules, and to show which security patch is installed.
+> This module doesn’t contain active code and has no functionality on its own.
+> https://www.xda-developers.com/android-project-mainline-modules-explanation/
+> https://gitlab.com/W1nst0n/universal-android-debloater/-/issues/27#note_410012436
+
+### com.android.dynsystem
+
+**List**: `Aosp`
+**Removal**: `Expert`
+
+> Dynamic System Updates
+> Runs on boot, but doesn't seem to run in the background beyond that.
+> Treble gives the ability to boot an AOSP Generic System Image (GSI) on any supported device.
+> Dynamic System Updates allows to boot into a Generic System Image (GSI) without interfering with the current installation.
+> That means the bootloader doesn’t need to be unlocked and the user data doesn’t need to be wiped.
+> https://developer.android.com/topic/dsu
+
+### com.qti.ltebc
+
+**List**: `Misc`
+**Removal**: `Advanced`
+
+> LTE Broadcast Manager
+
+### com.huaqin.btlogger
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> cit bluethooth logging
+
+### com.android.systemui.miui.optimization.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> I only found navigationcolor to red?
+> Unused overlay.
+
+### com.android.systemui.notch.overlay
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> It have something to Display Cutout. Better dont touch it.
+
+### com.android.settings.overlay.miui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> It have nothing. This app is without code and safe to remove.
+
+### com.android.wifi.resources.overlay.target
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> It have nothing and on some devices important? wifi configs.
+
+### com.qti.pasrservice
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> Have logs, debug, screen filter things.
+> also have something to power but not sure.
+> Maybe needed for google fit or mi fit.
+
+### com.qualcomm.qti.callfeaturessetting
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden Call forwarding, Call waiting not available for users.
+
+### com.qualcomm.qti.qccauthmgr
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> It have something to (com.qualcomm.qti.smq).
+> Feedback stuff, something about key: blacklist, download or whatever.
+> All looks like telemetry and its all not available for users.
+
+### com.qti.confuridialer
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Conference URI dialer
+> Conference call service for digital signal(SIP / VoIP).
+> Its hidden and no one uses it.
+
+### com.qualcomm.qti.qdma
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> qdma = Qualcomm Device Management and Analytics.
+> thats what qdma means when I found it in .png
+> a lot of data collections: logs, dropbox, network.
+
+### com.qualcomm.location
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> LocationServices
+> Runs in the background as part of the system. Runs even if disabled, so probably pointless to disable.
+> Periodically sends a unique software ID, location (lat, long, alt, and their uncertainty), nearby cellular towers and Wi-Fi hotspots and their signal strength to Qualcomm servers.
+> https://www.qualcomm.com/site/privacy/services
+> actually you dont need it for location, it spying a lot, also high usage ram.
+
+### com.google.android.overlay.modules.ext.services
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Cause bootloop. It depends on (com.google.android.ext.services)
+
+### com.qualcomm.qti.seccamservice
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Only collects data about camera.
+
+### com.qualcomm.qti.performancemode
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden Performance Mode activity not available for users.
+> Its on xiaomi, oneplus.
+> Remove are not bricks performance mode.
+
+### com.qualcomm.qti.ims
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden IMS Settings activity not available for users.
+> In this app you can only turn on option:
+> Auto reject incoming calls.
+
+### com.google.android.permissioncontroller
+
+**List**: `Aosp`
+
+### com.google.android.modulemetadata
+
+**List**: `Aosp`
+
+### com.google.android.ext.services
+
+**List**: `Aosp`
+
+### com.google.android.networkstack.permissionconfig
+
+**List**: `Aosp`
+
+### com.google.android.packageinstaller
+
+**List**: `Aosp`
+
+### com.google.android.captiveportallogin
+
+**List**: `Aosp`
+
+### com.google.android.gms.location.history
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> This app have nothing. Only useless png logo google and name.
+
+### com.google.android.carrierconfig
+
+**List**: `Aosp`
+
+### com.google.android.printservice.recommendation
+
+**List**: `Aosp`
+
+### com.google.android.providers.media.module
+
+**List**: `Aosp`
+
+### com.qualcomm.qti.server.wigig.tethering.rro
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> Only found dhcp range? Only the specified lists were found: 192.168. ...
+> It have a lot random of this.
+> Looks very unused.
+
+### com.qti.service.colorservice
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Allows the application to directly affect the device's display paramter.
+> Well I only know the no one app uses it.
+
+### com.qualcomm.qti.qcolor
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> QTI enhanced color mode? I found 1 png file, color service, its not needed for any app.
+
+### com.qualcomm.qti.biometrics.fingerprint.service
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Fingerprint authentication not used by any app maybe only china,
+> test temperature, debug, logs, fingerprint biometrics.
+
+### com.xiaomi.bluetooth.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> It have only unused png, webp files
+> in images: wireless earphones from every angle.
+
+### com.xiaomi.location.fused
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> It have a lot of china code, ads & analytics.
+> You dont need it for location.
+
+### com.qualcomm.qti.xrvd.service
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> The real name of this app is XRVDTest. It have accessibility testing,
+> collects some data?, its something for developers problably.
+
+### com.google.android.overlay.modules.documentsui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> In code only found: "is_launcher_enabled" false
+> On pixel phones this app overlay not exist.
+> Its only maded to hide app icon (com.google.android.documentsui)
+> No effects after remove(so icon will be not back), its useless.
+
+### com.android.cellbroadcastservice
+
+**List**: `AOSP`
+**Removal**: `Advanced`
+
+> Cell broadcast service is designed to deliver messages to multiple users in an area.
+> This is notably used by ISPs to send Emergency/Government alerts.
+> Runs in the background.
+> https://en.wikipedia.org/wiki/Cell_Broadcast
+> https://www.androidcentral.com/amber-alerts-and-android-what-you-need-know
+
+### com.android.cellbroadcastreceiver
+
+**List**: `AOSP`
+**Removal**: `Advanced`
+
+> Cell broadcast is designed to deliver messages to multiple users in an area.
+> This is notably used by ISPs to send Emergency/Government alerts.
+> Runs at boot time and is also triggered after exiting airplane mode.
+> https://en.wikipedia.org/wiki/Cell_Broadcast
+> https://www.androidcentral.com/amber-alerts-and-android-what-you-need-know
+> https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver/+/refs/heads/master/src/com/android/cellbroadcastreceiver
+
+### com.android.cellbroadcastreceiver.overlay.common
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> In code I found unused things: show_brazil_settings, show_cmas_settings, show_etws_settings.
+> Its unavailable and useless.
+
+### com.google.android.cellbroadcastreceiver
+
+**Removal**: `Advanced`
+
+### com.google.android.cellbroadcastservice
+
+**Removal**: `Advanced`
+
+### com.android.carrierconfig.overlay.common
+
+**List**: `Aosp`
+**Removal**: `Advanced`
+
+> Needed for (com.android.carrierconfig).
+
+### com.miui.systemui.carriers.overlay
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> You will lose LTE.
+
+### com.google.android.webview
+
+**List**: `Aosp`
+**Removal**: `Expert`
+
+> Android System WebView (https://play.google.com/store/apps/details?id=com.google.android.webview)
+> Allows Android apps to display content from the web directly inside the app.
+> Based on Chrome.
+> 
+> Bromite is an open-source, privacy-oriented Webview replacement: https://www.bromite.org/system_web_view
+> but remember: Bromite is discontinued.
+
+### com.android.theme.color.black
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.cinnamon
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.green
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.ocean
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.orchid
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.purple
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.space
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.icon.roundedrect
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon shape only for google pixel or aosp
+
+### com.android.theme.icon.squircle
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon shape only for google pixel or aosp
+
+### com.android.theme.icon.teardrop
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon shape only for google pixel or aosp
+
+### com.android.icon_pack.circular.android
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.icon_pack.circular.launcher
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.icon_pack.circular.settings
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.icon_pack.circular.systemui
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.icon_pack.circular.themepicker
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.icon_pack.filled.android
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.icon_pack.filled.launcher
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.icon_pack.filled.settings
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.icon_pack.filled.systemui
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.icon_pack.filled.themepicker
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.icon_pack.rounded.android
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.icon_pack.rounded.launcher
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.icon_pack.rounded.settings
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.silead.fingerprint
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> fingerprint silead manager not available for users.
+
+### com.miui.easygo
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> For me this app means nothing.
+> A lot of useless code that you cant use.
+
+### com.qualcomm.qti.simcontacts
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden Qualcomm sim contacts editor app.
+
+### com.android.systemui.icon.overlay
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Configs icon mask.
+
+### com.miui.accessibility
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Mi Ditto. Its useless a lot of stuff are not translated to english.
+
+### com.miui.dmregservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its spying on you. It collects and uploads the installed package list in a request.
+> also have something to calling in china.
+
+### com.miui.maintenancemode
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Maintenance Mode The maintenance mode of the cell phone, the cell phone maintenance time
+> into an empty user data system mode, to ensure the safety of cell phone data.
+> Also have child mode. Not useful if you not in china.
+
+### com.xiaomi.otrpbroker
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> OTRP protocol negotiation program (Internet of Things).
+> Not useful if you not in china.
+
+### com.miui.newhome
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Content Service. A lot bloated.
+> Not useful.
+
+### com.google.android.apps.work.oobconfig
+
+**Removal**: `Advanced`
+
+### com.google.android.gsf
+
+**Removal**: `Expert`
+
+### com.qti.dpmserviceapp
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> Data Power Manager for the radio?
+> Used to improve energy efficiency?
+> In code I found something like this:
+> dpm hal server, read procid
+> Its still unknown.
+
+### com.qualcomm.qti.workloadclassifier
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> Runs \"WLCService\" in the background.
+> I assume this has to do with CPU scheduling. Probably important for efficiency, if not basic operation.
+> In code I found: its for performance and security? it categorize apps maybe for optimization.
+> Its named workloadclassifier so it should do that. reads the list of installed applications, storage space.
+> Its still unknown.
+
+### com.qualcomm.qti.qcom_accesslogkit
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Theres nothing about logs. I only found in receivers "c Broadcast Receiver"
+> and some useless png, text files. Useless.
+
+### com.aura.oobe.vodafone
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Vodafone AppBox. It offers the \"Aura Out-Of-the-Box Experience\" (OOBE)
+> It is some kind of post-install recommended apps setup from the carrier.
+> Asks for your age and gender and then recommends you to install popular apps.
+> Developped by IronSource, an Israeli advertising company.
+> https://en.wikipedia.org/wiki/IronSource
+> https://aura.ironsrc.com/tools/drive-app-downloads/
+> https://arxiv.org/pdf/2010.10088.pdf
+> Has way too many permissions.
+> See https://github.com/0x192/universal-android-debloater/issues/278
+
+### com.ironsource.appcloud.oobe.hutchison
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> AppCloud (discontinued) from ironSource, an advertising company.
+> Worth reading : https://en.wikipedia.org/wiki/IronSource.
+
+### com.android.apppredictionservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> In code I found that its app suggetions.
+
+### com.dti.bouyguestelecom
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Bouygues AppCloud. Its problably for install apps but its useless and have ads and a lot permissions.
+
+### com.altice.android.myapps
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> MyApps. Its problably for install apps but its useless.
+
+### com.sfr.android.sfrjeux
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> My Games. Its not useful app for games and better uninstall it
+
+### com.miui.cotaservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> No activities, only useless frameworks to update?
+> I think its safe to remove and it doesnt affect on updates.
+
+### com.miui.digitalkey
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> digitalkey. No activities and its problably key tracking for car. Only china!
+
+### com.miui.dmregservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> RegService. Another chinese useless frameworks?
+> It looks like richinfo about phone.
+
+### com.focaltech.fingerprint
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Fingerprint test
+
+### com.xiaomi.metoknlp
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Addional chinese location.
+
+### com.xiaomi.devauth
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Mi Dev Auth? no activites and its for developers problably.
+
+### com.mint.keyboard
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Mint Keyboard
+> better alternative: https://f-droid.org/en/packages/dev.patrickgold.florisboard/
+
+### com.mediatek.miravision.ui
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Its for SmartScreen and display effects.
+> BUT I think its not available and its so bloated.
+
+### com.xiaomi.aicr
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> MIUI Privacy Components. No activities, assets are encrypted. There's no privacy!
+> for some peoples it was Mi AI Engine but again its safe to remove.
+
+### com.miui.euicc
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> eSim managment.
+
+### com.miui.privacycomputing
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> MIUI Privacy Components. No activities, assets are encrypted. There's no privacy!
+
+### com.miui.uireporter
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> It have only UIReporter Settings.
+
+### com.trustonic.teeservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Security by Trustonic, its for trusted applications.
+
+### com.android.thememanager.module
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Bricks changing wallpapers, ringtones or anything.
+
+### com.xiaomi.aireco
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> XiaoiRecommendation. Useless frameworks and no activities.
+
+### com.qualcomm.qti.optinoverlay
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Useless frameworks for com.qualcomm.location.XT its problably dialogs.
+> Anyway its only legal notices.
+
+### com.miui.voiceassistoverlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its config to default assistant com.miui.voiceassist.
+
+### com.mediatek.zramwritebackoverlay
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> config zramWriteback = true. What is this used for?
+
+### com.xiaomi.bluethooth.rro.device.config.overlay
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> config to bluethooth. better dont touch.
+
+### com.miui.safetycenter.config.overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> miui safetycenter? I dont need more security.
+
+### com.miui.safetycenter.securitycenter_phone_overlay.config.overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> miui safetycenter? I dont need more security.
+
+### com.miui.settings.rro.device.config.overlay
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> config to settings. better dont touch.
+
+### com.miui.miwallpaper.overlay.qr
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless app to default lock wallpaper path? Problably unused. Safe to remove.
+
+### com.miui.miwallpaper.telcel.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless app to telcel wallpaper? Problably unused. Safe to remove.

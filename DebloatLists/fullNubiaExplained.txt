@@ -1,0 +1,820 @@
+**Your phone model:**
+ZTE Nubia Play Redmagic 5G lite, Redmagic 6S Pro
+
+**Packages:**
+
+```
+cn.nubia.advanced
+cn.nubia.diyaod
+cn.nubia.applockmanager
+cn.nubia.autoagingtest
+cn.nubia.behaviordetection
+cn.nubia.bluethooth.opp
+cn.nubia.contacts
+cn.nubia.controlcenter
+com.dts.dtsxultra
+android.ext.services
+cn.nubia.factory
+cn.nubia.filebrowser
+cn.nubia.fileobserver
+cn.nubia.gallery3d
+cn.nubia.apptimelock
+cn.nubia.harassintercept
+cn.nubia.identity
+cn.nubia.jobdispatcher
+com.ibimuyu.lockscreen
+com.microfountain.rcs.service
+cn.nubia.antivirus
+cn.nubia.cloud
+cn.nubia.error.dialog
+cn.nubia.gallerylockscreen
+cn.nubia.powersaving
+cn.nubia.yulorepage
+cn.nubia.accounts
+cn.nubia.browser
+cn.nubia.calendar.preset
+cn.nubia.clock.widget.preset
+cn.nubia.databackup
+cn.nubia.deskclock.preset
+cn.nubia.dynamicwallpaper
+cn.nubia.gamehelpmodule
+cn.nubia.gamehighlights
+cn.nubia.gamelauncher
+cn.nubia.launcher
+cn.nubia.myfile
+cn.nubia.security2
+cn.nubia.hybrid
+cn.nubia.paycomponent
+cn.nubia.quickappwebserver
+cn.nubia.neostore
+cn.nubia.phonemanualintegrate.preset
+cn.nubia.smartrecognition
+cn.nubia.thememanager
+cn.nubia.touping
+cn.nubia.upgradeservice
+cn.nubia.voiceassist
+cn.nubia.aftersale
+cn.nubia.extcard
+cn.nubia.faceid
+cn.nubia.gamepi
+cn.nubia.musicpicker.preset
+cn.nubia.packageoptimization
+cn.nubia.neopush
+cn.nubia.ramdisk
+cn.nubia.share
+cn.nubia.video
+cn.nubia.owlsystem
+cn.nubia.persist
+cn.nubia.photoeditor
+cn.nubia.processmanager
+com.qualcomm.qti.qwes.AndroidService
+com.redteamobile.virtual.softsim
+cn.nubia.forbid.selfstart.provider
+cn.nubia.supersnap
+cn.nubia.systemupdate
+com.tencent.android.location
+com.sohu.inputmethod.sogou.nubia
+com.yulore.framework
+com.qualcomm.qti.qms.service.trustzoneaccess
+cn.nubia.woodpecker
+cn.nubia.zappdatabackup
+com.android.providers.applications
+cn.nubia.bootanimationinfo
+cn.nubia.doubleapp
+cn.nubia.ziconunity
+cn.nubia.edge
+cn.nubia.sensor
+cn.nubia.quicksearchbox
+cn.nubia.setupwizard
+cn.nubia.theme.apply
+com.goodix.fingerprint.producttest
+com.goodix.fingerprint.sampling
+com.qualcomm.location.XT
+nubia.camera.dualcamtest
+cn.nubia.contrycode
+cn.nubia.entertainmenttoolbox
+cn.nubia.garbagecleanwidget
+cn.nubia.keymapcenter
+cn.nubia.virtualgamehandle
+cn.nubia.gamenotes
+cn.nubia.fan
+cn.nubia.fastpair
+cn.nubia.gif
+cn.nubia.heartrate
+cn.nubia.monitor
+cn.nubia.sar
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### cn.nubia.advanced
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its hidden advanced test bluethooth, WiFi
+
+### cn.nubia.diyaod
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Always on display
+
+### cn.nubia.applockmanager
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> App Lock, Add Eyeprint
+
+### cn.nubia.autoagingtest
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Aging Test. Hidden camera, WiFi tests.
+
+### cn.nubia.behaviordetection
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Chinese useless frameworks.
+> Used to collect application behavior data to understand users.
+
+### cn.nubia.bluethooth.opp
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for Bluethooth
+
+### cn.nubia.contacts
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Nubia Contacts
+
+### cn.nubia.controlcenter
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Provides a control panel for controlling the switching of
+> important functions in the system, such as data services, wifi and other switches.
+
+### com.dts.dtsxultra
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Audio Effect for car, headphones. You dont need that.
+
+### android.ext.services
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Looks like useless BUT you risk bootloop phone.
+
+### cn.nubia.factory
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden hardware tests.
+
+### cn.nubia.filebrowser
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Its for file browser problably. Have chinese things.
+
+### cn.nubia.fileobserver
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> FileObserver? Have chinese things.
+
+### cn.nubia.gallery3d
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Stock gallery with chinese trackers.
+> Better alternative: https://f-droid.org/en/packages/com.simplemobiletools.gallery.pro/
+
+### cn.nubia.apptimelock
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Healthy time management. App time limit.
+
+### cn.nubia.harassintercept
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Mainly used to intercept harassing and fraudulent phone calls and text messages,
+> while the user can also customize the way to intercept
+
+### cn.nubia.identity
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its for personalized recommendations.
+
+### cn.nubia.jobdispatcher
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Mainly through the network to modify the basic data and functions of the self-developed application
+> module part of the cell phone system in the background. Also have neopush.
+
+### com.ibimuyu.lockscreen
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Dynamic theme service lockscreen? Some peoples recommand to remove that.
+
+### com.microfountain.rcs.service
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> MicroFountain Rcs Service. Chinese RCS Chats.
+
+### cn.nubia.antivirus
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> We dont need anti virus if we have play protect.
+
+### cn.nubia.cloud
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Nubia Cloud Manager
+
+### cn.nubia.error.dialog
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its just a system error dialog. It doesnt send data anywhere.
+
+### cn.nubia.gallerylockscreen
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Wallpapers are displayed on the lock screen.
+
+### cn.nubia.powersaving
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Better keep this for powersaving?
+
+### cn.nubia.yulorepage
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> yulorepage. have only notifications thing.
+> Not very useful. Its something for china like yellow pages.
+
+### cn.nubia.accounts
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> ZAccountService. Its for Nubia Account.
+
+### cn.nubia.browser
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> You should use brave or iceraven instead of this chinese browser.
+
+### cn.nubia.calendar.preset
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Calendar app
+
+### cn.nubia.clock.widget.preset
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> ClockWidget. It have more permissions than should have and DaemonService
+
+### cn.nubia.databackup
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Backup. Its not the best choice for backup. Read nubia privacy policy before.
+
+### cn.nubia.deskclock.preset
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Clock app
+
+### cn.nubia.dynamicwallpaper
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for video wallpapers
+
+### cn.nubia.gamehelpmodule
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Its macro for the game. I think its very useful if you playing games.
+
+### cn.nubia.gamehighlights
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Red Magic Moment game recorder. I think its very useful if you playing games.
+
+### cn.nubia.gamelauncher
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Game Space Nubia. I think its very useful if you playing games.
+
+### cn.nubia.launcher
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Stock Nubia Launcher.
+
+### cn.nubia.myfile
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Nubia File Manager.
+
+### cn.nubia.security2
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Its not only security but its a lot of settings useful things.
+> Better keep this.
+
+### cn.nubia.hybrid
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Quick Apps Preview for ads 3d. Have a lot chinese things.
+
+### cn.nubia.paycomponent
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Chinese pay nubia
+
+### cn.nubia.quickappwebserver
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Another component of Quick Apps Preview for ads 3d.
+
+### cn.nubia.neostore
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Nubia App Store
+
+### cn.nubia.phonemanualintegrate.preset
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless User Guide
+
+### cn.nubia.smartrecognition
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its for smart things
+
+### cn.nubia.thememanager
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock Nubia Theme Manager
+
+### cn.nubia.touping
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for screen cast
+
+### cn.nubia.upgradeservice
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for upgrade service.
+
+### cn.nubia.voiceassist
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> nubia Voice. Assistant things.
+
+### cn.nubia.aftersale
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Have location permissions and its for debugging, logs.
+
+### cn.nubia.extcard
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> nubia chinese pay
+
+### cn.nubia.faceid
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Face unlock lock screen.
+
+### cn.nubia.gamepi
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for game optimization problably and also have something to Game Space
+
+### cn.nubia.musicpicker.preset
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Ringtones. Music Picker
+
+### cn.nubia.packageoptimization
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Nubia Package Optimization? Cleans cache and more
+
+### cn.nubia.neopush
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Not needed for notifications. Have a lot of permissions.
+
+### cn.nubia.ramdisk
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Problably its for optimization
+
+### cn.nubia.share
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Nubia share video
+
+### cn.nubia.video
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Nubia Video Player
+
+### cn.nubia.owlsystem
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Nubia data collection. It have a lot of permissions and its a spyware!
+
+### cn.nubia.persist
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> PersistService? In code I found its for logs.
+
+### cn.nubia.photoeditor
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Photo Editor. It have baidu location so better turn off network for this app.
+
+### cn.nubia.processmanager
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless frameworks
+
+### com.qualcomm.qti.qwes.AndroidService
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> qms, qwes its used for collecting user data.
+
+### com.redteamobile.virtual.softsim
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its for vsim = virtual sim
+
+### cn.nubia.forbid.selfstart.provider
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Mainly used to manage application self-startup, convenient for users to adjust the policy of application self-startup.
+
+### cn.nubia.supersnap
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Super Snap Shot, Screenshot
+
+### cn.nubia.systemupdate
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> System Update nubia
+
+### com.tencent.android.location
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless Tencent chinese location
+
+### com.sohu.inputmethod.sogou.nubia
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Chinese keyboard Closed-source (install other keyboard before removing this)
+> Better alternative: https://f-droid.org/en/packages/dev.patrickgold.florisboard/
+
+### com.yulore.framework
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Chinese payment things.
+
+### com.qualcomm.qti.qms.service.trustzoneaccess
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> QMS always spying. Trust Zone in this app means nothing more than logs.
+
+### cn.nubia.woodpecker
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Another tool for logs.
+
+### cn.nubia.zappdatabackup
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Backup App, Restore App
+
+### com.android.providers.applications
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Its needed for search applications right?
+
+### cn.nubia.bootanimationinfo
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Boot Animation Info. Problably its unsafe to remove.
+
+### cn.nubia.doubleapp
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> App duplicator
+
+### cn.nubia.ziconunity
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Icon handling? its for theme icons problably
+
+### cn.nubia.edge
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Smart Service Card, Smart sidebar.
+
+### cn.nubia.sensor
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden sensor calibration.
+
+### cn.nubia.quicksearchbox
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless quick search box
+
+### cn.nubia.setupwizard
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> You dont need it after first-boot setup.
+
+### cn.nubia.theme.apply
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for theme apply
+
+### com.goodix.fingerprint.producttest
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Fingerprint test
+
+### com.goodix.fingerprint.sampling
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Fingerprint test
+
+### com.qualcomm.location.XT
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Qualcomm IZat. Its hidden XT Activity. Location for Qualcomm. It's a bad idea to keep it.
+> Periodically sends a unique software ID, location (lat, long, alt, and their uncertainty), nearby cellular towers and Wi-Fi hotspots and their signal strength to Qualcomm servers.
+> https://www.qualcomm.com/site/privacy/services
+
+### nubia.camera.dualcamtest
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Dual Camera Test
+
+### cn.nubia.contrycode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless logs. Useless frameworks.
+
+### cn.nubia.entertainmenttoolbox
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless logs, tracking. Useless frameworks.
+
+### cn.nubia.garbagecleanwidget
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless widget One-tap Cleanup. Useless frameworks.
+
+### cn.nubia.keymapcenter
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its for gaming right? Useless frameworks.
+
+### cn.nubia.virtualgamehandle
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Virtual joystick? Useless logs, tracking. Useless frameworks.
+
+### cn.nubia.gamenotes
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Game Notes?
+
+### cn.nubia.fan
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> It have cooling fan activities.
+
+### cn.nubia.fastpair
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Ultra low latency? Its something for earphones nubia.
+
+### cn.nubia.gif
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its for gif create
+
+### cn.nubia.gpu.drivers
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> It have Gpu settings so better keep that.
+
+### cn.nubia.heartrate
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden? Heart Rate Detection
+
+### cn.nubia.monitor
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Better keep this for gaming.
+
+### cn.nubia.sar
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> PersistService? In code I found its for logs.

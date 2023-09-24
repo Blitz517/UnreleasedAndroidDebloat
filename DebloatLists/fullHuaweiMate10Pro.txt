@@ -1,0 +1,197 @@
+**Your phone model:**
+Huawei Mate 10 Pro
+
+**Packages:**
+
+```
+com.huawei.autoinstallapkfrommcc
+com.android.partnerbrowsercustomizations.tmobile
+com.huawei.firstbootinfo
+com.hisi.supl
+com.huawei.hff
+com.android.huawei.HiMediaEngine
+com.huawei.assetsync
+com.huawei.assetsyncservice
+com.huawei.multimedia.audioengine
+com.huawei.camerakit.impl
+com.huawei.behaviorauth
+com.android.systemui.feature_cover
+com.huawei.androidx
+com.huawei.desktop.systemui
+com.huawei.sarlevel
+com.huawei.securityserver
+com.huawei.sos
+com.huawei.trustcircle
+com.huawei.indiacalendar
+com.huawei.tmecustomize
+com.android.huawei.projectmenu
+com.huawei.runningtestii
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.huawei.autoinstallapkfrommcc
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Auto Install apk from mcc? Its only information and logs.
+
+### com.android.partnerbrowsercustomizations.tmobile
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless themes to browser? Anyway all of these code are useless.
+
+### com.huawei.firstbootinfo
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Get city info service? Needed by your phone in order to sync with Huawei servers
+> and check for apps updates, software updates and other access for your phone.
+
+### com.hisi.supl
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> SUPL20Services. Not needed for location and dont have code.
+
+### com.huawei.hff
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> HFF? It dont have any code.
+
+### com.android.huawei.HiMediaEngine
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless frameworks.
+
+### com.huawei.assetsync
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> HwAssetSync? AppGallery updates? its needed for hisync problably?
+> it dont have any code so its useless.
+
+### com.huawei.assetsyncservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless frameworks. Code means nothing.
+
+### com.huawei.multimedia.audioengine
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> HwAssetSync? AppGallery updates? its needed for hisync problably?
+> Its for Huawei Mobile services? it have in code analytics and assistant so yeah its spyware.
+
+### com.huawei.camerakit.impl
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> CameraKit? Its needed for camera because it have some modes and resolutions?
+> idk what I would say by code.
+
+### com.huawei.behaviorauth
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> HwAssetSync? AppGallery updates? its needed for hisync problably?
+> Its for Huawei Mobile services? it have in code analytics and assistant so yeah its spyware.
+
+### com.android.systemui.feature_cover
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> It looks like a very important app.
+
+### com.huawei.androidx
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> It have something to MediaPlayer but by name app it looks like important.
+> Someone will need to check if it bootloop or not because this app dont have code.
+
+### com.huawei.desktop.systemui
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> huawei desktop mode switching.
+> Not sure if it bricks phone. It have also Take Screenshot Service.
+
+### com.huawei.sarlevel
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Mobile phone Sar. Hidden SAR Level Activity.
+
+### com.huawei.securityserver
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless app without code and useless assets to spying apps.
+
+### com.huawei.sos
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Emergency things.
+
+### com.huawei.trustcircle
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Dont have code BUT theres only useless Device authentication things
+> so better log out from huawei account before uninstall.
+
+### com.huawei.indiacalendar
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Indian Calendar
+
+### com.huawei.tmecustomize
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Tme Activity. Hidden carrier config sim.
+> I think its useless but you need to test.
+
+### com.android.huawei.projectmenu
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> ProjectMenu. Hidden settings not available for users. Its useless.
+> https://www.99mediasector.com/open-project-menu-huawei-device-huawei-code/
+
+### com.huawei.runningtestii
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Testing hardware things like Audio, Camera, VideoPlayer, etc.

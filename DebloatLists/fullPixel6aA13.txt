@@ -1,0 +1,694 @@
+**Your phone model:**
+Pixel 6a Android 13
+
+**Packages:**
+
+```
+com.google.ambient.streaming
+com.android.angle
+com.verizon.services
+com.google.android.apps.internal.betterbug
+com.google.android.carriersetup
+com.google.android.apps.carrier.carrierwifi
+com.google.android.apps.cbrsnetworkmonitor
+com.google.android.connectivitythermalpowermanager
+com.google.android.apps.diagnostictool
+com.google.android.apps.carrier.log
+com.google.android.euicc
+com.google.euiccpixel
+com.google.android.factoryota
+com.google.android.flipendo
+com.google.android.apps.gcs
+com.google.android.apps.gcs
+com.google.android.apps.helprtc
+com.google.android.apps.wearables.maestro.companion
+com.google.android.odad
+com.google.pixel.livewallpaper
+com.google.android.pixelnfc
+com.google.android.apps.security.securityhub
+com.shannon.rcsservice
+com.shannon.qualifiednetworksservice
+com.google.android.apps.tips
+com.google.android.apps.accessibility.voiceaccess
+com.google.android.wfcactivation
+com.android.captiveportallogin.overlay
+com.android.cellbroadcastreceiver.overlay.pixel
+com.android.cellbroadcastservice.overlay.pixel
+com.google.euiccpixel.overlay.gs101
+com.android.providers.media.overlay.pixel
+com.google.android.documentsui.theme.pixel
+com.google.android.wifi.resources.pixel
+com.android.bips.auto_generated_rro_product__
+com.android.providers.contacts.auto_generated_rro_product__
+com.android.omadm.service.auto_generated_rro_product__
+com.android.omadm.service.auto_generated_rro_vendor__
+com.google.android.flipendo.auto_generated_rro_product__
+com.google.android.flipendo.auto_generated_rro_vendor__
+android.auto_generated_rro_product__
+android.auto_generated_rro_vendor__
+com.google.android.overlay.googleconfig
+com.google.android.overlay.googlewebview
+com.android.hbmsvmanager.auto_generated_rro_product__
+com.android.managedprovisioning.overlay
+com.android.networkstack.overlay
+com.android.nfc.auto_generated_rro_product__
+com.android.nfc.auto_generated_rro_vendor__
+com.google.android.overlay.pixelconfig2018
+com.google.android.overlay.pixelconfig2019
+com.google.android.overlay.pixelconfig2019midyear
+com.google.android.overlay.pixelconfigcommon
+com.google.android.connectivity.resources.overlay
+com.google.android.pixel.setupwizard.auto_generated_rro_product__
+com.google.android.pixel.setupwizard.overlay2019
+com.google.android.pixel.setupwizard.overlay2021
+com.google.android.pixel.setupwizard.overlay
+com.google.android.networkstack.tethering.overlay2021
+com.android.safetyregulatoryinfo.auto_generated_rro_product__
+com.android.settings.auto_generated_rro_product__
+com.android.settings.auto_generated_rro_vendor__
+com.android.settings.overlay.SettingsFuture
+com.android.settings.overlay.pixel2021
+com.android.settings.overlay.g1azg
+com.android.settings.overlay.gb17l
+com.android.settings.overlay.gb62z
+com.android.settings.overlay.gx7as
+com.android.providers.settings.auto_generated_rro_product__
+com.android.simappdialog.auto_generated_rro_product__
+com.google.android.storagemanager.auto_generated_rro_product__
+com.google.android.storagemanager.auto_generated_rro_vendor__
+com.android.systemui.auto_generated_rro_product__
+com.android.systemui.auto_generated_rro_vendor__
+com.google.android.systemui.gxoverlay
+com.android.server.telecom.auto_generated_rro_product__
+com.android.providers.telephony.auto_generated_rro_product__
+com.android.phone.auto_generated_rro_product__
+com.android.phone.auto_generated_rro_vendor__
+com.android.traceur.auto_generated_rro_product__
+com.android.traceur.auto_generated_rro_vendor__
+com.google.android.overlay.udfpsoverlay
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.google.ambient.streaming
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Access and use your Android phone's apps from your Chromebook
+
+### com.android.angle
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Have only empty main activity. Its not a joke.
+
+### com.verizon.services
+
+**List**: `Carrier`
+**Removal**: `Advanced`
+
+> AppDirectedSMS. OMA Device Management for Verizon.
+> Its for wifi calling, sms
+
+### com.google.android.apps.internal.betterbug
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> betterbug? All of these code means nothing.
+> also have a lot permissions and nexuslogger permission.
+
+### com.google.android.carriersetup
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its only needed on first-boot setup
+
+### com.google.android.apps.carrier.carrierwifi
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> WiFi Provisioner. On the code I found only:
+> OpenRoaming is a network of free and secure Wi-Fi hotspots. Require google account and google play services.
+> It can be also for wifi calling.
+
+### com.google.android.apps.cbrsnetworkmonitor
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its used for spying on you. (citizen broadbane network monitor)
+> Require google play services and have location permission.
+
+### com.google.android.connectivitythermalpowermanager
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> powersaving?
+
+### com.google.android.apps.work.clouddpc
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Device Policy. (work apps handling)
+
+### com.android.sdm.plugins.diagmon
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> diagnostic plugin
+
+### com.google.android.apps.diagnostictool
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> DiagnosticTool. Hidden testing components.
+
+### com.google.android.apps.carrier.log
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> WiFi calling logs.
+> also have OMA Device Management for Verizon
+
+### com.google.android.euicc
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Electronic Sim managment
+
+### com.google.euiccpixel
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> NFC, eSE, eSIM firmware updater
+
+### com.google.android.factoryota
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Factory OTA Mode
+
+### com.google.android.flipendo
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Extreme Battery Saver
+
+### com.google.android.apps.gcs
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Google Connectivity Services.
+> It have only Third Party Notices activities. Useless.
+
+### com.google.android.apps.gcs
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Health Connect.
+> Only google useless frameworks.
+
+### com.google.android.apps.helprtc
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Google Support Services
+
+### com.google.android.apps.wearables.maestro.companion
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Google Pixel Buds
+> (https://play.google.com/store/apps/details?id=com.google.android.apps.wearables.maestro.companion)
+
+### com.google.android.odad
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Google Play Protect Service?
+> it have only third party notices activity
+> and useless frameworks
+
+### com.google.pixel.livewallpaper
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Pixel live wallpaper. Have a lot of wallpapers.
+
+### com.google.android.pixelnfc
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> I think its useless frameworks.
+
+### com.google.android.apps.security.securityhub
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Security Hub. Useless frameworks.
+
+### com.shannon.rcsservice
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for RCS, IMS settings.
+
+### com.shannon.qualifiednetworksservice
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for RCS, IMS.
+
+### com.google.android.apps.tips
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Pixel Tips a lot bloated.
+
+### com.google.android.apps.accessibility.voiceaccess
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Accessiblity Voice Access
+
+### com.google.android.wfcactivation
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Carrier Setup. Needed for IMS, WiFi calling and have emergency things.
+
+### com.android.captiveportallogin.overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless app icon background color code in color.xml
+
+### com.android.cellbroadcastreceiver.overlay.pixel
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless code to cellbroadcastreceiver
+
+### com.android.cellbroadcastservice.overlay.pixel
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless code to cellbroadcastservice
+
+### com.google.euiccpixel.overlay.gs101
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Overlay to (com.google.euiccpixel) NFC, eSE, eSIM firmware updater
+
+### com.android.providers.media.overlay.pixel
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless code to photos cloudpicker.
+
+### com.google.android.documentsui.theme.pixel
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless code to documentsui.
+
+### com.google.android.wifi.resources.pixel
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> WiFi configs
+
+### com.android.bips.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless color icon code to print service.
+
+### com.android.providers.contacts.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Incorrect named thing to sync metadata gms?
+> metadata_sync_pacakge com.google.android.gms
+> lmao google. No effects after remove.
+
+### com.android.omadm.service.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless config metrics code
+
+### com.android.omadm.service.auto_generated_rro_vendor__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless devinfo model
+
+### com.google.android.flipendo.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Data connection 5G? its for extreme battery saver.
+
+### com.google.android.flipendo.auto_generated_rro_vendor__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Data connection 5G? its for extreme battery saver.
+
+### android.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Hotspot configs? it generate random code on all phones
+
+### android.auto_generated_rro_vendor__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> important configs, it generate random code on all phones
+
+### com.google.android.overlay.googleconfig
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Once configs all default things to google.
+
+### com.google.android.overlay.googlewebview
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Once configs webview default to google.
+
+### com.android.hbmsvmanager.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> unused png files, calibration. its from (com.android.hbmsvmanager)
+
+### com.android.managedprovisioning.overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Random useless code to com.android.managedprovisioning
+
+### com.android.networkstack.overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Random useless code to com.android.networkstack
+
+### com.android.nfc.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Random useless code to com.android.nfc
+
+### com.android.nfc.auto_generated_rro_vendor__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Random useless code to com.android.nfc
+
+### com.google.android.overlay.pixelconfig2018
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless default configs
+
+### com.google.android.overlay.pixelconfig2019
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless default configs
+
+### com.google.android.overlay.pixelconfig2019midyear
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless default configs
+
+### com.google.android.overlay.pixelconfigcommon
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless default configs
+
+### com.google.android.connectivity.resources.overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless default configs
+
+### com.google.android.pixel.setupwizard.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless first-boot setup configs
+
+### com.google.android.pixel.setupwizard.overlay2019
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless first-boot setup configs
+
+### com.google.android.pixel.setupwizard.overlay2021
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless first-boot setup configs
+
+### com.google.android.pixel.setupwizard.overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless first-boot setup configs
+
+### com.google.android.networkstack.tethering.overlay2021
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless hotspot configs
+
+### com.android.safetyregulatoryinfo.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless unused chinese images.
+
+### com.android.settings.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to settings auto generated but better keep.
+
+### com.android.settings.auto_generated_rro_vendor__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to settings auto generated but better keep.
+
+### com.android.settings.overlay.SettingsFuture
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to settings auto generated but better keep.
+
+### com.android.settings.overlay.pixel2021
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to settings auto generated but better keep.
+
+### com.android.settings.overlay.g1azg
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to settings auto generated but better keep.
+
+### com.android.settings.overlay.gb17l
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to settings auto generated but better keep.
+
+### com.android.settings.overlay.gb62z
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to settings auto generated but better keep.
+
+### com.android.settings.overlay.gx7as
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to settings auto generated but better keep.
+
+### com.android.providers.settings.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to Backup google. Backup works without it.
+
+### com.android.simappdialog.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to simappdialog.
+
+### com.google.android.storagemanager.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to settings auto generated but better keep.
+
+### com.google.android.storagemanager.auto_generated_rro_vendor__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to settings auto generated but better keep.
+
+### com.android.systemui.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to systemui auto generated but better keep.
+
+### com.android.systemui.auto_generated_rro_vendor__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to systemui auto generated but better keep.
+
+### com.google.android.systemui.gxoverlay
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to systemui auto generated but better keep.
+
+### com.android.server.telecom.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to server telecom auto generated but better keep.
+
+### com.android.providers.telephony.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to providers telephony auto generated but better keep.
+
+### com.android.phone.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to phone auto generated but better keep.
+
+### com.android.phone.auto_generated_rro_vendor__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to phone auto generated but better keep.
+
+### com.android.traceur.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless configs to traceur auto generated.
+
+### com.android.traceur.auto_generated_rro_vendor__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless configs to traceur auto generated.
+
+### com.google.android.overlay.udfpsoverlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless configs to fingerprints FRP auto generated.

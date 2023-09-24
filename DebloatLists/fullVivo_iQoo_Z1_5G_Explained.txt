@@ -1,0 +1,796 @@
+**Your phone model:**
+Vivo_iQoo_Z1_5G
+
+**Packages:**
+
+```
+com.vivo.agent
+com.vivo.aiengine
+com.vivo.aiservice
+com.mediatek.atmwifimeta
+com.vivo.abe
+com.mediatek.autodialer
+com.bbk.cloud
+com.android.BBKCrontab
+com.bbk.launcher2
+com.android.bbklog
+com.android.bbkmusic
+com.android.BBKClock
+com.vivo.weather.provider
+com.vivo.bsptest
+com.vivo.quickpay
+com.vivo.contentcatcher
+com.vivo.devicereg
+com.vivo.doubleinstance
+com.vivo.easyshare
+com.vivo.engineercamera
+com.vivo.epm
+com.vivo.ewarranty
+com.vivo.faceui
+com.vivo.faceunlock
+com.bbk.facewake
+com.vivo.favorite
+com.vivo.findphone
+com.vivo.fingerprintengineer
+com.vivo.fingerprint
+com.vivo.fingerprintui
+com.vivo.floatingball
+com.vivo.fuelsummary
+com.vivo.gamecube
+com.vivo.gamewatch
+com.amap.android.location
+com.vivo.heduohao
+com.vivo.iotserver
+com.iqoo.powersaving
+com.iqoo.secure
+com.bbk.iqoo.logsystem
+com.vivo.minscreen
+com.vivo.motionrecognition
+com.vivo.networkimprove
+com.vivo.numbermark
+com.nt36xxxtouchscreen.deltadiff
+com.nttouchscreen.getdata
+com.nttouchscreen.mptest
+com.bbk.photoframewidget
+com.vivo.pem
+com.suntek.mway.rcs.app.service
+com.ringclip
+com.vivo.safecenter
+com.bbk.scene.databaseprovider
+com.bbk.scene.launcher.theme
+com.vivo.secime.service
+com.vivo.singularity
+com.vivo.smartanswer
+com.vivo.SmartKey
+com.vivo.smartshot
+com.vivo.smartunlock
+com.android.vendors.bridge.softsim
+com.bbk.SuperPowerSave
+com.bbk.updater
+com.vivo.upnpserver
+com.vivo.upslide
+com.vivo.vibrator4d
+com.android.VideoPlayer
+com.vivo.assistant
+com.vivo.browser
+com.bbk.calendar
+com.vivo.camera.action
+com.vivo.daemonService
+com.iqoo.engineermode
+com.vivo.gallery
+com.vivo.vivokaraoke
+com.vivo.vms
+com.vivo.pushservice
+com.vivo.share
+com.vivo.smartmultiwindow
+com.vivo.multinlp
+com.bbk.theme.resources
+com.android.vivo.tws.vivotws
+com.vivo.sdkplugin
+com.vivo.wallet
+com.vlife.vivo.wallpaper
+com.mediatek.voicecommand
+com.mediatek.voiceunlock
+com.vivo.voicewakeup
+com.volte.config
+com.vivo.vtouch
+com.vivo.wifiengineermode
+com.vivo.cota
+com.iqoo.website
+com.android.cellbroadcast.overlay
+com.android.cellbroadcastservice.overlay
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.vivo.agent
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Jovi? chinese
+
+### com.vivo.aiengine
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> a lot of chinese and logs.
+
+### com.vivo.aiservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> another chinese
+
+### com.mediatek.atmwifimeta
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> For some reason it logs WiFi data. Not needed.
+
+### com.vivo.abe
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Audio EQ(equalizer). Some 3rd-party music apps can use it to provide you EQ features.
+
+### com.mediatek.autodialer
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> autodialer, have a lot useless code.
+
+### com.bbk.cloud
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> vivo cloud services.
+
+### com.android.BBKCrontab
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Its for scheduling tasks.
+
+### com.bbk.launcher2
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> vivo launcher
+
+### com.android.bbklog
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> logs everything
+
+### com.android.bbkmusic
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> better use more clear alternative (https://f-droid.org/en/packages/com.simplemobiletools.musicplayer/)
+> or use VLC
+
+### com.android.BBKClock
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> vivo clock app
+
+### com.vivo.weather.provider
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> vivo weather app, have chinese trackers.
+> better alternative: (https://f-droid.org/en/packages/cz.martykan.forecastie/)
+
+### com.vivo.bsptest
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> its hidden app for testing things.
+
+### com.vivo.quickpay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> chinese pay
+
+### com.vivo.contentcatcher
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> useless frameworks.
+
+### com.vivo.devicereg
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Hidden debugging app ims.
+
+### com.vivo.doubleinstance
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> its for clone app.
+
+### com.vivo.easyshare
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> easy share.
+
+### com.vivo.engineercamera
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> testing camera things.
+
+### com.vivo.epm
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> useless crash app notify
+
+### com.vivo.ewarranty
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> e-warranty card. Something for china.
+
+### com.vivo.faceui
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> its used for face unlock
+
+### com.vivo.faceunlock
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> its used for face unlock
+
+### com.bbk.facewake
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> its used for face unlock
+
+### com.vivo.favorite
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> its used add test from the clipboard to favorites
+> and problably require cloud.
+> a lot not translated chinese things.
+
+### com.vivo.findphone
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> its used for find phone (log out from account before remove)
+
+### com.vivo.fingerprintengineer
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> fingerprint test
+
+### com.vivo.fingerprint
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> fingerprint settings
+
+### com.vivo.fingerprintui
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> fingerprint test? have also paying in china.
+> maybe its needed for fingerprint lockscreen.
+
+### com.vivo.floatingball
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> floating ball. its bloated a lot by chinese code.
+
+### com.vivo.fuelsummary
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> battery testing.
+
+### com.vivo.gamecube
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Its used for game optimization problably.
+> someone using this?
+
+### com.vivo.gamewatch
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Have a lot useless china code.
+
+### com.amap.android.location
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Chinese location, not needed when you use google location.
+
+### com.vivo.heduohao
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> used for chinese sim
+
+### com.vivo.iotserver
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> it have something to jovi chinese.
+
+### com.iqoo.powersaving
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> power saving, problably its bad idea removing it.
+
+### com.iqoo.secure
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Deleting this removes the traffic speed indicator in the notification bar
+> not sure if its bad idea removing it.
+
+### com.bbk.iqoo.logsystem
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> user experience improve plan, carrier services.
+> also have logs.
+
+### com.vivo.minscreen
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> small screen mode
+
+### com.vivo.motionrecognition
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> gestues, smart things
+
+### com.vivo.networkimprove
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> maybe its only for china because is not english words
+> also have logs.
+
+### com.vivo.numbermark
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> number mark? a lot chinese code.
+
+### com.nt36xxxtouchscreen.deltadiff
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> audio test frequency(KHz) to (com.vivo.bsptest)
+
+### com.nttouchscreen.getdata
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> testing things to (com.vivo.bsptest)
+
+### com.nttouchscreen.mptest
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> testing things to (com.vivo.bsptest)
+
+### com.bbk.photoframewidget
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Photo widget
+
+### com.vivo.pem
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Its for power saving problably
+
+### com.suntek.mway.rcs.app.service
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> rcs service, a lot chinese.
+
+### com.ringclip
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Ringtone editing
+
+### com.vivo.safecenter
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> useless security
+
+### com.bbk.scene.databaseprovider
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> its maybe needed for launcher
+> not sure
+
+### com.bbk.scene.launcher.theme
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> its maybe needed for launcher
+> not sure
+
+### com.vivo.secime.service
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> talkback chinese
+
+### com.vivo.singularity
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> multidexapplication?
+
+### com.vivo.smartanswer
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> a lot bloated smart answer
+
+### com.vivo.SmartKey
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> chinese smart things.
+
+### com.vivo.smartshot
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> its used for screenshots?
+
+### com.vivo.smartunlock
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> useless smart unlock device
+
+### com.android.vendors.bridge.softsim
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> its needed for virtual sim
+
+### com.bbk.SuperPowerSave
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> not sure if its useful or not
+> super power save.
+
+### com.bbk.updater
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> system updater
+
+### com.vivo.upnpserver
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> smart things and need for broadcast?
+
+### com.vivo.upslide
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> needed for secure and smart things
+
+### com.vivo.vibrator4d
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> its used for game? a lot of feedback things.
+
+### com.android.VideoPlayer
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> video player
+> you can use alternative: https://f-droid.org/en/packages/org.videolan.vlc/
+
+### com.vivo.assistant
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> vivo assistant
+
+### com.vivo.browser
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> vivo browser
+> better use brave or iceraven.
+
+### com.bbk.calendar
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> calendar a lot bloated with chinese things.
+> better alternative: https://f-droid.org/en/packages/com.simplemobiletools.calendar.pro/
+
+### com.vivo.camera.action
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> maybe its needed for camera.
+
+### com.vivo.daemonService
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> security thing.
+
+### com.iqoo.engineermode
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> testing things, AT Commands - no one use them.
+
+### com.vivo.gallery
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> vivo gallery app with chinese trackers.
+> better alternative: https://f-droid.org/en/packages/com.simplemobiletools.gallery.pro/
+
+### com.vivo.vivokaraoke
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> vivo karaoke
+> who using that?
+
+### com.vivo.vms
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> useless frameworks
+> log out before.
+
+### com.vivo.pushservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> not needed for notifications.
+> require google play services, and its for VPUSH, a lot trackers, permissions.
+
+### com.vivo.share
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> vivo share a lot bloated
+
+### com.vivo.smartmultiwindow
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Smart multiwindow
+
+### com.vivo.multinlp
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> chinese and google location
+> not sure if its useless or not
+
+### com.bbk.theme.resources
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> vivo wallpapers
+> a lot png wallpapers
+> safe to remove if you dont need theme resources
+
+### com.android.vivo.tws.vivotws
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> its for vivo TWS earphones
+
+### com.vivo.sdkplugin
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> needed for vivo account, vivo payment
+> everything is chinese but not sure how much things will be not work after remove.
+
+### com.vivo.wallet
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> vivo wallet everything is chinese
+
+### com.vlife.vivo.wallpaper
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> needed for live wallpapers
+
+### com.mediatek.voicecommand
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> voice wake up, voice control camera, voice control alarm
+> useless
+
+### com.mediatek.voiceunlock
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> voice wake up
+> useless
+
+### com.vivo.voicewakeup
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> useless chinese voice things
+
+### com.volte.config
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> VoLTE config
+
+### com.vivo.vtouch
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Smart Vision. spying a lot.
+
+### com.vivo.wifiengineermode
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> needed for wifi info?
+
+### com.vivo.cota
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless logs and ads. Its for recommendations.
+
+### com.iqoo.website
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> iQOO.com
+
+### com.android.cellbroadcast.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless overlay without code. Its only for Test message.
+
+### com.android.cellbroadcastservice.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless overlay. cross sim duplicate detection false

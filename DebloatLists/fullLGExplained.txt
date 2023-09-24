@@ -1,0 +1,644 @@
+**Your phone model:**
+LG Velvet 5G
+
+**Packages:**
+
+```
+com.lge.gallery.aodimagewidget
+com.lge.arcamera
+com.arcsoft.lg_avatar_resource
+com.lge.ims.chatbotinfoprovider
+com.lge.cinemagraph
+com.lge.sui.widget
+com.lge.secondlauncher
+com.lge.covertools
+com.lge.dualscreenfirmware
+com.lge.ellievision
+com.lge.animal.resource
+com.lge.smartenabler
+com.lge.entitlementcheckservice
+com.lge.eula.downloader
+com.hy.system.fontserver
+com.lge.gallery.studio
+com.lge.gamepad
+com.lge.gametools
+com.google.android.apps.gcs
+com.lge.gdec.client
+com.lge.gnsslogsetting
+com.lge.hotspotprovision
+com.lge.icecontacts
+com.lge.ims
+com.lge.imsvt
+com.lge.leccp
+com.lge.android.atservice
+com.lge.bluethoothsetting
+com.lge.lgbroadcastradioservice
+com.lge.calligraphydictionary
+com.lge.camera
+com.lge.camerasolution
+com.lge.cmas
+com.lge.lgcontentsetting
+com.lge.lgdataphone
+product.lge.data.server.LgDataServiceMain
+com.lge.displayfingerprint
+com.lge.dsmanager
+com.lge.lgfota.permission
+com.lge.gametools.gamerecorder
+com.lge.effect
+com.lge.livemessage
+com.lge.lockscreensettings
+com.lge.provider.lockscreensettings
+com.lge.musiccontroller
+com.lge.musicpicker
+com.lge.networksettings
+com.lge.nextcapture
+com.lge.penprime
+android.autoinstalls.config.lge.device
+com.android.settingaccessibility
+com.lge.provider.signboard
+com.lge.systemservice
+com.lge.provider.systemui
+com.lge.themeinstaller
+com.lge.themeservice
+com.lge.lms2
+com.lge.wallpaperpicker
+com.lge.wifisettings
+com.lge.ia.task.informant
+com.lge.ia.task.informant
+com.lge.onehandcontroller
+com.arcsoft.app.humanavatar
+com.android.voicemailomtp
+com.lge.NfcSettings
+com.lge.operator.hiddenmenu
+com.lge.pickme
+com.lge.quicktools
+com.lge.ims.rcsprovider
+com.lge.appwidget.runningtaskbar
+com.lge.screenplus.touchpad
+com.lge.screenplus.uiservice
+com.lge.sdencryption
+com.lge.seamlesswallpaper.circular.reactive.space
+com.lge.seamlesswallpaper.circular.reactive.darkspace
+com.lge.servicemenu
+com.google.android.apps.tycho
+com.google.android.overlay.dpsconfig
+com.lge.auto_generated_rro_product__
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.lge.gallery.aodimagewidget
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> LG Always-on display image
+
+### com.lge.arcamera
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> This application requires google play services for ar. Not sure what for it is but problably for VR.
+
+### com.arcsoft.lg_avatar_resource
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> LGAvatarReource. Its problably for arcamera and its for avatars. Peoples removed that.
+
+### com.lge.ims.chatbotinfoprovider
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its component of (com.lge.ims) not very useful because its for debugging app.
+
+### com.lge.cinemagraph
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Cine shot. I think its optional app.
+
+### com.lge.sui.widget
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its problably clock widget but on the code I see its for calendar widgets.
+
+### com.lge.secondlauncher
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Its needed for wallpaper choose and multi app
+
+### com.lge.covertools
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Dual Screen Tool. Needed for dual screen I guess.
+
+### com.lge.dualscreenfirmware
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless error dialog for dual screen firmware update.
+
+### com.lge.ellievision
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Smart Cam & AI Tips. Delete if not using default camera
+
+### com.lge.animal.resource
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> AnimalResource. Another thing to avatars
+
+### com.lge.smartenabler
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Its for OTA Updates.
+
+### com.lge.entitlementcheckservice
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Its for miracast and wifi hotspot problably
+
+### com.lge.eula.downloader
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Privacy Policy Update
+
+### com.hy.system.fontserver
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Font Server. Needed for fonts?
+
+### com.lge.gallery.studio
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> GalleryStudio. Its needed for gallery app problably.
+
+### com.lge.gamepad
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> LG Game Pad
+
+### com.lge.gametools
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> GameTools
+
+### com.google.android.apps.gcs
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Google Connectivity Services. It have things like wifi assistant and require google play services.
+> Useless.
+
+### com.lge.gdec.client
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Another component of OTA Updates but here I found its for App Updates.
+
+### com.lge.gnsslogsetting
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> GNSS LOG LEVEL SETTING. Its for debug.
+
+### com.lge.hotspotprovision
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for hotspot 3G?
+
+### com.lge.icecontacts
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Emergency and video calling things.
+
+### com.lge.ims
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> LG IMS. Its not good app because it have a lot debugging stuff.
+
+### com.lge.imsvt
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Video Call another component of (com.lge.ims)
+
+### com.lge.leccp
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> LG Connectivity Service. It has only Alert Dialogs.
+
+### com.lge.android.atservice
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Software Update. Its problably only component of software updates.
+
+### com.lge.bluethoothsetting
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for bluethooth
+
+### com.lge.lgbroadcastradioservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Broadcast radio? No one need that.
+
+### com.lge.calligraphydictionary
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> calligraphy dictionary. Looks useless.
+
+### com.lge.camera
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock camera app
+
+### com.lge.camerasolution
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for Stock camera app
+
+### com.lge.cmas
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Emergency Alerts
+
+### com.lge.lgcontentsetting
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Wallpaper & theme. Needed for theme settings.
+
+### com.lge.lgdataphone
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Its for test and debug Dataconnection
+
+### product.lge.data.server.LgDataServiceMain
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for iwlan? very unknown app.
+
+### com.lge.displayfingerprint
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its fingerprint testing I guess. Secret code 346437
+
+### com.lge.dsmanager
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Dual Screen Updater
+
+### com.lge.lgfota.permission
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> FOTA Test
+
+### com.lge.gametools.gamerecorder
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Screen recording.
+
+### com.lge.effect
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its for lockscreen effect
+
+### com.lge.livemessage
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Draw chat
+
+### com.lge.lockscreensettings
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Lock Screen Settings
+
+### com.lge.provider.lockscreensettings
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Needed for lock screen.
+
+### com.lge.musiccontroller
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Music controller widget also Test activity.
+
+### com.lge.musicpicker
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Audio. It has Drm Popup, Music Picker, Audio Preview
+
+### com.lge.networksettings
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Sim network settings.
+
+### com.lge.nextcapture
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for screenshots?
+
+### com.lge.penprime
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Pen settings
+
+### android.autoinstalls.config.lge.device
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+
+### com.android.settingaccessibility
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Accessibility settings
+
+### com.lge.provider.signboard
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Needed for Always on display
+
+### com.lge.systemservice
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Looks like a important app.
+
+### com.lge.provider.systemui
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Looks like a important app.
+
+### com.lge.themeinstaller
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed to install theme.
+
+### com.lge.themeservice
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed to theme apply
+
+### com.lge.lms2
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> needed for LG account its useless.
+
+### com.lge.wallpaperpicker
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> needed for wallpaper preview.
+
+### com.lge.wifisettings
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> WiFi settings.
+
+### com.lge.ia.task.informant
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> I only found that its for feed favourite contacts and this app use korea language. Hidden useless.
+
+### com.lge.ia.task.informant
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> I only found that its for feed favourite contacts and this app use korea language. Hidden useless frameworks.
+
+### com.lge.onehandcontroller
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Needed for One Handed Controller, Miniview.
+
+### com.arcsoft.app.humanavatar
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> My Avatar. Avatar activities useless.
+
+### com.android.voicemailomtp
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Voicemail? I think no one use that.
+
+### com.lge.NfcSettings
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> NFC settings
+
+### com.lge.operator.hiddenmenu
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Operator HiddenMenu. Hidden tests.
+
+### com.lge.pickme
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for camera app? or face unlock?
+
+### com.lge.quicktools
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Quick Tools widget configure
+
+### com.lge.ims.rcsprovider
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for IMS, RCS
+
+### com.lge.appwidget.runningtaskbar
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Recent Task App Widget
+
+### com.lge.screenplus.touchpad
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Screen+. Desktop Touchpad.
+
+### com.lge.screenplus.uiservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Screen+. idk what is screen+ problably connects to pc screen.
+
+### com.lge.sdencryption
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Encryption devices like sd card.
+
+### com.lge.seamlesswallpaper.circular.reactive.space
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Live wallpapers resources.
+
+### com.lge.seamlesswallpaper.circular.reactive.darkspace
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Live wallpapers resources.
+
+### com.lge.servicemenu
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden testing hardware things.
+
+### com.google.android.apps.tycho
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Google Fi Wireless (https://play.google.com/store/apps/details?id=com.google.android.apps.tycho)
+
+### com.google.android.overlay.dpsconfig
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to Android System Intelligence (previously Device Personalization Services)
+
+### com.lge.auto_generated_rro_product__
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> It have important configs. Better dont risk.

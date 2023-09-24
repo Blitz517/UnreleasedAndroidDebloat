@@ -1,0 +1,70 @@
+**Your phone model:**
+Realme 7i
+
+**Packages:**
+
+```
+com.oppoex.afterservice
+com.oplus.oscenter
+com.qti.powermodule
+com.realme.movieshot
+com.nearme.romupdate
+com.realme.securitycheck
+com.realme.wellbeing
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.oppoex.afterservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> have something to E-warranty card chinese.
+
+### com.oplus.oscenter
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> useless frameworks security.
+
+### com.qti.powermodule
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> Its for powersaving? have more debugging stuff than powersaving.
+
+### com.realme.movieshot
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> Combine captions. Its for partial screenshot, SaveLongshot
+
+### com.nearme.romupdate
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> Update Service.
+> Problably its only for notifications. Anyway better remove it if you wanna remove updates too.
+
+### com.realme.securitycheck
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Have useless ads and security checks.
+> Why we need more security when play protect is already good?
+
+### com.realme.wellbeing
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Sleep capsule. Feature for your phone where apps are locked at night to help you get a good night's
+> No one using this problably.

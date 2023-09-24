@@ -1,0 +1,933 @@
+**Your phone model:**
+Moto G84
+
+**Packages:**
+
+```
+com.motorola.aiservices
+com.aura.oobe.motorola
+com.inmobi.installer
+com.motorola.camera3.consent.ai
+com.motorola.camera3
+com.motorola.motcameradesktop
+com.motorola.appforecast
+com.motorola.dolby.dolbyui
+com.dti.motorola
+com.motorola.screenshoteditor
+com.motorola.audiorecorder
+com.motorola.mototour
+com.android.setupwizard.overlay.ontim
+com.claroColombia.contenedor
+com.motorola.imagetuning_V2
+com.bluetooth.aptxmode
+com.motorola.mobiledesktop
+com.motorola.mobiledesktop.core
+com.motorola.discovery
+com.motorola.help.extlog
+com.motorola.freeform
+com.motorola.leanbacklauncher
+com.motorola.dynamicvolume
+com.motorola.photoeditor
+com.motorola.securevault
+com.motorola.securityhub
+com.motorola.smart5g
+com.motorola.spaces
+com.motorola.systemui.desk
+com.motorola.enterprise.service
+com.motorola.wifi.motowifimetrics
+com.motorola.nfwlocationattribution
+com.motorola.personalize
+com.motorola.rcsConfigService
+com.android.service.ims
+com.motorola.revoker.services
+com.motorola.telprov
+com.motorola.attvowifi
+com.motorola.vzw.pco.extensions.pcoreceiver
+com.google.android.apps.youtube.music.setupwizard
+com.android.theme.font.Exo2Regular
+com.android.theme.font.RobotoSlabRegular
+com.android.theme.font.RookeryRegular
+com.motorola.android.systemui.overlay.att
+com.motorola.android.systemui.overlay.sprint
+com.motorola.android.systemui.overlay.tmo
+com.motorola.android.systemui.overlay.usc
+com.motorola.android.systemui.overlay.vzw
+com.android.settings.overlay.filesgoogle
+com.motorola.actions.overlay
+com.motorola.overlay.launcher3
+com.motorola.android.coresettingsext.overlay.doubletap
+com.motorola.android.coresettingsext.overlay.dubai
+com.motorola.android.overlay.common
+com.motorola.android.overlay.crystaltalkai
+com.motorola.android.overlay.gabutton
+com.motorola.android.overlay.wfd
+com.android.wifi.resources.overlay.WifiResSoftap80211axEnable
+com.android.wifi.resources.overlay.WifiRes6GhzEnable
+com.motorola.setup.auto_generated_rro_vendor__
+com.motorola.android.settings.overlay.fps.display
+com.motorola.safetycenter.resources.overlay
+com.motorola.android.connectivity.resources.overlay
+com.motorola.gamemode
+com.android.theme.icon.round
+com.motorola.dciservice
+com.motorola.enterprise.adapter.service
+com.google.android.apps.pixelmigrate
+com.motorola.iqimotmetrics
+com.thinkuem.motolc
+com.motorola.spectrum.setup.extensions
+com.android.wallpaper
+com.summit.motorola.rcs
+com.android.theme.color.amethyst
+com.android.theme.color.aquamarine
+com.android.theme.color.darklake
+com.android.theme.color.dorange
+com.android.theme.color.dpurple
+com.android.theme.color.lgreen
+com.android.theme.color.parasailing
+com.android.theme.color.saffron
+com.android.theme.color.sand
+com.android.theme.color.slate
+com.android.theme.color.tangerine
+com.android.theme.icon_pack.kai.android
+com.android.theme.icon_pack.kai.launcher
+com.android.theme.icon_pack.kai.settings
+com.android.theme.icon_pack.kai.systemui
+com.android.theme.icon_pack.kai.themepicker
+com.android.theme.icon_pack.sam.android
+com.android.theme.icon_pack.sam.launcher
+com.android.theme.icon_pack.sam.settings
+com.android.theme.icon_pack.sam.systemui
+com.android.theme.icon_pack.sam.themepicker
+com.android.theme.icon_pack.victor.android
+com.android.theme.icon_pack.victor.launcher
+com.android.theme.icon_pack.victor.settings
+com.android.theme.icon_pack.victor.systemui
+com.android.theme.icon_pack.victor.themepicker
+com.motorola.contacts.preloadcontacts.overlay.vzw
+com.motorola.setup.overlay.amx
+com.motorola.setup.overlay.pai
+com.motorola.setup.overlay.tracfone
+com.motorola.setup.overlay.gabuttonrighttop
+com.android.providers.telephony.overlay.carriersettings
+com.android.phone.overlay.carriersettings
+com.mediatek.carrierexpress
+com.dti.cricket
+com.cricketwireless.minus
+com.att.deviceunlock
+com.oem.euiccpartnerapp
+com.motorola.handwritingcalculator
+com.inmobi.installer
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.motorola.aiservices
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Moto AI Services. Useless frameworks.
+
+### com.aura.oobe.motorola
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> MotoApps. It's something to install apps, but it's an advertising company.
+
+### com.inmobi.installer
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Mobile Applications Manager. It's something to install apps, but it's an advertising company.
+
+### com.motorola.camera3.consent.ai
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> camera consent ai? idk what is that doing.
+
+### com.motorola.camera3
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Moto camera app.
+
+### com.motorola.motcameradesktop
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Camera Desktop Settings. Moto Webcam, video call effects.
+
+### com.motorola.appforecast
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Performance. Storage cleanup, RAM boost I think its useless.
+
+### com.motorola.dolby.dolbyui
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Dolby Atmos. Audio enhancements.
+
+### com.dti.motorola
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Mobile Services Manager. Its something for install apps but its useless and a lot permissions.
+
+### com.motorola.screenshoteditor
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Editor Screenshots.
+
+### com.motorola.audiorecorder
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Audio recorder (https://play.google.com/store/apps/details?id=com.motorola.audiorecorder)
+
+### com.motorola.mototour
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Moto Tour (https://play.google.com/store/apps/details?id=com.motorola.mototour)
+
+### com.android.setupwizard.overlay.ontim
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to welcome image First-boot setup.
+
+### com.claroColombia.contenedor
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Claro. It's something to install apps, but it's an advertising company.
+
+### com.motorola.imagetuning_V2
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Camera Tuner. Its Camera tuning Chromatix Comparison. I think its needed for camera app.
+
+### com.bluetooth.aptxmode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden aptxals Audio Bluetooth sample improvement from Qualcomm. Useless 96kHz sample.
+
+### com.motorola.mobiledesktop
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Ready For (https://play.google.com/store/apps/details?id=com.motorola.mobiledesktop)
+> Connect to a PC to stream mobile apps and other things.
+
+### com.motorola.mobiledesktop.core
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Needed for Ready For (com.motorola.mobiledesktop)
+> Connect to a PC to stream mobile apps and other things.
+
+### com.motorola.discovery
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Moto Discovery. Bubble Hint and suggestions. Useless.
+
+### com.motorola.help.extlog
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Moto Feedback Assistant. This app only collects logs.
+
+### com.motorola.freeform
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Freeform. Required for window app mode.
+
+### com.motorola.leanbacklauncher
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Moto Experience Hub (https://play.google.com/store/apps/details?id=com.motorola.leanbacklauncher)
+> Most people hate this app.
+
+### com.motorola.dynamicvolume
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Adaptive volume. Its for control the individual volume for multiple apps.
+
+### com.motorola.photoeditor
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Moto Photo Editor.
+
+### com.motorola.securevault
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Secure Folder (https://play.google.com/store/apps/details?id=com.motorola.securevault)
+> Useless tools to keep device secure.
+
+### com.motorola.securityhub
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Moto Secure (https://play.google.com/store/apps/details?id=com.motorola.securityhub)
+> Useless tools to keep device secure.
+
+### com.motorola.smart5g
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Battery saving for 5G.
+
+### com.motorola.spaces
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Family Space (https://play.google.com/store/apps/details?id=com.motorola.spaces)
+
+### com.motorola.systemui.desk
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> DesktopSystemUI. Not tested yet.
+
+### com.motorola.enterprise.service
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Moto Thinkshield. Addional security.
+
+### com.motorola.wifi.motowifimetrics
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless wifi daily stats.
+
+### com.motorola.nfwlocationattribution
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless Carrier Location Access. You can find it on settings location but its not very useful.
+
+### com.motorola.personalize
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for theme edit.
+
+### com.motorola.rcsConfigService
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> RCS Config Service
+
+### com.android.service.ims
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Its for subscribe the presence information using RCS.
+
+### com.motorola.revoker.services
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its another component of setupwizard only used on first-boot setup.
+
+### com.motorola.telprov
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its needed for carrier O2 so its useless for others.
+
+### com.motorola.attvowifi
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> WiFi Calling. https://www.att.com/wificalling
+
+### com.motorola.vzw.pco.extensions.pcoreceiver
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> pcoreceiver. VZW Carrier sim(Verizon). Its only for notifications.
+> you can remove that if you dont use Verizon wireless or anything like that.
+
+### com.google.android.apps.youtube.music.setupwizard
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> YT Music Setup Wizard?! Everything is possible.
+> I found only that they want to give you a free trial or premium.
+
+### com.android.theme.font.Exo2Regular
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> FontExo2Regular
+
+### com.android.theme.font.RobotoSlabRegular
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> FontRobotoSlabRegular
+
+### com.android.theme.font.RookeryRegular
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> FontRookeryRegular
+
+### com.motorola.android.systemui.overlay.att
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> This overlay needed for (com.motorola.attvowifi) I guess. Its for WiFi Calling.
+
+### com.motorola.android.systemui.overlay.sprint
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> needed for moto stats wifi, its useless.
+
+### com.motorola.android.systemui.overlay.tmo
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> needed for moto stats wifi, its useless.
+
+### com.motorola.android.systemui.overlay.usc
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> needed for moto stats wifi, its useless.
+
+### com.motorola.android.systemui.overlay.vzw
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> needed for moto stats wifi, its useless.
+
+### com.android.settings.overlay.filesgoogle
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to google files.
+
+### com.motorola.actions.overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay config default to Moto Actions (com.motorola.actions)
+
+### com.motorola.overlay.launcher3
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay config default to launcher3 default launcher moto (com.motorola.launcher3)
+
+### com.motorola.android.coresettingsext.overlay.doubletap
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> doubletap to put display to sleep
+
+### com.motorola.android.coresettingsext.overlay.dubai
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> Needed for support other refresh rate value?
+
+### com.motorola.android.overlay.common
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> It have some important configs. Better dont risk.
+
+### com.motorola.android.overlay.crystaltalkai
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> enable crystal talk ai settings? I never seen that.
+
+### com.motorola.android.overlay.gabutton
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> "double press on power behavior" 0
+> not sure if useful, maybe its another gesture.
+
+### com.motorola.android.overlay.wfd
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> It have config to enable wifi display.
+
+### com.android.wifi.resources.overlay.WifiResSoftap80211axEnable
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Important configs to wifi.
+
+### com.android.wifi.resources.overlay.WifiRes6GhzEnable
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Config to support wifi 6 Ghz? Any wifi have this?
+> if you dont have 6 Ghz wifi then its safe to disable.
+
+### com.motorola.setup.auto_generated_rro_vendor__
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> I found its "no sim anim". Its another component of motorola first-boot setup. Useless.
+
+### com.motorola.android.settings.overlay.fps.display
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Overlay to fps display.
+
+### com.motorola.safetycenter.resources.overlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to com.google.android.safetycenter.resources
+> Network protection, ThinkShield.
+
+### com.motorola.android.connectivity.resources.overlay
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> Configs to bad wifi better keep it.
+
+### com.motorola.gamemode
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Moto Gametime (https://play.google.com/store/apps/details?id=com.motorola.gamemode)
+> Not sure if its good for gaming.
+
+### com.android.theme.icon.round
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon shape only for google pixel or aosp
+
+### com.motorola.dciservice
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Its IMS Signal tests problably. Used for statistics. Code 3243.
+
+### com.motorola.enterprise.adapter.service
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Moto Thinkshield. Addional security frameworks.
+
+### com.google.android.apps.pixelmigrate
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Data Transfer Tool. Its problably restore apps on setupwizard first-boot setup.
+
+### com.motorola.iqimotmetrics
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden privacy policy: network diagnostics data.
+
+### com.thinkuem.motolc
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> ThinkIoT-UEM. It has remote service but problably its unused.
+
+### com.motorola.spectrum.setup.extensions
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Spectrum Setup. Spectrum connectivity services. Useless and its only setup.
+
+### com.android.wallpaper
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Styles editor
+
+### com.summit.motorola.rcs
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Summit IMS Service. A lot logs and its only for RCS messages. Anyway its bad idea to use this app.
+
+### com.android.theme.color.amethyst
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.aquamarine
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.darklake
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.dorange
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.dpurple
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.lgreen
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.parasailing
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.saffron
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.sand
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.slate
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.color.tangerine
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android color accent only for google pixel or aosp
+
+### com.android.theme.icon_pack.kai.android
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.kai.launcher
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.kai.settings
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.kai.systemui
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.kai.themepicker
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.sam.android
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.sam.launcher
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.sam.settings
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.sam.systemui
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.sam.themepicker
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.victor.android
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.victor.launcher
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.victor.settings
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.victor.systemui
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.android.theme.icon_pack.victor.themepicker
+
+**List**: `AOSP`
+**Removal**: `Recommanded`
+
+> Android icon pack only for google pixel or aosp
+
+### com.motorola.contacts.preloadcontacts.overlay.vzw
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless icon to Verizon Wireless app.
+
+### com.motorola.setup.overlay.amx
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless component of (com.motorola.setup)
+
+### com.motorola.setup.overlay.pai
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless component of (com.motorola.setup)
+
+### com.motorola.setup.overlay.tracfone
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless component of (com.motorola.setup)
+
+### com.motorola.setup.overlay.gabuttonrighttop
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> useless component of (com.motorola.setup)
+
+### com.android.providers.telephony.overlay.carriersettings
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to (com.google.android.carrier)
+> anyway this app doesnt exist on your phone I guess.
+
+### com.android.phone.overlay.carriersettings
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to (com.google.android.carrier)
+> anyway this app doesnt exist on your phone I guess.
+
+### com.mediatek.carrierexpress
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden operator configuration. Its Carrier Express app?
+> also in code there a lot stuff about Custom Operator.
+> I dont know why it should be useful when it only has notifications:
+> SIM card detected or Switching the carrier etc.
+> Its useless.
+
+### com.dti.cricket
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Its app for installing recommanded apps? Its only used on first-boot setup and its useless.
+
+### com.cricketwireless.minus
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Cricket partner tab? better remove it. It problably have news or partner customization to chrome.
+
+### com.att.deviceunlock
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Device Unlock. Useless app from AT&T. Its only for unlock device.
+
+### com.oem.euiccpartnerapp
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> EuiccPartnerApp. Needed for eSIM (eUICC)?
+> I think its useless.
+
+### com.motorola.handwritingcalculator
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Handwriting calculator
+
+### com.inmobi.installer
+
+**List**: `Carrier`
+**Removal**: `Recommanded`
+
+> Its installer advertising company app.

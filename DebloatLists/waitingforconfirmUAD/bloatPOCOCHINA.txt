@@ -1,0 +1,289 @@
+**Your phone model:**
+Poco F2 Pro(Redmi k30 pro) MIUI V14.0.4.0 CHINA Stable
+
+**Packages:**
+
+```
+com.milink.service
+com.xiaomi.aiasst.service
+com.xiaomi.aiasst.vision
+com.miui.contentcatcher
+com.miui.carlink
+com.miui.catcherpatch
+com.miui.core.internal.assistant
+com.goodix.fingerprint.setting
+com.xiaomi.digitalkey
+com.rongcard.eid
+com.miui.greenguard
+com.xiaomi.gamecenter.sdk.service
+com.xiaomi.market
+com.miui.voiceassist
+com.xiaomi.migameservice
+com.miui.securityinputmethod
+com.xiaomi.ab
+com.xiaomi.mirror
+com.miui.vpnsdkmanager
+com.miui.vipservice
+com.miui.metoknlp
+com.miui.otaprovision
+com.miui.packageinstaller
+com.xiaomi.gnss.polaris
+com.xiaomi.security.onetrack
+com.miui.tsmclient
+com.miui.nextpay
+com.sohu.inputmethod.sogou.xiaomi
+com.mobiletools.systemhelper
+com.miui.contentextension
+com.unionpay.tsmservice.mi
+com.miui.voicetrigger
+com.android.connectivity.resources
+```
+
+- [x] **I removed all those packages on my phone(root debloater saved me)**
+
+## Document each package the best you can
+
+### com.milink.service
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> UniPlay Service. MIUI screen casting service. 
+> If removed, you'll have to use Android's native casting services which can be accessed through a 3rd party app.
+> Also in CHINA ROM you will lose in new notification bar: playback china miui player, Mi Smart Hub.
+
+### com.xiaomi.aiasst.service
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> AI Call Assistant.
+> useless Call settings.
+
+### com.xiaomi.aiasst.vision
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Not needed if you removed AI Call Assistant.
+
+### com.miui.contentcatcher
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Application Extension Service. Its password manager in settings, require Mi Account to Autofill
+> and it sync to your account.
+
+### com.miui.carlink
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> CarWith. Not supported for the most cars and only chinese.
+
+### com.miui.catcherpatch
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Needed for Application Extension Service (com.miui.contentcatcher).
+
+### com.miui.core.internal.assistant
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Needed for Chinese Mi AI(com.miui.voiceassist)
+
+### com.goodix.fingerprint.setting
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Delmar Fingerprint. Hidden app that tests your fingerprint not available for users.
+
+### com.xiaomi.digitalkey
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> digitalkey. smart door locks, can also be used as a car key. Only for china.
+
+### com.rongcard.eid
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Eid-Service. Its something about card chips or online identity? useless.
+
+### com.miui.greenguard
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Family Guard. Disabled on default. Require Mi account.
+> Useless because its Green Kid, yeah, something for kid.
+
+### com.xiaomi.gamecenter.sdk.service
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Game Service. Not needed for gamespace.
+> Disabled in settings on default.
+> Have activities about alipay, login to account.
+> I'm not sure what its needed for.
+
+### com.xiaomi.market
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> GetApps. China Mi App Store.
+> I used it only to install google play.
+
+### com.miui.voiceassist
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Mi AI. Chinese voice assist.
+
+### com.xiaomi.migameservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Mi Game Service. Not needed for gamespace. Not sure what for it is.
+> Have: Joyose Connection Service, Recorder, Mi Time Control.
+
+### com.miui.securityinputmethod
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Mi Secure Keyboard. Useless keyboard used to secure your password when logging in.
+
+### com.xiaomi.ab
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Mi Store System Components. Something about login, paying in Mi Store China.
+
+### com.xiaomi.mirror
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> MIUI+ Beta. Transfer files, sync copy text to PC without usb
+> https://plus.miui.com
+
+### com.miui.vpnsdkmanager
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> MiuiVpnSdkManager. Vpn to game service?
+
+### com.miui.vipservice
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> My services. Customer support maybe not available for users.
+
+### com.miui.metoknlp
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Network location provider. Useless, only for china, have analytics things.
+
+### com.miui.otaprovision
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> OtaProvision. Useless, only for china, have analytics things.
+
+### com.miui.packageinstaller
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Package installer. Hardcoded in xiaomi china rom. Causes bootloop.
+
+### com.xiaomi.gnss.polaris
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Polaris. Beidou satellite navigation system. Only for china.
+
+### com.xiaomi.security.onetrack
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> SecurityOnetrackService. Only uses miui analytics.
+
+### com.miui.tsmclient
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Smart cards only for chinese.
+
+### com.miui.nextpay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Smart cards Web Extension only for chinese.
+
+### com.sohu.inputmethod.sogou.xiaomi
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Chinese keyboard. Install other keyboard before remove.
+> Better alternative:https://f-droid.org/en/packages/dev.patrickgold.florisboard/
+
+### com.mobiletools.systemhelper
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> SystemHelper. Not available for users, have something about dual sim, App Info.
+
+### com.miui.contentextension
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Taplus. Its disabled on default in settings.
+> It allows you to analyze images and text by pressing and holding
+> items on your screen to get contextual info.
+
+### com.unionpay.tsmservice.mi
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> UnionPay only for china.
+
+### com.miui.voicetrigger
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Wake with voice. Not needed if you removed chinese Mi AI.
+
+### com.android.connectivity.resources
+
+**List**: `OEM`
+**Removal**: `Unsafe`
+
+> Causes bootloop.

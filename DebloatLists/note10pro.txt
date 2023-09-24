@@ -1,0 +1,336 @@
+**Your phone model:**
+Redmi Note 10 Pro MIUI V14.0.3.0 GLOBAL Stable
+
+**Packages:**
+
+```
+com.facemoji.lite.xiaomi
+android.autoinstalls.config.Xiaomi.model
+com.google.android.gms.supervision
+com.swfp.factory
+com.xiaomi.barrage
+com.google.android.overlay.gmsconfig.searchselector
+com.google.android.overlay.gmsconfig.personalsafety
+com.qualcomm.qti.gpudrivers.sm6150.api30
+com.google.android.ondevicepersonalization.services
+com.google.android.adservices.api
+com.google.android.sdksandbox
+android.miui.home.launcher.res
+com.google.mainline.adservices
+com.android.remoteprovisioner
+com.xiaomi.entitlement.o2
+com.xiaomi.NetworkBoost
+com.miui.settings.rro.device.hide.statusbar.overlay
+com.miui.settings.rro.device.type.overlay
+com.miui.phone.carriers.overlay.h3g
+com.miui.phone.carriers.overlay.vodafone
+com.miui.phone.carriers.customized.overlay
+com.miui.miinput
+com.lbe.security.miui.customizedregion.overlay
+com.qti.dcf
+com.qti.qcc
+com.qualcomm.qti.powersavemode
+com.qualcomm.qti.server.qtiwifi
+com.qualcomm.qtil.btdsda
+com.android.inputsettings.overlay.miui
+com.google.android.apps.safetyhub
+com.google.android.federatedcompute
+com.android.incallui.overlay
+com.miui.system.overlay
+com.android.systemui.overlay.miui
+vendor.qti.imsrcs
+```
+
+- [x] **I removed all those packages on my phone**
+
+## Document each package the best you can
+
+### com.facemoji.lite.xiaomi
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> Xiaomi keyboard. Have ads and analytics.
+> (https://play.google.com/store/apps/details?id=com.facemoji.lite.xiaomi)
+> Better alternative: https://f-droid.org/en/packages/dev.patrickgold.florisboard/
+
+### android.autoinstalls.config.Xiaomi.model
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> PlayAutoInstalls. AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+
+### com.google.android.gms.supervision
+
+**List**: `Google`
+**Removal**: `Recommended`
+
+> It have something to Family Link parental controls.
+> https://play.google.com/store/apps/details?id=com.google.android.gms.supervision
+> Introduced in android 13.
+
+### com.swfp.factory
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> fingerprint test. Hidden app that tests your fingerprint not available for users.
+
+### com.xiaomi.barrage
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> Bullet screen notifications. Pop-up notifications (feature inside the game service)
+> Have a lot of chinese things in this code but its for game service, NOT gamespace.
+> So its for china only.
+
+### com.google.android.overlay.gmsconfig.searchselector
+
+**List**: `Google`
+**Removal**: `Recommended`
+
+> Not needed for (com.google.android.apps.setupwizard.searchselector).
+
+### com.google.android.overlay.gmsconfig.personalsafety
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Not needed for (com.google.android.apps.safetyhub).
+
+### com.qualcomm.qti.gpudrivers.sm6150.api30
+
+**List**: `Misc`
+**Removal**: `Unsafe`
+
+> Adreno Graphics Drivers
+> GPU drivers for Snapdragon 675.
+> But actually I have Snapdragon 732G
+> its weird but keep it.
+
+### com.google.android.ondevicepersonalization.services
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> OnDevicePersonalization. Another thing to AdServices privacy sandbox.
+> Google will be more spying on you.
+> https://source.android.com/docs/core/ota/modular-system/ondevicepersonalization
+> Introduced in Android 13.
+
+### com.google.android.adservices.api
+
+**List**: `Aosp`
+**Removal**: `Recommanded`
+
+> Introduced in Android 13 privacy sandbox beta disabled on default.
+> but its crap and doesnt help privacy.
+> https://source.android.com/docs/core/ota/modular-system/adservices
+
+### com.google.android.sdksandbox
+
+**List**: `Aosp`
+**Removal**: `Unsafe`
+
+> Introduced in Android 13 privacy sandbox beta disabled on default.
+> Causes bootloop. Maybe this component is not only for privacy...
+
+### android.miui.home.launcher.res
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Useless config to default com.miui.home launcher.
+> Its unused! Like com.mi.globallayout, its not a joke.
+
+### com.google.mainline.adservices
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Adservices Train Version Package. AdServices too.
+> but its crap and doesnt help privacy.
+> uses ondevicepersonalization.
+> Introduced in Android 13
+
+### com.android.remoteprovisioner
+
+**List**: `Aosp`
+**Removal**: `Recommanded`
+
+> RemoteProvisioner
+> Have random stuff: security, notifications, accessibility, test modes, data usage, metrics, logs.
+> Its something new introduced in android 13.
+> At this time this app is not available for users.
+> And looks very useless.
+
+### com.xiaomi.entitlement.o2
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Unknown, seems to be United Kingdom, Germany specific to the O2 carrier.
+> https://en.wikipedia.org/wiki/O2_(brand)
+> If you dont use O2 carrier, its safe to remove.
+
+### com.xiaomi.NetworkBoost
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Network Boost. Network acceleration not available in settings wifi?
+> People said its placebo and it doesnt speed up network.
+> It has a lot of Chinese code and have permission to miui analytics.
+
+### com.miui.settings.rro.device.hide.statusbar.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> .webp files, and one config for me it means nothing. Only chinese.
+
+### com.miui.settings.rro.device.type.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> I found only png files and its chinese. Only chinese.
+
+### com.miui.phone.carriers.overlay.h3g
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> preffered network type to h3g 5G/4G/3G/2G auto.
+> Its unused.
+
+### com.miui.phone.carriers.overlay.vodafone
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Preffered network type to vodafone 5G/4G/3G/2G auto.
+> Its unused.
+
+### com.miui.phone.carriers.customized.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Something about wifi calling "vowifi", "volte", "notification on keyguard"
+> Its unused.
+
+### com.miui.miinput
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Xiaomi Input settings. Only for chinese. Also have duplicated settings activities, gestures.
+
+### com.lbe.security.miui.customizedregion.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Something about wifi calling "vowifi", "volte", "notification on keyguard"
+> Its unused.
+
+### com.qti.dcf
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> I found only: DCF Allows an application to share content using Bluethooth.
+> The application is only allowed to broadcast the content it has already granted access to
+> remote devices. These things are not available for users.
+> Qualcomm only said these things, but where is the code?
+> This app is without code so its safe to remove.
+
+### com.qti.qcc
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> QCC. Have a lot of stuff about logs, testing framework for Android with Robolectric, LTE Broadcast.
+> Introduced in android 13.
+> Have png file qdma = Qualcomm Device Management and Analytics.
+> So its only spyware.
+
+### com.qualcomm.qti.powersavemode
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> It have hidden power saving modes.
+> Users cant use it.
+
+### com.qualcomm.qti.server.qtiwifi
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Its made for analytics.
+> This service can be used to have oem specific feature development. 
+> Currently this service is being used to collect CSI data from cfrtool 
+> via hidl and then pass the data to application(user level).
+
+### com.qualcomm.qtil.btdsda
+
+**List**: `Misc`
+**Removal**: `Recommanded`
+
+> Hidden bluethooth: answering call, hanging up call, hanging up conference call.
+> If you have dual-sim then you will lose these things?
+
+### com.android.inputsettings.overlay.miui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> Keyboard demo its something to miinput unused chinese!
+
+### com.google.android.apps.safetyhub
+
+**Removal**: `Recommanded`
+
+### com.google.android.federatedcompute
+
+**List**: `Google`
+**Removal**: `Recommanded`
+
+> Another component of OnDevicePersonalization. But this app learns things about users.
+> Google will be more spying on you.
+> https://source.android.com/docs/core/ota/modular-system/ondevicepersonalization
+> Introduced in Android 13.
+
+### com.android.incallui.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> It have nothing. This app is without code and safe to remove.
+
+### com.miui.system.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> It have nothing. This app is without code and safe to remove.
+
+### com.android.systemui.overlay.miui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+> It have nothing. This app is without code and safe to remove.
+
+### vendor.qti.imsrcs
+
+**List**: `Misc`
+**Removal**: `Expert`
+
+> IMS(Ip Multimedia Subsystem) is an open industry standard for
+> voice and multimedia communications over packet-based IP networks (VoLTE/VoIP/Wifi calling).
+> Also have RCS.

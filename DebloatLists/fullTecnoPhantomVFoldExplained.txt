@@ -1,0 +1,500 @@
+**Your phone model:**
+Tecno Phantom V Fold
+
+**Packages:**
+
+```
+com.transsion.aftersalecalibrationtool
+com.transsion.agingfunction
+com.transsion.applock
+com.transsion.kolun.aiservice
+com.westalgo.factorycamera
+com.transsion.connectx.mirror.source
+com.transsion.tower
+com.transsion.deadcycletest
+com.transsion.dtsaudio
+com.transsion.dualapp
+com.transsion.livewallpaper.wakeup_mirror
+com.facemoji.lite.transsion
+com.transsion.repaircard
+com.transsion.faceid
+com.transsion.avatar
+com.funbase.xradio
+com.transsion.os.typeface
+com.transsion.healthlife
+com.talpa.hiservice
+com.transsion.hilauncher
+com.transsion.phonemanager
+com.hoffnung
+com.transsion.letswitch
+com.transsion.mol
+com.transsion.netphilim
+com.tran.netcon
+com.transsion.overlaysuw
+com.idea.questionnaire
+com.transsion.ossettingsext
+tech.palm.id
+android.autoinstalls.config.transsion.device
+com.transsion.sk
+com.scorpio.securitycom
+com.sh.smart.caller
+com.transsion.smartmessage
+com.transsion.scanningrecharger
+com.transsion.statisticalsales
+com.transsion.systemupdate
+com.transsion.teop
+com.transsion.tabe
+com.transsion.aod
+com.transsion.tranengine
+com.transsion.multiwindow
+com.transsion.auto
+com.transsion.calculator
+com.transsion.calendar
+com.transsion.camera
+com.transsion.deskclock
+com.transsion.fmradio
+com.transsion.quicktools
+com.transsion.notebook
+com.transsion.soundrecorder
+com.transsion.tips
+com.transsion.thunderback
+com.transsion.uxdetector
+com.transsion.vishaplayerhd
+com.transsion.livewallpaper.volcano
+com.transsion.iotservice
+com.xui.xhide
+com.transsion.zahooc
+com.transsion.childmode.resoverlay
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.transsion.aftersalecalibrationtool
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden camera tests, calibration.
+
+### com.transsion.agingfunction
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Another test mode, aging setting. secret code 2828, 2829, 2830
+
+### com.transsion.applock
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> AppLock. Its bloated with google api.
+
+### com.transsion.kolun.aiservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its for testing things and debugging.
+
+### com.westalgo.factorycamera
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden camera tests, calibration.
+
+### com.transsion.connectx.mirror.source
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> its something for cast setting, file transfer setting, smart connect to pc by TCCP
+
+### com.transsion.tower
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> ControlTower test
+
+### com.transsion.deadcycletest
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> DeadCycleTest. Hidden tests.
+
+### com.transsion.dtsaudio
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> DTS Sound. Audio enhancements.
+
+### com.transsion.dualapp
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Dual App
+
+### com.transsion.livewallpaper.wakeup_mirror
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for Live wallpapers.
+
+### com.facemoji.lite.transsion
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Emoji Keyboard have ads and its not good for privacy.
+> Better alternative: https://f-droid.org/en/packages/dev.patrickgold.florisboard/
+
+### com.transsion.repaircard
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> E-warranty Card. Its another things for china!
+
+### com.transsion.faceid
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Needed for Face Unlock lock screen.
+
+### com.transsion.avatar
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Is this for T-moji avatar services? Its useless.
+
+### com.funbase.xradio
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> WOW FM
+
+### com.transsion.os.typeface
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> FontManager. Not sure if its needed or not.
+
+### com.transsion.healthlife
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> My Health (https://play.google.com/store/apps/details?id=com.transsion.healthlife)
+
+### com.talpa.hiservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> HiLanguageService. Useless frameworks.
+
+### com.transsion.hilauncher
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> HiOS Launcher. It have google analytics and its so bloated.
+
+### com.transsion.phonemanager
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> PhoneMaster Services. Another useless frameworks.
+
+### com.hoffnung
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> TPMS. Remote Config Test.
+
+### com.transsion.letswitch
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Mobile Cloner
+
+### com.transsion.mol
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Ella Translate
+
+### com.transsion.netphilim
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Chinese useless frameworks.
+
+### com.tran.netcon
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Netcon. Its unneccessary
+
+### com.transsion.overlaysuw
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its needed only on first-boot setup.
+
+### com.idea.questionnaire
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Qusetionnaire. Logs and testing things.
+
+### com.transsion.ossettingsext
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> OSSettings. Its needed for some settings and problably its important app.
+
+### tech.palm.id
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> TECNO ID. Its for account? A lot bloated.
+
+### android.autoinstalls.config.transsion.device
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+
+### com.transsion.sk
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless Secure Keyboard.
+
+### com.scorpio.securitycom
+
+**List**: `Oem`
+**Removal**: `Unsafe`
+
+> SecurityPlugin. It cant be uninstalled.
+
+### com.sh.smart.caller
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Bloated Phone caller app with a lot of features.
+
+### com.transsion.smartmessage
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Bloated Messages app with a lot of features.
+
+### com.transsion.scanningrecharger
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Smart Scanner
+
+### com.transsion.statisticalsales
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Sales Statistics
+
+### com.transsion.systemupdate
+
+**List**: `Oem`
+**Removal**: `Expert`
+
+> System Update
+
+### com.transsion.teop
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Its app for testing and logs
+
+### com.transsion.tabe
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> APPIOT. Useless frameworks to permissions app.
+
+### com.transsion.aod
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> AlwaysOnDisplay
+
+### com.transsion.tranengine
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless frameworks.
+
+### com.transsion.multiwindow
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Needed for multi window.
+
+### com.transsion.auto
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Driving Mode.
+
+### com.transsion.calculator
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Calculator
+
+### com.transsion.calendar
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Calendar
+
+### com.transsion.camera
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Stock camera app
+
+### com.transsion.deskclock
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Clock
+
+### com.transsion.fmradio
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> WOW FM
+
+### com.transsion.quicktools
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Launcher Activity Test
+
+### com.transsion.notebook
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Notepad
+
+### com.transsion.soundrecorder
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Sound Recorder
+
+### com.transsion.tips
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Tips
+
+### com.transsion.thunderback
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Lightning Multi-Window
+
+### com.transsion.uxdetector
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> AI things to trancare
+
+### com.transsion.vishaplayerhd
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Visha Player
+
+### com.transsion.livewallpaper.volcano
+
+**List**: `Oem`
+**Removal**: `Advanced`
+
+> Tranquil Blue live wallpaper
+
+### com.transsion.iotservice
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> WelinkService. PC Connect unneccessary things
+
+### com.xui.xhide
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> XHide. Useless security.
+
+### com.transsion.zahooc
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Za-Hooc. Its for secure card and Theft Alert. Useless.
+
+### com.transsion.childmode.resoverlay
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Useless overlay to childmode.
