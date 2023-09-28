@@ -1,0 +1,115 @@
+**Your phone model:**
+Redmi Note 8T MIUI V12.5.5.0.RCXEUXM EEA Stable
+MIUI Optimization ON
+
+**Packages:**
+
+```
+android.autoinstalls.config.Xiaomi.willow
+com.goodix.gftest
+com.longcheertel.AutoTest
+com.longcheertel.cit
+com.longcheertel.midtest
+com.longcheertel.modemlog
+com.longcheertel.sarauth
+com.fingerprints.extension.service
+com.miui.audiomonitor
+com.xiaomi.bluetooth
+com.wdstechnology.android.kryten
+```
+
+- [x] **I removed all those packages on my phone**
+
+## Document each package the best you can
+
+### android.autoinstalls.config.Xiaomi.willow
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+>PlayAutoInstalls. AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
+
+### com.goodix.gftest
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> Fingerpirnt test. Hidden app that tests your fingerprint not available for users.
+
+### com.longcheertel.AutoTest
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> Autotest. Hidden Hardware tests.
+
+### com.longcheertel.cit
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> cit test. Hidden Hardware tests.
+
+### com.longcheertel.midtest
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> Assemble test. Hidden Hardware tests.
+
+### com.longcheertel.modemlog
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> modem log. Hidden app that includes TcardLog, modem log, Tcpdump.
+
+### com.longcheertel.sarauth
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> Autotest. Hidden Hardware tests.
+
+### com.fingerprints.extension.service
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> FingerprintExtensionService. Needed for fingerprint sensor test.
+
+### com.miui.audiomonitor
+
+### Current description
+
+**Removal**: `Advanced`
+
+> My guess is this is a feature allowing to control the sound of multiples apps.
+> It's just a guess based on existing Xiaomi devices features. Can someone check this? 
+
+### Proposed description
+
+**Removal**: `Recommended`
+
+> Recording Assistant. Voice Call Recorder (only in MIUI dialer app). Unused on Global, EEA MIUI
+
+### com.miui.screenshot
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> MIUI Screenshot. Screenshots will be not work.
+
+### com.xiaomi.bluetooth
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> MIUI Bluetooth Control. You must keep this if you want bluethooth to work properly.
+
+### com.wdstechnology.android.kryten
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+> OTA Access Point Configuration. Might break OTA updates but on some xiaomi devices it doesnt exist, so what exacly does it do?

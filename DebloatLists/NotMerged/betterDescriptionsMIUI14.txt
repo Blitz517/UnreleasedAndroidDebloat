@@ -1,0 +1,42 @@
+**Your phone model**:
+Poco F2 Pro MIUI V14.0.1.0.SJKMIXM GLOBAL Stable
+MIUI Optimization ON
+
+**Packages documentation to update:**
+
+```
+com.xiaomi.joyose
+com.android.updater
+```
+
+## Documentation Change
+
+### com.xiaomi.joyose
+
+### Current description
+
+**Removal**: `Recommended`
+
+> Joyse Analytics and advertising
+> Runs in background and can't be stopped. 
+
+### Proposed description
+
+**Removal**: `Advanced`
+
+> Joyose. Its not Analytics and advertising!
+> Its GPU Tuner, optimizes your game for gaming. Some people have noticed that it locks the fps at 60 after selecting 90.
+> https://youtu.be/gavEuH3Ck5o?t=550
+> If you want, you can do tests on your self.
+
+### com.android.updater
+
+### Current description
+
+> Mi Updater
+> Provides system updates
+> REMOVING THIS WILL BOOTLOOP YOUR DEVICE!\n
+
+### Proposed description
+
+> Mi Updater, Provides system updates but be careful (on miui 14 I didn't notice a bootloop)

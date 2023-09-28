@@ -1,0 +1,223 @@
+**Your phone model:**
+Poco F2 Pro MIUI V14.0.1.0.SJKMIXM GLOBAL Stable
+MIUI Optimization ON
+
+**Packages:**
+
+```
+com.android.cameraextensions
+com.xiaomi.cameratools
+com.modemdebug
+com.fido.asm
+com.mi.emapal
+com.miui.mediafeature
+com.xiaomi.mircs
+com.miui.face.overlay.miui
+com.xiaomi.mtb
+com.mi.healthglobal
+com.qualcomm.qti.ridemodeaudio
+com.miui.miwallpaper.overlay
+com.miui.miwallpaper.overlay.customize
+com.miui.wallpaper.overlay
+com.miui.wallpaper.overlay.customize
+com.miui.extraphoto
+com.miuix.editor
+com.google.android.cellbroadcastreceiver.overlay.miui
+com.google.android.cellbroadcastservice.overlay.miui
+com.android.thememanager.gliobal_config.config.overlay
+org.mipay.android.manager
+miui.systemui.plugin
+com.android.hotspot2.osulogin
+com.xiaomi.miaudiovisual
+com.miui.aod
+android.autoinstalls.config.xiaomi.qssi
+```
+
+- [x] **I removed all those packages on my phone**
+
+## Document each package the best you can
+
+### com.android.cameraextensions
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> CameraExtensionsProxy. camera-related Third-party apps can call Android camera extensions such as Portrait, Night Mode, and HDR, which doesn't seem to work significantly on MIUI.
+
+### com.xiaomi.cameratools
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> CameraTools. Camera calibration Deleting it does not affect the camera.
+
+### com.modemdebug
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> com.modemdebug. Hidden running in the background debugs for data traffic and all that, not useful for the average person.
+
+### com.fido.asm
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> FIDO UAF1.0 ASM. Related to app fingerprint unlocking and payments.
+> Safe to remove if you don't use password-less authentification to access online services.
+
+### com.mi.emapal
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> GamePal. In china language game mode tracing menu not available for users. Safe to remove.
+
+### com.miui.mediafeature
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> MediaFeature合集. Is this something for media? Unused app, problably for china.
+
+### com.xiaomi.mircs
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> Mi RCS. Hidden unused xiaomi free web messaging.
+
+### com.miui.face.overlay.miui
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+> MiuiBiometricResOverlay.apk. Face Unlock feature will be unavailable.
+
+### com.xiaomi.mtb
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+> Rueban(MTB)V2.4. Hidden debugging baseband tools, not available for users.
+> https://i.postimg.cc/GpSxmNyj/Bez-n-zvu.png
+
+### com.mi.healthglobal
+
+**List**: `OEM`
+**Removal**: `Recommended`
+
+>Heart Rate. Hidden app, not available for users.
+> https://www.reddit.com/r/Xiaomi/comments/v0uhhx/found_hidden_heart_rate_app_in_miui_1304_i_opened/
+
+### com.qualcomm.qti.ridemodeaudio
+
+**List**: `MISC`
+**Removal**: `Recommended`
+
+>Ridemode Recording list. Hidden app, not available for users that should be the audio playback of the drive mode.
+
+### com.miui.miwallpaper.overlay
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+>com.miui.miwallpaper.overlay. Reinstalls after reboot. But looks like safe to remove.
+
+### com.miui.miwallpaper.overlay.customize
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+>com.miui.miwallpaper.overlay.customize. Reinstalls after reboot. But looks like safe to remove.
+
+### com.miui.wallpaper.overlay
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+>com.miui.wallpaper.overlay. Reinstalls after reboot. But looks like safe to remove.
+
+### com.miui.wallpaper.overlay.customize
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+>com.miui.wallpaper.overlay.customize. Reinstalls after reboot. But looks like safe to remove.
+
+### com.miui.extraphoto
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+>Bokeh. The document mode of the Xiaomi camera (for taking IDs), deleting it doesn't affect the editing of albums.
+
+### com.miuix.editor
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+>textaction. its problably used for FrequentPhrase(com.miui.phrase) but also Frequent Phrases is unknown app so its safe to remove.
+
+### com.google.android.cellbroadcastreceiver.overlay.miui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+>MiuiCellBroadcastReceiverOverlay.apk. Cell Broadcast Service Related but cant use.
+
+### com.google.android.cellbroadcastservice.overlay.miui
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+>MiuiCellBroadcastLegacyApp.apk. Cell Broadcast Service Related but cant use.
+
+### com.android.thememanager.gliobal_config.config.overlay
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+>Gliobal_Config.apk. it is problably used for miui theme manager but not sure, I removed it without issues.
+
+### org.mipay.android.manager
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+>MipayService. Xiaomi Payment related services, not used!
+
+### miui.systemui.plugin
+
+**List**: `OEM`
+**Removal**: `Advanced`
+
+>System UI Plug-in. When removed, Android will use the AOSP style volume bar.
+
+### com.android.hotspot2.osulogin
+
+**List**: `OEM`
+**Removal**: `Expert`
+
+>OsuLogin. Register online to hotspot? Reinstalls after reboot.
+
+### com.xiaomi.miaudiovisual
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+>MiAudioVisual. Safe to remove if you not use audio visuals when screen is off.
+
+### com.miui.aod
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+>Always-on display. Safe to remove if you not use "Always-on display" features in settings.
+
+### android.autoinstalls.config.xiaomi.qssi
+
+**List**: `OEM`
+**Removal**: `Recommanded`
+
+>PlayAutoInstalls. AutoInstalls a set of OEM apps on device setup (first boot/factory reset).
