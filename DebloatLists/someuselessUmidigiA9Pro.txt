@@ -1,0 +1,51 @@
+**Your phone model:**
+Umidigi A9 Pro
+
+**Packages:**
+
+```
+com.teksun.factorytest
+com.freemeimp.factory
+com.hxy.ramtest
+com.android.secretcode
+com.android.watermark
+```
+
+- [ ] **I removed all those packages on my phone(its from this phone rom, I dont have this phone)**
+
+## Document each package the best you can
+
+### com.teksun.factorytest
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden testing hardware things.
+
+### com.freemeimp.factory
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden aging test.
+
+### com.hxy.ramtest
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden ram test. Tests ram size.
+
+### com.android.secretcode
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden app shows some secret codes.
+
+### com.android.watermark
+
+**List**: `Oem`
+**Removal**: `Recommanded`
+
+> Hidden IMEI tests.
